@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+}
+.extension {
+    padding: 10px;
+    margin: 20px 10px;
+    background: #d7d7d7;
+}
+
+.imageDiv {
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.imageDiv img {
+    max-width: 64px;
+}
+
+.imageDiv p {
+    margin: 3px 0;
+}
+
+.contentDiv {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contentDiv h4 {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.contentDiv h5 {
+    margin: 0;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.permissionHolder {
+    margin: 10px 0;
+}
+
+.permissionHolder span {
+    display: inline-block;
+    padding: 3px 10px;
+    margin-right: 10px;
+    background: #fff;
+    text-transform: capitalize;
+    font-size: 12px;
+    border-radius: 2px;
+}
