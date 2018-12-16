@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "Addons Manager",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Manage all installed addons.",
+    "description": "Description of the extension."
+  }
+}
