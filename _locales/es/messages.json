@@ -1,0 +1,198 @@
+{
+  "extensionName": {
+    "message": "Administrador de extensiones",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Administrar todos los complementos instalados.",
+    "description": "Description of the extension."
+  },
+  "storageText": {
+    "message": "Puede almacenar datos de hasta 5 MB",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "Puede conocer su geolocalización.",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "Acceder a los módulos PKCS # 11",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "Hacer que los módulos PKCS # 11 sean accesibles al navegador como fuentes de claves y certificados",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "Solo Firefox",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "Acceder a la sesión del navegador",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "Puede enumerar y restaurar, pestañas y ventanas que se han cerrado mientras se ejecuta el navegador",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "Acceder a los contenedores del navegador.",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "Puede listar, crear, eliminar y actualizar identidades / contenedores contextuales",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "Puede resolver DNS",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "Habilita una extensión para resolver nombres de dominio.",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "Accede a la información sobre todos los complementos instalados",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "Accede y modifica varias configuraciones del navegador relacionadas con la privacidad.",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "Accede a la configuración del navegador relacionada con la privacidad.",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "Puede proxy webRequests",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "Mensaje de acceso desde aplicaciones nativas",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nmT": {
+    "message": "La mensajería nativa permite que una extensión intercambie mensajes con una aplicación nativa instalada en la computadora del usuario",
+    "description": "Description of nativeMessaging Text"
+  },
+  "nmU": {
+    "message": "Mensajes nativos",
+    "description": "Description of nativeMessaging URL"
+  },
+  "telemetryText": {
+    "message": "Solo Firefox",
+    "description": "Description of telemetry Text"
+  },
+  "noURL": {
+    "message": "no",
+    "description": "Description of noURL"
+  },
+  "themeText": {
+    "message": "Habilita las extensiones del navegador para actualizar el tema del navegador.",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "Puede copiar los datos de la página web.",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "Averigüe cuándo el sistema del usuario está inactivo, bloqueado o activo.",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "Mostrar notificaciones, utilizando el mecanismo de notificación del sistema operativo subyacente.",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "Puede interactuar y manipular el sistema de marcadores del navegador.",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "Puede encontrar texto en una página web, y resalta coincidencias.",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "Puede interactuar y manipular el historial del navegador.",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "Solo Firefox",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "Puede enumerar todos los motores de búsqueda y buscar con un motor de búsqueda específico",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "Puede acceder a los datos desde cualquier pestaña activa y puede inyectar código y estilo a la pestaña activa",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "Puede obtener una lista de pestañas abiertas y puede abrir, actualizar, mover, recargar y eliminar pestañas",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "Puede hacer la pestaña oculta",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "Puede cambiar la configuración global del navegador, como permitir ventanas emergentes",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "Puede obtener y configurar cookies, y ser notificado cuando cambien.",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "Puede descargar archivos, cancelar, pausar, reanudar descargas.",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "Puede abrir cualquier elemento descargado.",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "Puede obtener páginas que el usuario ha visitado con frecuencia.",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "Puede interceptar cada solicitud HTTP hecha por navegador",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "Puede interceptar cada solicitud HTTP hecha por navegador",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "Puede bloquear y modificar la solicitud realizada por el navegador.",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "Solo Firefox",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "Puede almacenar cualquier cantidad de datos.",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "Puede borrar todos los datos que se recopilan mientras se navega por Cookies / contraseñas / Caché / historial / descargas / formularioDatos",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "Puede crear un panel de herramientas de desarrollador",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "Puede generar el código de autorización OAuth2 o el token de acceso y usarlo para acceder a los datos del usuario",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "Puede crear / manipular elementos de menú de clic derecho",
+    "description": "Description of Menus Text"
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "extensionName": {
+    "message": "Addons Manager",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Beheer alle geïnstalleerde add-ons.",
+    "description": "Description of the extension."
+  },
+  "storageText": {
+    "message": "Kan gegevens opslaan tot 5 MB",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "Kan uw geolocatie kennen",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "Toegang tot PKCS # 11-modules",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "maak PKCS # 11 modules toegankelijk voor de browser als bronnen van sleutels en certificaten",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "Alleen Firefox",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "Toegang tot browsersessie",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "Kan een lijst maken en herstellen, tabbladen en vensters die zijn gesloten terwijl de browser werd uitgevoerd",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "Toegang tot browsercontainers",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "Kan contextuele identiteiten / containers samenstellen, maken, verwijderen en bijwerken",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "Kan DNS oplossen",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "Schakelt een extensie in om domeinnamen op te lossen.",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "Toegang tot informatie over alle geïnstalleerde add-ons",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "Toegang tot en wijzigen van verschillende privacy-gerelateerde browserinstellingen.",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "Toegang tot privacy-gerelateerde browserinstellingen",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "Kan proxy webRequests",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "Bericht openen vanuit native apps",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nmT": {
+    "message": "Native Messaging maakt een extensie mogelijk om berichten uit te wisselen met een native applicatie die op de computer van de gebruiker is geïnstalleerd",
+    "description": "Description of nativeMessaging Text"
+  },
+  "nmU": {
+    "message": "Native_messaging",
+    "description": "Description of nativeMessaging URL"
+  },
+  "telemetryText": {
+    "message": "Alleen Firefox",
+    "description": "Description of telemetry Text"
+  },
+  "noURL": {
+    "message": "Nee",
+    "description": "Description of noURL"
+  },
+  "themeText": {
+    "message": "Schakelt browserextensies in om het browserthema bij te werken",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "Kan de gegevens van de webpagina kopiëren",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "Ontdek wanneer het systeem van de gebruiker inactief, vergrendeld of actief is.",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "Meldingen weergeven met behulp van het meldingsmechanisme van het onderliggende besturingssysteem",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "Kan communiceren met en het bladwijzersysteem van de browser manipuleren",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "Kan tekst in een webpagina vinden en overeenkomsten markeren.",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "Kan de browsergeschiedenis interacteren en manipuleren.",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "Alleen Firefox",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "Kan een lijst van alle zoekmachines en zoeken met een specifieke zoekmachine",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "Kan toegang krijgen tot gegevens van elk actief tabblad en kan code en stijl injecteren naar het actieve tabblad",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "Kan een lijst met geopend tabblad krijgen en kan het tabblad openen, bijwerken, verplaatsen, opnieuw laden en verwijderen",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "Kan het tabblad verbergen",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "Kan algemene browserinstellingen wijzigen, zoals pop-ups toestaan",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "Kan cookies ontvangen en instellen en op de hoogte worden gesteld wanneer ze veranderen",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "Kan bestanden downloaden, annuleren, onderbreken, downloads hervatten",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "Kan elk gedownload item openen.",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "Kan pagina's ophalen die de gebruiker vaak en vaak heeft bezocht.",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "Kan elk HTTP-verzoek onderscheppen dat door de browser wordt gemaakt",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "Kan elk HTTP-verzoek onderscheppen dat door de browser wordt gemaakt",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "Kan het verzoek van de browser blokkeren en wijzigen.",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "Alleen Firefox",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "Kan elke hoeveelheid gegevens opslaan",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "Kan alle gegevens wissen die worden verzameld tijdens het browsen Cookies / wachtwoorden / Cache / geschiedenis / downloads / formData",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "Kan een ontwikkelaarstool maken",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "Kan OAuth2-autorisatiecode of toegangstoken genereren en gebruiken om toegang te krijgen tot gebruikersgegevens",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "Kan menu-items met rechtermuisknop maken / manipuleren",
+    "description": "Description of Menus Text"
+  }
+}
