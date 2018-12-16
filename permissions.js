@@ -107,7 +107,7 @@ const permissionsGlossary = {
         text: "Can block and modify the request made by browser."
     },
     "alarms": {
-        text: "Can genrate alarm at given intervals"
+        text: "Can generate alarm at given intervals"
     },
     "mozillaAddons": {
         text: "Firefox Only"
