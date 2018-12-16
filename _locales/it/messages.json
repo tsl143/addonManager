@@ -1,78 +1,78 @@
 {
   "extensionName": {
-    "message": "Gestionnaire d'extension",
+    "message": "Gestore di add-on",
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "Gérer tous les addons installés.",
+    "message": "Gestisci tutti i componenti aggiuntivi installati.",
     "description": "Description of the extension."
   },
   "storageText": {
-    "message": "Peut stocker des données jusqu'à 5 MB",
+    "message": "Può memorizzare dati fino a 5 MB",
     "description": "Description of the storage text"
   },
   "geoLocationText": {
-    "message": "Peut connaître votre géolocalisation",
+    "message": "Può conoscere la tua geolocalizzazione",
     "description": "Description of the geoLocation text"
   },
   "pkcs11Short": {
-    "message": "Accéder aux modules PKCS # 11",
+    "message": "Accedere ai moduli PKCS # 11",
     "description": "Description of the PKCS #11 module short message"
   },
   "pkcs11Text": {
-    "message": "rendre les modules PKCS # 11 accessibles au navigateur en tant que sources de clés et de certificats",
+    "message": "rendere i moduli PKCS # 11 accessibili al browser come fonti di chiavi e certificati",
     "description": "Description of the pkcs11 text"
   },
   "geckoProfilerText": {
-    "message": "Firefox uniquement",
+    "message": "Solo Firefox",
     "description": "Description of the geckoProfile text"
   },
   "sessionsShort": {
-    "message": "Accéder à la session du navigateur",
+    "message": "Accedi alla sessione del browser",
     "description": "Description of Sessions Short"
   },
   "sessionsText": {
-    "message": "Peut répertorier et restaurer les onglets et les fenêtres fermés alors que le navigateur était en cours d'exécution",
+    "message": "Può elencare e ripristinare, schede e finestre che sono state chiuse mentre il browser è stato in esecuzione",
     "description": "Description of Session Text"
   },
   "contextualIdentitiesShort": {
-    "message": "Accéder aux conteneurs du navigateur",
+    "message": "Accedi ai contenitori del browser",
     "description": "Description of contextualIdentitiesShort"
   },
   "contextualIdentitiesText": {
-    "message": "Peut répertorier, créer, supprimer et mettre à jour des identités / conteneurs contextuels",
+    "message": "Può elencare, creare, rimuovere e aggiornare identità / contenitori contestuali",
     "description": "Description of contextualIdentities Text"
   },
   "dnsShort": {
-    "message": "Peut résoudre le DNS",
+    "message": "Può risolvere il DNS",
     "description": "Description of dnsShort"
   },
   "dnsText": {
-    "message": "Permet à une extension de résoudre les noms de domaine.",
+    "message": "Abilita un'estensione per risolvere i nomi di dominio.",
     "description": "Description of dnsText"
   },
   "managementText": {
-    "message": "Accéder aux informations sur tous les addons installés",
+    "message": "Accedi alle informazioni su tutti i componenti aggiuntivi installati",
     "description": "Description of managementText"
   },
   "privacyText": {
-    "message": "Accédez à divers paramètres du navigateur liés à la confidentialité et modifiez-les.",
+    "message": "Accedi e modifica varie impostazioni del browser relative alla privacy.",
     "description": "Description of privacy Text"
   },
   "privacyShort": {
-    "message": "Accéder aux paramètres du navigateur liés à la confidentialité",
+    "message": "Accedi alle impostazioni del browser relative alla privacy",
     "description": "Description of privacyShort "
   },
   "proxyText": {
-    "message": "Peut proxy webRequests",
+    "message": "Può proxy webRequests",
     "description": "Description of proxy Text"
   },
   "nmS": {
-    "message": "Accéder au message depuis les applications natives",
+    "message": "Accedi al messaggio da app native",
     "description": "Description of nativeMessaging Short"
   },
   "nmT": {
-    "message": "La messagerie native permet à une extension d'échanger des messages avec une application native installée sur l'ordinateur de l'utilisateur",
+    "message": "La messaggistica nativa consente a un'estensione di scambiare messaggi con un'applicazione nativa installata sul computer dell'utente",
     "description": "Description of nativeMessaging Text"
   },
   "nmU": {
@@ -80,51 +80,51 @@
     "description": "Description of nativeMessaging URL"
   },
   "telemetryText": {
-    "message": "Firefox uniquement",
+    "message": "Solo Firefox",
     "description": "Description of telemetry Text"
   },
   "noURL": {
-    "message": "non",
+    "message": "no",
     "description": "Description of noURL"
   },
   "themeText": {
-    "message": "Permet aux extensions du navigateur de mettre à jour le thème du navigateur",
+    "message": "Abilita le estensioni del browser per aggiornare il tema del browser",
     "description": "Description of theme Text"
   },
   "cprT": {
-    "message": "Peut copier les données d'une page Web",
+    "message": "Può copiare i dati dalla pagina web",
     "description": "Description of clipboardRead Text "
   },
   "idleText": {
-    "message": "Découvrez si le système de l'utilisateur est inactif, verrouillé ou actif.",
+    "message": "Scopri quando il sistema dell'utente è inattivo, bloccato o attivo.",
     "description": "Description of idle Text"
   },
   "notificationText": {
-    "message": "Afficher les notifications à l'aide du mécanisme de notification du système d'exploitation sous-jacent",
+    "message": "Visualizza le notifiche, utilizzando il meccanismo di notifica del sistema operativo sottostante",
     "description": "Description of notification Text"
   },
   "bookmarksText": {
-    "message": "Peut interagir avec et manipuler le système de bookmarking du navigateur",
+    "message": "Può interagire e manipolare il sistema di bookmarking del browser",
     "description": "Description of bookmarks Text"
   },
   "findText": {
-    "message": "Peut trouver du texte dans une page Web et met en évidence les correspondances.",
+    "message": "Può trovare testo in una pagina Web ed evidenzia corrispondenze.",
     "description": "Description of find Text"
   },
   "historyText": {
-    "message": "Peut interagir et manipuler l'historique du navigateur.",
+    "message": "Può interagire e manipolare la cronologia del browser.",
     "description": "Description of history Text"
   },
   "mocT": {
-    "message": "Firefox uniquement",
+    "message": "Solo Firefox",
     "description": "Description of menus overrideContext Text "
   },
   "searchText": {
-    "message": "Peut lister tous les moteurs de recherche et rechercher avec un moteur de recherche spécifique",
+    "message": "Può elencare tutti i motori di ricerca e cercare con uno specifico motore di ricerca",
     "description": "Description of search Text"
   },
   "atT": {
-    "message": "Peut accéder aux données depuis n'importe quel onglet actif et peut injecter du code et du style dans l'onglet actif",
+    "message": "Può accedere ai dati da qualsiasi scheda attiva e può inserire codice e stile nella scheda attiva",
     "description": "Description of activeTabs Text"
   },
   "atA": {
@@ -132,67 +132,67 @@
     "description": "Description of activeTabs Absolute"
   },
   "tabsText": {
-    "message": "Peut obtenir une liste des onglets ouverts et peut ouvrir, mettre à jour, déplacer, recharger et supprimer des onglets",
+    "message": "Può ottenere un elenco di schede aperte e può aprire, aggiornare, spostare, ricaricare e rimuovere la scheda",
     "description": "Description of tabs Text"
   },
   "tabHideText": {
-    "message": "Peut rendre l'onglet caché",
+    "message": "Può rendere la scheda nascosta",
     "description": "Description of tabHide Text"
   },
   "browserSettingsText": {
-    "message": "Peut changer les paramètres globaux du navigateur, comme autoriser les popups",
+    "message": "Può cambiare le impostazioni del browser globale, come consentire i popup",
     "description": "Description of browserSettings Text"
   },
   "cookiesText": {
-    "message": "Peut recevoir et créer des cookies et être averti de leur modification",
+    "message": "Puoi ricevere e impostare i cookie e ricevere una notifica quando cambiano",
     "description": "Description of cookies Text"
   },
   "downloadsText": {
-    "message": "Peut télécharger des fichiers, annuler, suspendre, reprendre les téléchargements",
+    "message": "Può scaricare file, cancellare, mettere in pausa, riprendere i download",
     "description": "Description of downloads Text"
   },
   "doT": {
-    "message": "Peut ouvrir n'importe quel élément téléchargé.",
+    "message": "Può aprire qualsiasi elemento scaricato.",
     "description": "Description of downloads.open Text"
   },
   "topSitesText": {
-    "message": "Peut obtenir des pages que l'utilisateur a visité souvent et fréquemment.",
+    "message": "Può ottenere pagine che l'utente ha visitato spesso e frequentemente.",
     "description": "Description of topSites Text"
   },
   "webNavText": {
-    "message": "Peut intercepter chaque requête HTTP faite par le navigateur",
+    "message": "Può intercettare ogni richiesta HTTP effettuata dal browser",
     "description": "Description of webNavigation Text"
   },
   "webReqText": {
-    "message": "Peut intercepter chaque requête HTTP faite par le navigateur",
+    "message": "Può intercettare ogni richiesta HTTP effettuata dal browser",
     "description": "Description of webReqest Text"
   },
   "wrbT": {
-    "message": "Peut bloquer et modifier la demande faite par le navigateur.",
+    "message": "Può bloccare e modificare la richiesta fatta dal browser.",
     "description": "Description of webRequestBlocking Text"
   },
   "mozAddonsText": {
-    "message": "Firefox uniquement",
+    "message": "Solo Firefox",
     "description": "Description of mozAddons Text"
   },
   "unlimitedStorageText": {
-    "message": "Peut stocker n'importe quelle quantité de données",
+    "message": "Può memorizzare qualsiasi quantità di dati",
     "description": "Description of unlimitedStorage Text"
   },
   "bdT": {
-    "message": "Peut effacer toutes les données collectées lors de la navigation dans les cookies / mots de passe / cache / historique / téléchargements / formData",
+    "message": "È possibile cancellare tutti i dati raccolti durante la navigazione di cookie / password / cache / cronologia / download / formData",
     "description": "Description of browsingData Text"
   },
   "devtoolsText": {
-    "message": "Peut créer un panneau d'outil de développement",
+    "message": "Può creare un pannello degli strumenti per gli sviluppatori",
     "description": "Description of devtools Text"
   },
   "identityText": {
-    "message": "Peut générer un code d'autorisation OAuth2 ou un jeton d'accès et l'utiliser pour accéder aux données utilisateur",
+    "message": "Può generare codice di autorizzazione OAuth2 o token di accesso e utilizzare per accedere ai dati dell'utente",
     "description": "Description of identity Text"
   },
   "menusText": {
-    "message": "Peut créer / manipuler des éléments de menu contextuels",
+    "message": "Può creare / manipolare elementi del menu di scelta rapida",
     "description": "Description of Menus Text"
   }
 }

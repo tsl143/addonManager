@@ -1,0 +1,198 @@
+{
+  "extensionName": {
+    "message": "Менеджер расширений",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Управляйте всеми установленными аддонами.",
+    "description": "Description of the extension."
+  },
+  "storageText": {
+    "message": "Может хранить данные до 5 МБ",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "Может знать вашу геолокацию",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "Доступ к модулям PKCS # 11",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "сделать модули PKCS # 11 доступными для браузера в качестве источников ключей и сертификатов",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "Только Firefox",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "Доступ к сеансу браузера",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "Может перечислять и восстанавливать вкладки и окна, которые были закрыты во время работы браузера",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "Доступ к контейнерам браузера",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "Может перечислять, создавать, удалять и обновлять контекстные идентификаторы / контейнеры",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "Можно разрешить DNS",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "Включает расширение для разрешения доменных имен.",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "Доступ к информации обо всех установленных дополнениях",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "Доступ и изменение различных настроек браузера, связанных с конфиденциальностью.",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "Доступ к настройкам браузера, связанным с конфиденциальностью",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "Можно прокси веб-запросов",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "Доступ к сообщениям из собственных приложений",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nmT": {
+    "message": "Собственный обмен сообщениями позволяет расширению обмениваться сообщениями с собственным приложением, установленным на компьютере пользователя.",
+    "description": "Description of nativeMessaging Text"
+  },
+  "nmU": {
+    "message": "Native_messaging",
+    "description": "Description of nativeMessaging URL"
+  },
+  "telemetryText": {
+    "message": "Только Firefox",
+    "description": "Description of telemetry Text"
+  },
+  "noURL": {
+    "message": "нет",
+    "description": "Description of noURL"
+  },
+  "themeText": {
+    "message": "Включает расширения браузера для обновления темы браузера",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "Можно скопировать данные с веб-страницы",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "Узнайте, когда система пользователя находится в режиме ожидания, заблокирована или активна.",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "Отображать уведомления, используя механизм уведомлений операционной системы",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "Может взаимодействовать и управлять системой закладок браузера",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "Можно найти текст на веб-странице и выделить совпадения.",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "Может взаимодействовать и манипулировать историей браузера.",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "Только Firefox",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "Может перечислить всю поисковую систему и поиск с определенной поисковой системой",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "Может получать доступ к данным из любой активной вкладки и может вводить код и стиль в активную вкладку",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "Может получить список открытых вкладок и может открывать, обновлять, перемещать, перезагружать и удалять вкладки",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "Можно сделать вкладку скрытой",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "Может изменять глобальные настройки браузера, например разрешать всплывающие окна",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "Может получать и устанавливать файлы cookie, а также получать уведомления об их изменении",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "Может загружать файлы, отменить, приостановить, возобновить загрузку",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "Можно открыть любой загруженный элемент.",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "Может получать страницы, которые пользователь посещал часто и часто.",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "Может перехватывать каждый HTTP-запрос, сделанный браузером",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "Может перехватывать каждый HTTP-запрос, сделанный браузером",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "Может заблокировать и изменить запрос, сделанный браузером.",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "Только Firefox",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "Может хранить любое количество данных",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "Может очистить все данные, которые собираются при просмотре Cookies / пароли / Cache / history / downloads / formData",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "Можно создать панель инструментов разработчика",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "Может генерировать код авторизации OAuth2 или токен доступа и использовать для доступа к данным пользователя",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "Может создавать / манипулировать правой кнопкой мыши пунктов меню",
+    "description": "Description of Menus Text"
+  }
+}

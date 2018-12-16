@@ -1,0 +1,198 @@
+{
+  "extensionName": {
+    "message": "ऐड - ऑन्स मैनेजर",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "सभी स्थापित एडॉन्स प्रबंधित करें।",
+    "description": "Description of the extension."
+  },
+  "storageText": {
+    "message": "5 एमबी तक डेटा स्टोर कर सकते हैं",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "अपने भौगोलिक स्थान को जान सकते हैं",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "पीकेसीएस # 11 मॉड्यूल एक्सेस करें",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "कुंजी और प्रमाणपत्र के स्रोत के रूप में ब्राउजर के लिए पीकेसीएस # 11 मॉड्यूल उपलब्ध कराएं",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "केवल फ़ायरफ़ॉक्स",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "ब्राउज़र सत्र का उपयोग करें",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "ब्राउज़र चालू होने पर बंद किए गए टैब और विंडो को सूचीबद्ध और पुनर्स्थापित कर सकते हैं",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "ब्राउज़र कंटेनर एक्सेस करें",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "प्रासंगिक पहचान / कंटेनर सूचीबद्ध, बना, निकालें और अपडेट कर सकते हैं",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "DNS को हल कर सकते हैं",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "डोमेन नामों को हल करने के लिए एक एक्सटेंशन सक्षम करता है।",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "सभी स्थापित एडॉन्स के बारे में जानकारी एक्सेस करें",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "विभिन्न गोपनीयता-संबंधित ब्राउज़र सेटिंग्स तक पहुंचें और संशोधित करें।",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "गोपनीयता से संबंधित ब्राउज़र सेटिंग्स तक पहुंचें",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "वेब प्रॉक्सी प्रॉक्सी कर सकते हैं",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "देशी ऐप्स से संदेश का उपयोग करें",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nmT": {
+    "message": "मूल संदेश उपयोगकर्ता के कंप्यूटर पर स्थापित मूल एप्लिकेशन के साथ संदेशों का आदान-प्रदान करने के लिए एक एक्सटेंशन को सक्षम बनाता है",
+    "description": "Description of nativeMessaging Text"
+  },
+  "nmU": {
+    "message": "Native_messaging",
+    "description": "Description of nativeMessaging URL"
+  },
+  "telemetryText": {
+    "message": "केवल फ़ायरफ़ॉक्स",
+    "description": "Description of telemetry Text"
+  },
+  "noURL": {
+    "message": "नहीं",
+    "description": "Description of noURL"
+  },
+  "themeText": {
+    "message": "ब्राउज़र थीम को अपडेट करने के लिए ब्राउज़र एक्सटेंशन सक्षम करता है",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "वेब पेज से डेटा कॉपी कर सकते हैं",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "पता लगाएं कि उपयोगकर्ता का सिस्टम निष्क्रिय, लॉक या सक्रिय है।",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "अंतर्निहित ऑपरेटिंग सिस्टम की अधिसूचना तंत्र का उपयोग करके नोटिफिकेशन प्रदर्शित करें",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "ब्राउज़र की बुकमार्किंग प्रणाली के साथ बातचीत और कुशलतापूर्वक उपयोग कर सकते हैं",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "वेब पेज में टेक्स्ट पा सकते हैं, और मैचों को हाइलाइट कर सकते हैं।",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "ब्राउज़र इतिहास पर बातचीत और कुशलतापूर्वक उपयोग कर सकते हैं।",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "केवल फ़ायरफ़ॉक्स",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "सभी खोज इंजन सूचीबद्ध कर सकते हैं और एक विशिष्ट खोज इंजन के साथ खोज सकते हैं",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "किसी भी सक्रिय टैब से डेटा तक पहुंच सकते हैं और सक्रिय टैब पर कोड और शैली इंजेक्ट कर सकते हैं",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "खोले गए टैब की एक सूची प्राप्त कर सकते हैं और टैब खोल सकते हैं, अपडेट कर सकते हैं, स्थानांतरित कर सकते हैं, पुनः लोड कर सकते हैं और हटा सकते हैं",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "टैब छुपा सकते हैं",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "पॉपअप की अनुमति देने जैसी वैश्विक ब्राउज़र सेटिंग्स बदल सकते हैं",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "कुकीज प्राप्त और सेट कर सकते हैं, और जब वे बदलते हैं तो अधिसूचित किया जा सकता है",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "फ़ाइलों को डाउनलोड, रद्द, रोकें, डाउनलोड फिर से शुरू कर सकते हैं",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "कोई डाउनलोड की गई वस्तु खोल सकते हैं।",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "उन पृष्ठों को प्राप्त कर सकते हैं जिन्हें उपयोगकर्ता ने अक्सर और अक्सर देखा है।",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "ब्राउज़र द्वारा किए गए हर HTTP अनुरोध को रोक सकते हैं",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "ब्राउज़र द्वारा किए गए हर HTTP अनुरोध को रोक सकते हैं",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "ब्राउज़र द्वारा किए गए अनुरोध को अवरुद्ध और संशोधित कर सकते हैं।",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "केवल फ़ायरफ़ॉक्स",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "किसी भी मात्रा में डेटा स्टोर कर सकते हैं",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "कुकीज / पासवर्ड / कैश / इतिहास / डाउनलोड / फॉर्मडेटा ब्राउज़ करते समय एकत्र किए गए सभी डेटा को साफ़ कर सकते हैं",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "एक डेवलपर टूल पैनल बना सकते हैं",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "OAuth2 प्रमाणीकरण कोड या टोकन एक्सेस और उपयोगकर्ता डेटा तक पहुंचने के लिए उपयोग कर सकते हैं",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "राइट-क्लिक मेनू आइटम बना / कुशल बना सकते हैं",
+    "description": "Description of Menus Text"
+  }
+}
