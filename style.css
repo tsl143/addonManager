@@ -1,41 +1,112 @@
+:root {
+    --extensions-bg-color: #F25252;
+    --permissions-bg-color: #287A72;
+}
+
 body {
     font-family: Arial;
+    font-size: 14px;
+    box-sizing: border-box;
+    color: #888;
 }
+
+h4 {
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header > div {
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-bottom: 5px solid;
+    margin: 0 10px;
+}
+
+header > div:first-child.active {
+    color: var(--extensions-bg-color);
+    border-color: var(--extensions-bg-color);
+}
+
+header > div:nth-child(2).active {
+    color: var(--permissions-bg-color);
+    border-color: var(--permissions-bg-color);
+}
+
+.hide {
+    display: none;
+}
+
 .extension {
     padding: 10px;
     margin: 20px 10px;
-    background: #d7d7d7;
+    background: var(--extensions-bg-color);
+    color: #fff;
 }
 
 .imageDiv {
-    width: 100px;
+    width: 125px;
     display: inline-block;
     vertical-align: middle;
-
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 12px;
 }
 
 .imageDiv img {
-    max-width: 64px;
+    width: 48px;
 }
 
-.imageDiv p {
-    margin: 3px 0;
+.imageDiv h4 {
+    margin: 5px 0;
 }
 
 .contentDiv {
     display: inline-block;
     vertical-align: middle;
+    width: calc(100% - 146px);
+    padding: 5px 10px;
+    border-left: 1px solid #fff;
 }
 
-.contentDiv h4 {
+.extension .contentDiv p {
     margin: 0;
-    line-height: 1.5;
+    text-transform: capitalize;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.extension .contentDiv p a {
+
+    margin-left: 10px;
+    text-decoration: none;
+    color: var(--extensions-bg-color);
+    background: #fff;
+    padding: 2px 5px;
+    position: absolute;
+    right: 0;
+
 }
 
 .contentDiv h5 {
     margin: 0;
     font-weight: normal;
     line-height: 1.5;
+}
+
+.contentDiv h5 {
+    margin: 0;
+    font-weight: normal;
+    margin: 5px 0;
+    font-size: 14px;
 }
 
 .permissionHolder {
@@ -50,4 +121,36 @@ body {
     text-transform: capitalize;
     font-size: 12px;
     border-radius: 2px;
+}
+
+.addon img {
+    width: 48px;
+}
+.permissions {
+
+    background: var(--permissions-bg-color);;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.permissions .imageDiv img {
+    filter: invert(100%);
+}
+
+.addon {
+    cursor: pointer;
+    max-width: 150px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 20px 0px;
+    vertical-align: top;
+}
+
+
+.permissions .contentDiv p {
+    margin: 0;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
 }

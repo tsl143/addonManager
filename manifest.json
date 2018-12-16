@@ -5,7 +5,8 @@
   "version": "0.0.1",
   "applications": {
     "gecko": {
-      "id": "addonManager@web-ext-labs"
+      "id": "addonManager@web-ext-labs",
+      "strict_min_version": "55.0"
     }
   },
   "icons": {
@@ -20,7 +21,6 @@
     "default_icon": {
       "64": "icons/icon.png"
     },
-    "default_popup": "browserAction/index.html",
     "default_title": "management"
   },
   "permissions": ["management"]
