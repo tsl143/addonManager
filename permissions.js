@@ -1,136 +1,136 @@
 const permissionsGlossary = {
     "pkcs11": {
-        short: "Access PKCS #11 modules",
-        text: "make PKCS #11 modules accessible to the browser as sources of keys and certificates",
+        short: browser.i18n.getMessage("pkcs11Short"),
+        text: browser.i18n.getMessage("pkcs11Text")
     },
     "geckoProfiler": {
-        text: "Firefox Only"
+        text: browser.i18n.getMessage("geckoProfilerText")
     },
     "sessions": {
-        short: "Access browser session",
-        text: "Can list and restore, tabs and windows that have been closed while the browser has been running"
+        short: browser.i18n.getMessage("sessionsShort"),
+        text: browser.i18n.getMessage("sessionsText")
     },
     "contextualIdentities": {
-        short: "Access browser containers",
-        text: "Can list, create, remove, and update contextual identities/ containers"
+        short: browser.i18n.getMessage("contextualIdentitiesShort"),
+        text: browser.i18n.getMessage("contextualIdentitiesText")
     },
     "dns": {
-        short: "Can resolve DNS",
-        text: "Enables an extension to resolve domain names."
+        short: browser.i18n.getMessage("dnsShort"),
+        text: browser.i18n.getMessage("dnsText")
     },
     "management": {
-        text: "Access info about all installed addons"
+        text: browser.i18n.getMessage("managementText")
     },
     "privacy": {
-        short: "Access privacy-related browser settings",
-        text: "Access and modify various privacy-related browser settings."
+        short: browser.i18n.getMessage("privacyShort"),
+        text: browser.i18n.getMessage("privacyText")
     },
     "proxy": {
-        text: "Can proxy webRequests"
+        text: browser.i18n.getMessage("proxyText")
     },
     "nativeMessaging": {
-        short: "Access message from native apps",
-        text: "Native messaging enables an extension to exchange messages with a native application installed on the user's computer",
-        url: "Native_messaging"
+        short: browser.i18n.getMessage("nmS"),
+        text: browser.i18n.getMessage("nmT"),
+        url: browser.i18n.getMessage("nmU")
     },
     "telemetry": {
-        text: "Firefox Only",
-        url: "no"
+        text: browser.i18n.getMessage("telemetryText"),
+        url: browser.i18n.getMessage("noURL")
     },
     "theme": {
-        text: "Enables browser extensions to update the browser theme"
+        text: browser.i18n.getMessage("themeText")
     },
     "clipboardRead": {
-        text: "Can copy the data from web page",
-        url: "no"
+        text: browser.i18n.getMessage("cprT"),
+        url: browser.i18n.getMessage("noURL")
     },
     "geolocation": {
-        text: "Can know your geolocation",
-        url: "no"
+        text: browser.i18n.getMessage("geoLocationText"),
+        url: browser.i18n.getMessage("noURL")
     },
     "idle": {
-        "text": "Find out when the user's system is idle, locked, or active."
+        "text": browser.i18n.getMessage("idleText")
     },
     "notifications": {
-        text: "Display notifications, using the underlying operating system's notification mechanism"
+        text: browser.i18n.getMessage("notificationText")
     },
     "bookmarks": {
-        text: "Can interact with and manipulate the browser's bookmarking system"
+        text: browser.i18n.getMessage("bookmarksText")
     },
     "find": {
-        text: "Can find text in a web page, and highlights matches."
+        text: browser.i18n.getMessage("findText")
     },
     "history": {
-        text: "Can interact and manipulate the browser history."
+        text: browser.i18n.getMessage("historyText")
     },
     "menus.overrideContext": {
-        text: "Firefox Only",
-        url: "no"
+        text: browser.i18n.getMessage("mocT"),
+        url: browser.i18n.getMessage("noURL")
     },
     "search": {
-        text: "Can list all search engine and search with a specific search engine"
+        text: browser.i18n.getMessage("searchText")
     },
     "activeTab": {
-        text: "Can access data from any active tab and can inject code and style to active tab",
-        absolute: "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission"
+        text: browser.i18n.getMessage("atT"),
+        absolute: browser.i18n.getMessage("atA")
     },
     "tabs": {
-        text: "Can get a list of opened tab and can open, update, move, reload, and remove tab"
+        text: browser.i18n.getMessage("tabsText")
     },
     "tabHide": {
-        text: "Can make the tab hidden",
-        url: "no"
+        text: browser.i18n.getMessage("tabHideText"),
+        url: browser.i18n.getMessage("noURL")
     },
     "browserSettings": {
-        text: "Can change global browser settings, like allowing popups"
+        text: browser.i18n.getMessage("browserSettingsText")
     },
     "cookies": {
-        text: "Can get and set cookies, and be notified when they change"
+        text: browser.i18n.getMessage("cookiesText")
     },
     "downloads": {
-        text: "Can download files, cancel, pause, resume downloads"
+        text: browser.i18n.getMessage("downloadsText")
     },
     "downloads.open": {
-        text: "Can open any downloaded item.",
+        text: browser.i18n.getMessage("doT"),
         url: "downloads/open"
     },
     "topSites": {
-        text: "Can get pages that the user has visited often and frequently."
+        text: browser.i18n.getMessage("topSitesText")
     },
     "webNavigation": {
-        text: "Can intercept every HTTP request made by browser"
+        text: browser.i18n.getMessage("webNavText")
     },
     "webRequest": {
-        text: "Can intercept every HTTP request made by browser"
+        text: browser.i18n.getMessage("webReqText")
     },
     "webRequestBlocking": {
-        text: "Can block and modify the request made by browser."
+        text: browser.i18n.getMessage("wrbT")
     },
     "alarms": {
-        text: "Can genrate alarm at given intervals"
+        text: "Can genrate alarm at given intervals" // Wait for PR#2 to be merged.
     },
     "mozillaAddons": {
-        text: "Firefox Only"
+        text: browser.i18n.getMessage("mozAddonsText")
     },
     "storage": {
-        text: "Can store data upto 5 MB"
+        text: browser.i18n.getMessage("storageText")
     },
     "unlimitedStorage": {
-        text: "Can store any amount of data"
+        text: browser.i18n.getMessage("unlimitedStorageText")
     },
     "browsingData": {
-        text: "Can clear all data which is collected while browsing Cookies/passwords/Cache/history/downloads/formData"
+        text: browser.i18n.getMessage("bdT")
     },
     "devtools": {
-        text: "Can create a developer tool panel"
+        text: browser.i18n.getMessage("devtoolsText")
     },
     "identity": {
-        text: "Can generate OAuth2 authorization code or access token and use to access user data"
+        text: browser.i18n.getMessage("identityText")
     },
     "menus": {
-        text: "Can create/manipulate right-click menu items"
+        text: browser.i18n.getMessage("menusText")
     },
     "contextMenus": {
-        text: "Can create/manipulate right-click menu items"
+        text: browser.i18n.getMessage("menusText")
     },
 }
