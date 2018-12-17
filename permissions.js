@@ -44,6 +44,10 @@ const permissionsGlossary = {
         text: browser.i18n.getMessage("cprT"),
         url: browser.i18n.getMessage("noURL")
     },
+    "clipboardWrite": {
+        text: browser.i18n.getMessage("cpWT"),
+        url: browser.i18n.getMessage("noURL")
+    },
     "geolocation": {
         text: browser.i18n.getMessage("geoLocationText"),
         url: browser.i18n.getMessage("noURL")

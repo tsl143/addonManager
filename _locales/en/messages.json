@@ -1,237 +1,206 @@
 {
-  "extensionName": {
-    "message": "Addons Manager",
-    "description": "Name of the extension."
-  },
-
-  "extensionDescription": {
-    "message": "Manage all installed addons.",
-    "description": "Description of the extension."
-  },
-
-  "storageText": {
-    "message": "Can store data upto 5 MB",
-    "description": "Description of the storage text"
-  },
-
-  "geoLocationText": {
-    "message": "Can know your geolocation",
-    "description": "Description of the geoLocation text"
-  },
-
-  "pkcs11Short": {
-    "message": "Access PKCS #11 modules",
-    "description": "Description of the PKCS #11 module short message"
-  },
-
-  "pkcs11Text": {
-    "message": "make PKCS #11 modules accessible to the browser as sources of keys and certificates",
-    "description": "Description of the pkcs11 text"
-  },
-
-  "geckoProfilerText": {
-    "message": "Firefox Only",
-    "description": "Description of the geckoProfile text"
-  },
-
-  "sessionsShort": {
-      "message": "Access browser session" ,
-      "description": "Description of Sessions Short"
-  },
-
-  "sessionsText": {
-    "message":"Can list and restore, tabs and windows that have been closed while the browser has been running" ,
-    "description": "Description of Session Text"
-  },
-  "contextualIdentitiesShort": {
-    "message":"Access browser containers" ,
-    "description": "Description of contextualIdentitiesShort"
-  },
-  "contextualIdentitiesText": {
-    "message":"Can list, create, remove, and update contextual identities/ containers" ,
-    "description": "Description of contextualIdentities Text"
-  },
-"dnsShort": {
-    "message":"Can resolve DNS" ,
-    "description": "Description of dnsShort"
-  },
-"dnsText": {
-    "message":"Enables an extension to resolve domain names." ,
-    "description": "Description of dnsText"
-  },
-"managementText": {
-    "message":"Access info about all installed addons" ,
-    "description": "Description of managementText"
-},
-"privacyText": {
-    "message":"Access and modify various privacy-related browser settings." ,
-    "description": "Description of privacy Text"
-},
-"privacyShort": {
-    "message": "Access privacy-related browser settings",
-    "description": "Description of privacyShort "
-},
-"proxyText": {
-    "message":"Can proxy webRequests" ,
-    "description": "Description of proxy Text"
-},
-"nmS": {
-    "message": "Access message from native apps",
-    "description": "Description of nativeMessaging Short"
-},
-"nmT": {
-    "message": "Native messaging enables an extension to exchange messages with a native application installed on the user's computer",
-    "description": "Description of nativeMessaging Text"
-},
-"nmU": {
-    "message": "Native_messaging",
-    "description": "Description of nativeMessaging URL"
-},
-
-"telemetryText": {
-    "message": "Firefox Only",
-    "description": "Description of telemetry Text"
-},
-
-"noURL": {
-    "message": "no" ,
-    "description": "Description of noURL"
-},
-
-"themeText": {
-    "message":"Enables browser extensions to update the browser theme",
-    "description": "Description of theme Text"
-},
-
-"cprT": {
-    "message":"Can copy the data from web page" ,
-    "description": "Description of clipboardRead Text "
-},
-
-"idleText": {
-    "message":"Find out when the user's system is idle, locked, or active." ,
-    "description": "Description of idle Text"
-},
-
-"notificationText": {
-    "message": "Display notifications, using the underlying operating system's notification mechanism" ,
-    "description": "Description of notification Text"
-},
-
-"bookmarksText": {
-    "message":"Can interact with and manipulate the browser's bookmarking system" ,
-    "description": "Description of bookmarks Text"
-},
-
-"findText": {
-    "message":"Can find text in a web page, and highlights matches." ,
-    "description": "Description of find Text"
-},
-
-"historyText": {
-    "message":"Can interact and manipulate the browser history." ,
-    "description": "Description of history Text"
-},
-
-"mocT": {
-    "message": "Firefox Only",
-    "description": "Description of menus overrideContext Text "
-},
-
-"searchText": {
-    "message":"Can list all search engine and search with a specific search engine" ,
-    "description": "Description of search Text"
-},
-
-"atT": {
-    "message":"Can access data from any active tab and can inject code and style to active tab" ,
-    "description": "Description of activeTabs Text"
-},
-
-"atA": {
-    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
-    "description": "Description of activeTabs Absolute"
-},
-
-"tabsText": {
-    "message":"Can get a list of opened tab and can open, update, move, reload, and remove tab" ,
-    "description": "Description of tabs Text"
-},
-
-"tabHideText": {
-    "message": "Can make the tab hidden",
-    "description": "Description of tabHide Text"
-},
-
-"browserSettingsText": {
-    "message": "Can change global browser settings, like allowing popups",
-    "description": "Description of browserSettings Text"
-},
-
-"cookiesText": {
-    "message": "Can get and set cookies, and be notified when they change",
-    "description": "Description of cookies Text"
-},
-
-"downloadsText": {
-    "message":"Can download files, cancel, pause, resume downloads" ,
-    "description": "Description of downloads Text"
-},
-
-"doT": {
-    "message":"Can open any downloaded item." ,
-    "description": "Description of downloads.open Text"
-},
-
-"topSitesText": {
-    "message": "Can get pages that the user has visited often and frequently.",
-    "description": "Description of topSites Text"
-},
-
-"webNavText": {
-    "message": "Can intercept every HTTP request made by browser",
-    "description": "Description of webNavigation Text"
-},
-
-"webReqText": {
-    "message": "Can intercept every HTTP request made by browser",
-    "description": "Description of webReqest Text"
-},
-
-"wrbT": {
-    "message":"Can block and modify the request made by browser." ,
-    "description": "Description of webRequestBlocking Text"
-},
-
-"mozAddonsText": {
-    "message":"Firefox Only" ,
-    "description": "Description of mozAddons Text"
-},
-
-"unlimitedStorageText": {
-    "message": "Can store any amount of data",
-    "description": "Description of unlimitedStorage Text"
-},
-
-"bdT": {
-    "message": "Can clear all data which is collected while browsing Cookies/passwords/Cache/history/downloads/formData",
-    "description": "Description of browsingData Text"
-},
-
-"devtoolsText": {
-    "message": "Can create a developer tool panel",
-    "description": "Description of devtools Text"
-},
-
-"identityText": {
-    "message":"Can generate OAuth2 authorization code or access token and use to access user data" ,
-    "description": "Description of identity Text"
-},
-
-
-"menusText": {
-    "message": "Can create/manipulate right-click menu items",
-    "description": "Description of Menus Text"
-  }
-
+    "extensionName": {
+        "message": "Addons Manager",
+        "description": "Name of the extension."
+    },
+    "extensionDescription": {
+        "message": "Manage all installed addons.",
+        "description": "Description of the extension."
+    },
+    "storageText": {
+        "message": "Can store data upto 5 MB",
+        "description": "Description of the storage text"
+    },
+    "geoLocationText": {
+        "message": "Can know your geolocation",
+        "description": "Description of the geoLocation text"
+    },
+    "pkcs11Short": {
+        "message": "Access PKCS #11 modules",
+        "description": "Description of the PKCS #11 module short message"
+    },
+    "pkcs11Text": {
+        "message": "make PKCS #11 modules accessible to the browser as sources of keys and certificates",
+        "description": "Description of the pkcs11 text"
+    },
+    "geckoProfilerText": {
+        "message": "Firefox Only",
+        "description": "Description of the geckoProfile text"
+    },
+    "sessionsShort": {
+        "message": "Access browser session",
+        "description": "Description of Sessions Short"
+    },
+    "sessionsText": {
+        "message": "Can list and restore, tabs and windows that have been closed while the browser has been running",
+        "description": "Description of Session Text"
+    },
+    "contextualIdentitiesShort": {
+        "message": "Access browser containers",
+        "description": "Description of contextualIdentitiesShort"
+    },
+    "contextualIdentitiesText": {
+        "message": "Can list, create, remove, and update contextual identities/ containers",
+        "description": "Description of contextualIdentities Text"
+    },
+    "dnsShort": {
+        "message": "Can resolve DNS",
+        "description": "Description of dnsShort"
+    },
+    "dnsText": {
+        "message": "Enables an extension to resolve domain names.",
+        "description": "Description of dnsText"
+    },
+    "managementText": {
+        "message": "Access info about all installed addons",
+        "description": "Description of managementText"
+    },
+    "privacyText": {
+        "message": "Access and modify various privacy-related browser settings.",
+        "description": "Description of privacy Text"
+    },
+    "privacyShort": {
+        "message": "Access privacy-related browser settings",
+        "description": "Description of privacyShort "
+    },
+    "proxyText": {
+        "message": "Can proxy webRequests",
+        "description": "Description of proxy Text"
+    },
+    "nmS": {
+        "message": "Access message from native apps",
+        "description": "Description of nativeMessaging Short"
+    },
+    "nmT": {
+        "message": "Native messaging enables an extension to exchange messages with a native application installed on the user's computer",
+        "description": "Description of nativeMessaging Text"
+    },
+    "nmU": {
+        "message": "Native_messaging",
+        "description": "Description of nativeMessaging URL"
+    },
+    "telemetryText": {
+        "message": "Firefox Only",
+        "description": "Description of telemetry Text"
+    },
+    "noURL": {
+        "message": "no",
+        "description": "Description of noURL"
+    },
+    "themeText": {
+        "message": "Enables browser extensions to update the browser theme",
+        "description": "Description of theme Text"
+    },
+    "cprT": {
+        "message": "Can copy the data from web page",
+        "description": "Description of clipboardRead Text "
+    },
+    "idleText": {
+        "message": "Find out when the user's system is idle, locked, or active.",
+        "description": "Description of idle Text"
+    },
+    "notificationText": {
+        "message": "Display notifications, using the underlying operating system's notification mechanism",
+        "description": "Description of notification Text"
+    },
+    "bookmarksText": {
+        "message": "Can interact with and manipulate the browser's bookmarking system",
+        "description": "Description of bookmarks Text"
+    },
+    "findText": {
+        "message": "Can find text in a web page, and highlights matches.",
+        "description": "Description of find Text"
+    },
+    "historyText": {
+        "message": "Can interact and manipulate the browser history.",
+        "description": "Description of history Text"
+    },
+    "mocT": {
+        "message": "Firefox Only",
+        "description": "Description of menus overrideContext Text "
+    },
+    "searchText": {
+        "message": "Can list all search engine and search with a specific search engine",
+        "description": "Description of search Text"
+    },
+    "atT": {
+        "message": "Can access data from any active tab and can inject code and style to active tab",
+        "description": "Description of activeTabs Text"
+    },
+    "atA": {
+        "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
+        "description": "Description of activeTabs Absolute"
+    },
+    "tabsText": {
+        "message": "Can get a list of opened tab and can open, update, move, reload, and remove tab",
+        "description": "Description of tabs Text"
+    },
+    "tabHideText": {
+        "message": "Can make the tab hidden",
+        "description": "Description of tabHide Text"
+    },
+    "browserSettingsText": {
+        "message": "Can change global browser settings, like allowing popups",
+        "description": "Description of browserSettings Text"
+    },
+    "cookiesText": {
+        "message": "Can get and set cookies, and be notified when they change",
+        "description": "Description of cookies Text"
+    },
+    "downloadsText": {
+        "message": "Can download files, cancel, pause, resume downloads",
+        "description": "Description of downloads Text"
+    },
+    "doT": {
+        "message": "Can open any downloaded item.",
+        "description": "Description of downloads.open Text"
+    },
+    "topSitesText": {
+        "message": "Can get pages that the user has visited often and frequently.",
+        "description": "Description of topSites Text"
+    },
+    "webNavText": {
+        "message": "Can intercept every HTTP request made by browser",
+        "description": "Description of webNavigation Text"
+    },
+    "webReqText": {
+        "message": "Can intercept every HTTP request made by browser",
+        "description": "Description of webReqest Text"
+    },
+    "wrbT": {
+        "message": "Can block and modify the request made by browser.",
+        "description": "Description of webRequestBlocking Text"
+    },
+    "mozAddonsText": {
+        "message": "Firefox Only",
+        "description": "Description of mozAddons Text"
+    },
+    "unlimitedStorageText": {
+        "message": "Can store any amount of data",
+        "description": "Description of unlimitedStorage Text"
+    },
+    "bdT": {
+        "message": "Can clear all data which is collected while browsing Cookies/passwords/Cache/history/downloads/formData",
+        "description": "Description of browsingData Text"
+    },
+    "devtoolsText": {
+        "message": "Can create a developer tool panel",
+        "description": "Description of devtools Text"
+    },
+    "identityText": {
+        "message": "Can generate OAuth2 authorization code or access token and use to access user data",
+        "description": "Description of identity Text"
+    },
+    "menusText": {
+        "message": "Can create/manipulate right-click menu items",
+        "description": "Description of Menus Text"
+    },
+    "cpWT": {
+        "message": "Can write the data on clipboard",
+        "description": "Description of clipboardWrite Text "
+    },
+    "modifyDomain": {
+        "message": "Can access/modify data from",
+        "description": "Description of modify/access domain"
+    }
 }

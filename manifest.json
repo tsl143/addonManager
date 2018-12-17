@@ -24,5 +24,9 @@
     },
     "default_title": "management"
   },
+  "options_ui" : {
+    "page"          : "index.html"
+   ,"browser_style" : true
+},
   "permissions": ["management"]
 }
