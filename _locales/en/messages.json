@@ -199,8 +199,24 @@
         "message": "Can write the data on clipboard",
         "description": "Description of clipboardWrite Text "
     },
-    "modifyDomain": {
-        "message": "Can access/modify data from",
+    "allDomain": {
+        "message": "any webpage in the browser",
         "description": "Description of modify/access domain"
+    },
+    "modifyDomain": {
+        "message": "Can access/modify data on",
+        "description": "Description of modify/access domain"
+    },
+    "pageTitle": {
+        "message": "Know your permissions",
+        "description": "Page title"
+    },
+    "extensions": {
+        "message": "Extensions",
+        "description": "Extensions"
+    },
+    "permissions": {
+        "message": "Permissions",
+        "description": "Permissions"
     }
 }

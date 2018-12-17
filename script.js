@@ -4,6 +4,10 @@ const permissionsHandle = document.getElementById('permission');
 const extensionsPage = document.getElementById('extensionsPage');
 const permissionsPage = document.getElementById('permissionsPage');
 
+document.title = browser.i18n.getMessage("pageTitle");
+extensionsHandle.textContent = browser.i18n.getMessage("extensions");
+permissionsHandle.textContent = browser.i18n.getMessage("permissions");
+
 const toggle = e => {
     switch(e.target.id) {
         case 'extension':
@@ -73,10 +77,6 @@ const createTile = ({
     imageDiv.appendChild(createElement({type: 'img', src: imageUrl}));
     imageDiv.appendChild(createElement({type: 'h4', textContent: `${enabled? 'Enabled': 'Disabled'}`}));
     const heading = createElement({type: 'p', textContent: name});
-    if(extensionUrl != '') {
-        const manifestUrl = createElement({type: 'a', textContent: 'Show Manifest', custom: [{attr: 'href', val: `${extensionUrl}manifest.json`}, {attr: 'target', val: '_blank'}, {attr: 'rel', val: 'noreferrer noopener'}]})
-        heading.appendChild(manifestUrl)
-    }
     contentDiv.appendChild(heading);
     contentDiv.appendChild(createElement({type: 'h5', textContent: description}));
     const permissionHolder = createElement({type: 'ul', className: 'permissionHolder'});
@@ -119,29 +119,11 @@ const setPermissionPage = () => {
         permissionsPage.appendChild(mainDiv)
     })
 }
-const getHostName = url => {
-    let match = url.match(/:\/\/(www[0-9]?\.)?(.[^/:]+)/i);
-    if (match != null && match.length > 2 && typeof match[2] === 'string' && match[2].length > 0) {
-        return match[2];
-    }
-    else {
-        return null;
-    }
-}
 
-const getDomain = url => {
-    let hostName = getHostName(url);
-    let domain = hostName;
-    if (hostName != null) {
-        let parts = hostName.split('.').reverse();
-        if (parts != null && parts.length > 1) {
-            domain = parts[1] + '.' + parts[0];
-            if (hostName.toLowerCase().indexOf('.co.uk') != -1 && parts.length > 2) {
-                domain = parts[2] + '.' + domain;
-            }
-        }
-    }
-    return domain;
+const gethostPerms = perm => {
+    // regex from addons-frontend
+    const match = /^[a-z*]+:\/\/([^/]+)\//.exec(perm);
+    return match[1];
 }
 
 const updatePermissions = addonString => {
@@ -149,17 +131,21 @@ const updatePermissions = addonString => {
         const addons = JSON.parse(addonString);
         addons.results.forEach(addon => {
             const hostPerms = new Set;
-            const addonDiv = document.getElementById(addon.guid);
             let perms = addon.current_version.files[0].permissions;
             if(perms.includes('http://*/*') || perms.includes('https://*/*') || perms.includes('<all_urls>')) {
-                hostPerms.add('all domains');
+                hostPerms.add(browser.i18n.getMessage("allDomain"));
             } else {
-                perms.filter(p => p.includes('http')).forEach(p => hostPerms.add(getDomain(p)))
+                perms.filter(p => p.includes('://')).forEach(p => hostPerms.add(gethostPerms(p)));
             }
-            const permDiv = document.querySelector(`[data-id="${addonDiv.id}"] ul`);
+            const permDiv = document.querySelector(`[data-id="${addon.guid}"] ul`);
             if (addon.icon_url) {
-                const image = document.querySelector(`[data-id="${addonDiv.id}"] .imageDiv img`);
+                const image = document.querySelector(`[data-id="${addon.guid}"] .imageDiv img`);
                 image.src = addon.icon_url;
+            }
+            if(addon.url != '') {
+                const heading = document.querySelector(`[data-id="${addon.guid}"] .contentDiv p`);
+                const manifestUrl = createElement({type: 'a', textContent: `ⓘ`, custom: [{attr: 'href', val: addon.url}, {attr: 'title', val: addon.url}, {attr: 'target', val: '_blank'}, {attr: 'rel', val: 'noreferrer noopener'}]})
+                heading.appendChild(manifestUrl)
             }
             hostPerms.forEach(p => {
                 permDiv.appendChild(createElement({type: 'li', custom: [{attr: 'data-permission', val: p}] ,textContent: `${browser.i18n.getMessage("modifyDomain")} ${p}`}));
