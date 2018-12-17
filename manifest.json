@@ -11,7 +11,7 @@
     }
   },
   "icons": {
-    "64": "icons/icon.png"
+    "64": "icons/icon_64.png"
   },
   "background": {
     "scripts": [
@@ -20,9 +20,9 @@
   },
   "browser_action": {
     "default_icon": {
-      "64": "icons/icon.png"
+      "64": "icons/icon_64.png"
     },
-    "default_title": "management"
+    "default_title": "Know your permissions"
   },
   "permissions": ["management"]
 }

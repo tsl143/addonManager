@@ -144,7 +144,7 @@ const updatePermissions = addonString => {
             }
             if(addon.url != '') {
                 const heading = document.querySelector(`[data-id="${addon.guid}"] .contentDiv p`);
-                const manifestUrl = createElement({type: 'a', textContent: `ⓘ`, custom: [{attr: 'href', val: addon.url}, {attr: 'title', val: addon.url}, {attr: 'target', val: '_blank'}, {attr: 'rel', val: 'noreferrer noopener'}]})
+                const manifestUrl = createElement({type: 'a', textContent: browser.i18n.getMessage("moreInfo"), custom: [{attr: 'href', val: addon.url}, {attr: 'title', val: addon.url}, {attr: 'target', val: '_blank'}, {attr: 'rel', val: 'noreferrer noopener'}]})
                 heading.appendChild(manifestUrl)
             }
             hostPerms.forEach(p => {
