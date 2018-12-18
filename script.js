@@ -106,6 +106,8 @@ const setPermissionPage = () => {
         let permUrl = `${mdnURL}${p}`;
         if (permObj.url == 'no') {
             permUrl = ''
+        } else if (permObj.absolute) {
+            permUrl = permObj.absolute;
         } else if (permObj.url) {
             permUrl = `${mdnURL}${permObj.url}`;
         }
