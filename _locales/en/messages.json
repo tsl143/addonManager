@@ -1,10 +1,10 @@
 {
     "extensionName": {
-        "message": "Addons Manager",
+        "message": "Permissions Inspector",
         "description": "Name of the extension."
     },
     "extensionDescription": {
-        "message": "Manage all installed addons.",
+        "message": "Snapshot of all the permissions used by each installed extension.",
         "description": "Description of the extension."
     },
     "storageText": {
@@ -152,7 +152,7 @@
         "description": "Description of topSites Text"
     },
     "webNavText": {
-        "message": "Can intercept every HTTP request made by browser",
+        "message": "Can add events while browser transition from one URL to another",
         "description": "Description of webNavigation Text"
     },
     "webReqText": {
@@ -218,5 +218,13 @@
     "alarmsText": {
         "message": "Can generate alarm at given intervals",
         "description": "Description of Alarms Text"
+    },
+    "extensionsHeadingText": {
+        "message": "Details of all the permissions used by each installed extension",
+        "description": "page heading extensions"
+    },
+    "permissionsHeadingText": {
+        "message": "Details of which all installed extensions uses given permission",
+        "description": "page heading permissions"
     }
 }
