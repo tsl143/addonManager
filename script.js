@@ -178,7 +178,7 @@ const getMorePermissions = (extensions = []) => {
     xhr.send();
 }
 function gotAll(infoArray = []) {
-    const allExtensions = infoArray.filter(e => e.type == 'extension' && e.id != 'addonManager@web-ext-labs');
+    const allExtensions = infoArray.filter(e => e.type == 'extension' && e.id != 'permissionInspector@web-ext-labs');
     if (allExtensions.length == 0) return;
     allExtensions.forEach(createTile);
     getMorePermissions(allExtensions);
