@@ -111,7 +111,7 @@ const permissionsGlossary = {
         text: browser.i18n.getMessage("wrbT")
     },
     "alarms": {
-        text: "Can genrate alarm at given intervals" // Wait for PR#2 to be merged.
+        text: browser.i18n.getMessage("alarmsText")
     },
     "mozillaAddons": {
         text: browser.i18n.getMessage("mozAddonsText")
