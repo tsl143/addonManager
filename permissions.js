@@ -35,22 +35,22 @@ const permissionsGlossary = {
     },
     "telemetry": {
         text: browser.i18n.getMessage("telemetryText"),
-        url: 'no'
+        absolute: "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_permissions#API_permissions"
     },
     "theme": {
         text: browser.i18n.getMessage("themeText")
     },
     "clipboardRead": {
         text: browser.i18n.getMessage("cprT"),
-        url: 'no'
+        absolute: "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#Clipboard_access"
     },
     "clipboardWrite": {
         text: browser.i18n.getMessage("cpWT"),
-        url: 'no'
+        absolute: "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#Clipboard_access"
     },
     "geolocation": {
         text: browser.i18n.getMessage("geoLocationText"),
-        url: 'no'
+        absolute: "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_permissions#API_permissions"
     },
     "idle": {
         "text": browser.i18n.getMessage("idleText")
@@ -69,21 +69,21 @@ const permissionsGlossary = {
     },
     "menus.overrideContext": {
         text: browser.i18n.getMessage("mocT"),
-        url: 'no'
+        absolute: "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_permissions#API_permissions"
     },
     "search": {
         text: browser.i18n.getMessage("searchText")
     },
     "activeTab": {
         text: browser.i18n.getMessage("atT"),
-        absolute: browser.i18n.getMessage("atA")
+        absolute: "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission"
     },
     "tabs": {
         text: browser.i18n.getMessage("tabsText")
     },
     "tabHide": {
         text: browser.i18n.getMessage("tabHideText"),
-        url: 'no'
+        absolute: "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_permissions#API_permissions"
     },
     "browserSettings": {
         text: browser.i18n.getMessage("browserSettingsText")

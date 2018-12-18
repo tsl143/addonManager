@@ -46,6 +46,11 @@ header {
     font-weight: bold;
 }
 
+[data-type="page"] {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 header > div {
     display: inline-block;
     padding: 5px 10px;
