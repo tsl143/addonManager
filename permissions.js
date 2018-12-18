@@ -35,22 +35,22 @@ const permissionsGlossary = {
     },
     "telemetry": {
         text: browser.i18n.getMessage("telemetryText"),
-        url: browser.i18n.getMessage("noURL")
+        url: "No"
     },
     "theme": {
         text: browser.i18n.getMessage("themeText")
     },
     "clipboardRead": {
         text: browser.i18n.getMessage("cprT"),
-        url: browser.i18n.getMessage("noURL")
+        url: "No"
     },
     "clipboardWrite": {
         text: browser.i18n.getMessage("cpWT"),
-        url: browser.i18n.getMessage("noURL")
+        url: "No"
     },
     "geolocation": {
         text: browser.i18n.getMessage("geoLocationText"),
-        url: browser.i18n.getMessage("noURL")
+        url: "No"
     },
     "idle": {
         "text": browser.i18n.getMessage("idleText")
@@ -69,7 +69,7 @@ const permissionsGlossary = {
     },
     "menus.overrideContext": {
         text: browser.i18n.getMessage("mocT"),
-        url: browser.i18n.getMessage("noURL")
+        url: "No"
     },
     "search": {
         text: browser.i18n.getMessage("searchText")
@@ -83,7 +83,7 @@ const permissionsGlossary = {
     },
     "tabHide": {
         text: browser.i18n.getMessage("tabHideText"),
-        url: browser.i18n.getMessage("noURL")
+        url: "No"
     },
     "browserSettings": {
         text: browser.i18n.getMessage("browserSettingsText")
