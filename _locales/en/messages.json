@@ -222,5 +222,9 @@
     "moreInfo": {
         "message": "More...",
         "description": "more info"
+    },
+    "alarmsText": {
+        "message": "Can generate alarm at given intervals",
+        "description": "Description of Alarms Text"
     }
 }
