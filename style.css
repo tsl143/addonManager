@@ -1,13 +1,18 @@
 :root {
     --extensions-bg-color: #F25252;
     --permissions-bg-color: #287A72;
+    --text-color: #3b88c3;
+    --grey-color: #B3C1D3;
+    --white-color: #fff;
+    --body-bg-color: #EBF7FF;
 }
 
 body {
     font-family: Arial;
     font-size: 14px;
     box-sizing: border-box;
-    color: #888;
+    color: var(--text-color);
+    background: var(--body-bg-color);
 }
 
 h4 {
@@ -15,11 +20,18 @@ h4 {
     margin-bottom: 0;
     margin-top: 5px;
     line-height: 1.5;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: var(--text-color);
+}
+
+li {
+    line-height: 1.5;
 }
 
 header {
@@ -35,16 +47,13 @@ header > div {
     cursor: pointer;
     border-bottom: 5px solid;
     margin: 0 10px;
+    color: var(--grey-color);
+    border-color: var(--grey-color);
 }
 
-header > div:first-child.active {
-    color: var(--extensions-bg-color);
-    border-color: var(--extensions-bg-color);
-}
-
-header > div:nth-child(2).active {
-    color: var(--permissions-bg-color);
-    border-color: var(--permissions-bg-color);
+header > div.active {
+    color: var(--text-color);
+    border-color: var(--text-color);
 }
 
 .hide {
@@ -54,8 +63,9 @@ header > div:nth-child(2).active {
 .extension {
     padding: 10px;
     margin: 20px 10px;
-    background: var(--extensions-bg-color);
-    color: #fff;
+    background: var(--white-color);
+    box-shadow: 0px 2px 9px -5px black;
+    border-radius: 10px;
 }
 
 .imageDiv {
@@ -80,22 +90,20 @@ header > div:nth-child(2).active {
     vertical-align: middle;
     width: calc(100% - 146px);
     padding: 5px 10px;
-    border-left: 1px solid #fff;
+    box-shadow: -7px 0px 4px -6px var(--grey-color);
 }
 
 .extension .contentDiv p {
     margin: 0;
     text-transform: capitalize;
-    border-bottom: 1px solid #fff;
+    box-shadow: 0px 7px 4px -6px var(--grey-color);
     padding-bottom: 10px;
     position: relative;
+    font-weight: bold;
 }
 
 .extension .contentDiv p a {
-
-    margin-left: 10px;
-    color: var(--extensions-bg-color);
-    background: #fff;
+    font-weight: normal;
     padding: 2px 5px;
     position: absolute;
     right: 0;
@@ -109,10 +117,9 @@ header > div:nth-child(2).active {
 }
 
 .contentDiv h5 {
-    margin: 0;
     font-weight: normal;
-    margin: 5px 0;
-    font-size: 14px;
+    margin: 10px 0;
+    font-size: 1em;
 }
 
 .permissionHolder {
@@ -129,34 +136,46 @@ header > div:nth-child(2).active {
     border-radius: 2px;
 }
 
+.extension .contentDiv p, .extension .contentDiv h5 {
+    padding-left: 10px;
+}
+
 .addon img {
     width: 48px;
 }
+
 .permissions {
-
-    background: var(--permissions-bg-color);;
-    color: #fff;
+    background: var(--white-color);
     padding: 10px;
-    margin: 10px;
-
+    margin: 20px 10px;
+    box-shadow: 0px 2px 9px -5px black;
+    border-radius: 10px;
 }
 
 .permissions .imageDiv img {
-    filter: invert(100%);
+    /* filter: invert(43%) sepia(55%) saturate(2846%) hue-rotate(198deg) brightness(96%) contrast(82%);; */
+    filter: invert(51%) sepia(9%) saturate(3402%) hue-rotate(163deg) brightness(93%) contrast(84%);
 }
 
 .addon {
     cursor: pointer;
-    max-width: 150px;
+    width: 120px;
     text-align: center;
     display: inline-block;
     margin: 20px 20px 0px;
     vertical-align: top;
 }
 
+.permissions .imageDiv h4 {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
 
 .permissions .contentDiv p {
     margin: 0;
-    border-bottom: 1px solid #fff;
+    box-shadow: 0px 7px 4px -6px var(--grey-color);
+    font-weight: bold;
     padding-bottom: 10px;
+    padding-left: 10px;
 }
