@@ -1,10 +1,10 @@
 {
   "extensionName": {
-    "message": "附加组件管理器",
+    "message": "许可检查员",
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "管理所有已安装的插件。",
+    "message": "每个已安装扩展使用的所有权限的快照。",
     "description": "Description of the extension."
   },
   "storageText": {
@@ -16,11 +16,11 @@
     "description": "Description of the geoLocation text"
   },
   "pkcs11Short": {
-    "message": "访问PKCS＃11模块",
+    "message": "可以访问PKCS＃11模块",
     "description": "Description of the PKCS #11 module short message"
   },
   "pkcs11Text": {
-    "message": "使PKCS＃11模块可作为密钥和证书的来源访问浏览器",
+    "message": "可以使浏览器可以访问PKCS＃11模块作为密钥和证书的来源",
     "description": "Description of the pkcs11 text"
   },
   "geckoProfilerText": {
@@ -28,7 +28,7 @@
     "description": "Description of the geckoProfile text"
   },
   "sessionsShort": {
-    "message": "访问浏览器会话",
+    "message": "可以访问浏览器会话",
     "description": "Description of Sessions Short"
   },
   "sessionsText": {
@@ -36,7 +36,7 @@
     "description": "Description of Session Text"
   },
   "contextualIdentitiesShort": {
-    "message": "访问浏览器容器",
+    "message": "可以访问浏览器容器",
     "description": "Description of contextualIdentitiesShort"
   },
   "contextualIdentitiesText": {
@@ -52,11 +52,11 @@
     "description": "Description of dnsText"
   },
   "managementText": {
-    "message": "访问有关所有已安装插件的信息",
+    "message": "可以访问有关所有已安装插件的信息",
     "description": "Description of managementText"
   },
   "privacyText": {
-    "message": "访问和修改各种与隐私相关的浏览器设置。",
+    "message": "可以访问和修改各种与隐私相关的浏览器设置。",
     "description": "Description of privacy Text"
   },
   "privacyShort": {
@@ -68,27 +68,19 @@
     "description": "Description of proxy Text"
   },
   "nmS": {
-    "message": "从本机应用访问消息",
+    "message": "可以从本机应用访问消息",
     "description": "Description of nativeMessaging Short"
   },
-  "nmT": {
-    "message": "本机消息传递使扩展可以与用户计算机上安装的本机应用程序交换消息",
+  "nativeMessagingText": {
+    "message": "可以与用户计算机上安装的本机应用程序交换消息",
     "description": "Description of nativeMessaging Text"
-  },
-  "nmU": {
-    "message": "Native_messaging",
-    "description": "Description of nativeMessaging URL"
   },
   "telemetryText": {
     "message": "仅限Firefox",
     "description": "Description of telemetry Text"
   },
-  "noURL": {
-    "message": "没有",
-    "description": "Description of noURL"
-  },
   "themeText": {
-    "message": "允许浏览器扩展更新浏览器主题",
+    "message": "可以更新浏览器主题",
     "description": "Description of theme Text"
   },
   "cprT": {
@@ -96,11 +88,11 @@
     "description": "Description of clipboardRead Text "
   },
   "idleText": {
-    "message": "找出用户系统何时处于空闲，锁定或活动状态。",
+    "message": "可以找出用户系统何时处于空闲，锁定或活动状态。",
     "description": "Description of idle Text"
   },
   "notificationText": {
-    "message": "使用基础操作系统的通知机制显示通知",
+    "message": "可以使用基础操作系统的通知机制显示通知",
     "description": "Description of notification Text"
   },
   "bookmarksText": {
@@ -160,7 +152,7 @@
     "description": "Description of topSites Text"
   },
   "webNavText": {
-    "message": "可以拦截浏览器发出的每个HTTP请求",
+    "message": "浏览器从一个URL转换到另一个URL时可以添加事件",
     "description": "Description of webNavigation Text"
   },
   "webReqText": {
@@ -194,5 +186,45 @@
   "menusText": {
     "message": "可以创建/操作右键单击菜单项",
     "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "可以在剪贴板上写入数据",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "浏览器中的任何网页",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "可以访问/修改数据",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "了解你的权限",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "扩展",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "权限",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "更多...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "可以按给定间隔生成警报",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "每个已安装扩展使用的所有权限的详细信息",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "所有已安装扩展使用给定权限的详细信息",
+    "description": "page heading permissions"
   }
 }

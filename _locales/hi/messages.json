@@ -1,10 +1,10 @@
 {
   "extensionName": {
-    "message": "ऐड - ऑन्स मैनेजर",
+    "message": "अनुमति निरीक्षक",
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "सभी स्थापित एडॉन्स प्रबंधित करें।",
+    "message": "प्रत्येक स्थापित एक्सटेंशन द्वारा उपयोग की जाने वाली सभी अनुमतियों का स्नैपशॉट।",
     "description": "Description of the extension."
   },
   "storageText": {
@@ -16,11 +16,11 @@
     "description": "Description of the geoLocation text"
   },
   "pkcs11Short": {
-    "message": "पीकेसीएस # 11 मॉड्यूल एक्सेस करें",
+    "message": "पीकेसीएस # 11 मॉड्यूल तक पहुंच सकते हैं",
     "description": "Description of the PKCS #11 module short message"
   },
   "pkcs11Text": {
-    "message": "कुंजी और प्रमाणपत्र के स्रोत के रूप में ब्राउजर के लिए पीकेसीएस # 11 मॉड्यूल उपलब्ध कराएं",
+    "message": "चाबियाँ और प्रमाणपत्रों के स्रोत के रूप में ब्राउजर के लिए पीकेसीएस # 11 मॉड्यूल उपलब्ध करा सकते हैं",
     "description": "Description of the pkcs11 text"
   },
   "geckoProfilerText": {
@@ -28,7 +28,7 @@
     "description": "Description of the geckoProfile text"
   },
   "sessionsShort": {
-    "message": "ब्राउज़र सत्र का उपयोग करें",
+    "message": "ब्राउज़र सत्र तक पहुंच सकते हैं",
     "description": "Description of Sessions Short"
   },
   "sessionsText": {
@@ -36,7 +36,7 @@
     "description": "Description of Session Text"
   },
   "contextualIdentitiesShort": {
-    "message": "ब्राउज़र कंटेनर एक्सेस करें",
+    "message": "ब्राउज़र कंटेनर तक पहुंच सकते हैं",
     "description": "Description of contextualIdentitiesShort"
   },
   "contextualIdentitiesText": {
@@ -52,11 +52,11 @@
     "description": "Description of dnsText"
   },
   "managementText": {
-    "message": "सभी स्थापित एडॉन्स के बारे में जानकारी एक्सेस करें",
+    "message": "सभी स्थापित एडॉन्स के बारे में जानकारी तक पहुंच सकते हैं",
     "description": "Description of managementText"
   },
   "privacyText": {
-    "message": "विभिन्न गोपनीयता-संबंधित ब्राउज़र सेटिंग्स तक पहुंचें और संशोधित करें।",
+    "message": "विभिन्न गोपनीयता-संबंधित ब्राउज़र सेटिंग्स तक पहुंच और संशोधित कर सकते हैं।",
     "description": "Description of privacy Text"
   },
   "privacyShort": {
@@ -68,27 +68,19 @@
     "description": "Description of proxy Text"
   },
   "nmS": {
-    "message": "देशी ऐप्स से संदेश का उपयोग करें",
+    "message": "देशी ऐप्स से संदेश का उपयोग कर सकते हैं",
     "description": "Description of nativeMessaging Short"
   },
-  "nmT": {
-    "message": "मूल संदेश उपयोगकर्ता के कंप्यूटर पर स्थापित मूल एप्लिकेशन के साथ संदेशों का आदान-प्रदान करने के लिए एक एक्सटेंशन को सक्षम बनाता है",
+  "nativeMessagingText": {
+    "message": "उपयोगकर्ता के कंप्यूटर पर स्थापित मूल एप्लिकेशन के साथ संदेशों का आदान-प्रदान कर सकते हैं",
     "description": "Description of nativeMessaging Text"
-  },
-  "nmU": {
-    "message": "Native_messaging",
-    "description": "Description of nativeMessaging URL"
   },
   "telemetryText": {
     "message": "केवल फ़ायरफ़ॉक्स",
     "description": "Description of telemetry Text"
   },
-  "noURL": {
-    "message": "नहीं",
-    "description": "Description of noURL"
-  },
   "themeText": {
-    "message": "ब्राउज़र थीम को अपडेट करने के लिए ब्राउज़र एक्सटेंशन सक्षम करता है",
+    "message": "ब्राउज़र विषय अपडेट कर सकते हैं",
     "description": "Description of theme Text"
   },
   "cprT": {
@@ -96,11 +88,11 @@
     "description": "Description of clipboardRead Text "
   },
   "idleText": {
-    "message": "पता लगाएं कि उपयोगकर्ता का सिस्टम निष्क्रिय, लॉक या सक्रिय है।",
+    "message": "पता लगा सकता है कि उपयोगकर्ता का सिस्टम निष्क्रिय, लॉक या सक्रिय है।",
     "description": "Description of idle Text"
   },
   "notificationText": {
-    "message": "अंतर्निहित ऑपरेटिंग सिस्टम की अधिसूचना तंत्र का उपयोग करके नोटिफिकेशन प्रदर्शित करें",
+    "message": "अंतर्निहित ऑपरेटिंग सिस्टम की अधिसूचना तंत्र का उपयोग करके नोटिफिकेशन प्रदर्शित कर सकते हैं",
     "description": "Description of notification Text"
   },
   "bookmarksText": {
@@ -160,7 +152,7 @@
     "description": "Description of topSites Text"
   },
   "webNavText": {
-    "message": "ब्राउज़र द्वारा किए गए हर HTTP अनुरोध को रोक सकते हैं",
+    "message": "एक यूआरएल से दूसरे यूआरएल में ब्राउजर संक्रमण के दौरान ईवेंट जोड़ सकते हैं",
     "description": "Description of webNavigation Text"
   },
   "webReqText": {
@@ -194,5 +186,45 @@
   "menusText": {
     "message": "राइट-क्लिक मेनू आइटम बना / कुशल बना सकते हैं",
     "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "क्लिपबोर्ड पर डेटा लिख सकते हैं",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "ब्राउज़र में कोई वेबपेज",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "डेटा को एक्सेस / संशोधित कर सकते हैं",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "अपनी अनुमतियों को जानें",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "एक्सटेंशन",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "अनुमतियां",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "अधिक...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "दिए गए अंतराल पर अलार्म उत्पन्न कर सकते हैं",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "प्रत्येक स्थापित एक्सटेंशन द्वारा उपयोग की जाने वाली सभी अनुमतियों का विवरण",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "विवरण जिसमें सभी स्थापित एक्सटेंशन दिए गए अनुमति का उपयोग करते हैं",
+    "description": "page heading permissions"
   }
 }

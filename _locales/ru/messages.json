@@ -1,10 +1,10 @@
 {
   "extensionName": {
-    "message": "Менеджер расширений",
+    "message": "Инспектор разрешений",
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "Управляйте всеми установленными аддонами.",
+    "message": "Снимок всех разрешений, используемых каждым установленным расширением.",
     "description": "Description of the extension."
   },
   "storageText": {
@@ -16,11 +16,11 @@
     "description": "Description of the geoLocation text"
   },
   "pkcs11Short": {
-    "message": "Доступ к модулям PKCS # 11",
+    "message": "Может получить доступ к модулям PKCS # 11",
     "description": "Description of the PKCS #11 module short message"
   },
   "pkcs11Text": {
-    "message": "сделать модули PKCS # 11 доступными для браузера в качестве источников ключей и сертификатов",
+    "message": "Может сделать модули PKCS # 11 доступными для браузера в качестве источников ключей и сертификатов",
     "description": "Description of the pkcs11 text"
   },
   "geckoProfilerText": {
@@ -28,7 +28,7 @@
     "description": "Description of the geckoProfile text"
   },
   "sessionsShort": {
-    "message": "Доступ к сеансу браузера",
+    "message": "Может получить доступ к сеансу браузера",
     "description": "Description of Sessions Short"
   },
   "sessionsText": {
@@ -36,7 +36,7 @@
     "description": "Description of Session Text"
   },
   "contextualIdentitiesShort": {
-    "message": "Доступ к контейнерам браузера",
+    "message": "Может получить доступ к контейнерам браузера",
     "description": "Description of contextualIdentitiesShort"
   },
   "contextualIdentitiesText": {
@@ -52,11 +52,11 @@
     "description": "Description of dnsText"
   },
   "managementText": {
-    "message": "Доступ к информации обо всех установленных дополнениях",
+    "message": "Может получить доступ к информации обо всех установленных аддонах",
     "description": "Description of managementText"
   },
   "privacyText": {
-    "message": "Доступ и изменение различных настроек браузера, связанных с конфиденциальностью.",
+    "message": "Может получать доступ и изменять различные настройки браузера, связанные с конфиденциальностью.",
     "description": "Description of privacy Text"
   },
   "privacyShort": {
@@ -68,27 +68,19 @@
     "description": "Description of proxy Text"
   },
   "nmS": {
-    "message": "Доступ к сообщениям из собственных приложений",
+    "message": "Может получить доступ к сообщению из нативных приложений",
     "description": "Description of nativeMessaging Short"
   },
-  "nmT": {
-    "message": "Собственный обмен сообщениями позволяет расширению обмениваться сообщениями с собственным приложением, установленным на компьютере пользователя.",
+  "nativeMessagingText": {
+    "message": "Может обмениваться сообщениями с собственным приложением, установленным на компьютере пользователя.",
     "description": "Description of nativeMessaging Text"
-  },
-  "nmU": {
-    "message": "Native_messaging",
-    "description": "Description of nativeMessaging URL"
   },
   "telemetryText": {
     "message": "Только Firefox",
     "description": "Description of telemetry Text"
   },
-  "noURL": {
-    "message": "нет",
-    "description": "Description of noURL"
-  },
   "themeText": {
-    "message": "Включает расширения браузера для обновления темы браузера",
+    "message": "Можно обновить тему браузера",
     "description": "Description of theme Text"
   },
   "cprT": {
@@ -96,11 +88,11 @@
     "description": "Description of clipboardRead Text "
   },
   "idleText": {
-    "message": "Узнайте, когда система пользователя находится в режиме ожидания, заблокирована или активна.",
+    "message": "Может узнать, когда система пользователя находится в режиме ожидания, заблокирована или активна.",
     "description": "Description of idle Text"
   },
   "notificationText": {
-    "message": "Отображать уведомления, используя механизм уведомлений операционной системы",
+    "message": "Может отображать уведомления, используя механизм уведомлений операционной системы",
     "description": "Description of notification Text"
   },
   "bookmarksText": {
@@ -160,7 +152,7 @@
     "description": "Description of topSites Text"
   },
   "webNavText": {
-    "message": "Может перехватывать каждый HTTP-запрос, сделанный браузером",
+    "message": "Может добавлять события при переходе браузера с одного URL на другой",
     "description": "Description of webNavigation Text"
   },
   "webReqText": {
@@ -194,5 +186,45 @@
   "menusText": {
     "message": "Может создавать / манипулировать правой кнопкой мыши пунктов меню",
     "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "Можно записать данные в буфер обмена",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "любая веб-страница в браузере",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "Может получить доступ / изменить данные на",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "Знай свои разрешения",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "расширения",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "права доступа",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "Больше...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "Может генерировать тревогу через заданные интервалы",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "Подробная информация обо всех разрешениях, используемых каждым установленным расширением",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "Подробная информация о том, какие все установленные расширения использует данное разрешение",
+    "description": "page heading permissions"
   }
 }

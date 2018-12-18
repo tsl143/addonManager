@@ -1,10 +1,10 @@
 {
   "extensionName": {
-    "message": "Addons Manager",
+    "message": "Permission Inspector",
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "Beheer alle geïnstalleerde add-ons.",
+    "message": "Momentopname van alle machtigingen die door elke geïnstalleerde extensie worden gebruikt.",
     "description": "Description of the extension."
   },
   "storageText": {
@@ -16,11 +16,11 @@
     "description": "Description of the geoLocation text"
   },
   "pkcs11Short": {
-    "message": "Toegang tot PKCS # 11-modules",
+    "message": "Heeft toegang tot PKCS # 11-modules",
     "description": "Description of the PKCS #11 module short message"
   },
   "pkcs11Text": {
-    "message": "maak PKCS # 11 modules toegankelijk voor de browser als bronnen van sleutels en certificaten",
+    "message": "Kan PKCS # 11-modules toegankelijk maken voor de browser als bronnen van sleutels en certificaten",
     "description": "Description of the pkcs11 text"
   },
   "geckoProfilerText": {
@@ -28,7 +28,7 @@
     "description": "Description of the geckoProfile text"
   },
   "sessionsShort": {
-    "message": "Toegang tot browsersessie",
+    "message": "Heeft toegang tot de browsersessie",
     "description": "Description of Sessions Short"
   },
   "sessionsText": {
@@ -36,7 +36,7 @@
     "description": "Description of Session Text"
   },
   "contextualIdentitiesShort": {
-    "message": "Toegang tot browsercontainers",
+    "message": "Heeft toegang tot browsercontainers",
     "description": "Description of contextualIdentitiesShort"
   },
   "contextualIdentitiesText": {
@@ -52,11 +52,11 @@
     "description": "Description of dnsText"
   },
   "managementText": {
-    "message": "Toegang tot informatie over alle geïnstalleerde add-ons",
+    "message": "Heeft toegang tot informatie over alle geïnstalleerde add-ons",
     "description": "Description of managementText"
   },
   "privacyText": {
-    "message": "Toegang tot en wijzigen van verschillende privacy-gerelateerde browserinstellingen.",
+    "message": "Heeft toegang tot verschillende privacygerelateerde browserinstellingen en kan deze wijzigen.",
     "description": "Description of privacy Text"
   },
   "privacyShort": {
@@ -68,27 +68,19 @@
     "description": "Description of proxy Text"
   },
   "nmS": {
-    "message": "Bericht openen vanuit native apps",
+    "message": "Heeft toegang tot berichten van native apps",
     "description": "Description of nativeMessaging Short"
   },
-  "nmT": {
-    "message": "Native Messaging maakt een extensie mogelijk om berichten uit te wisselen met een native applicatie die op de computer van de gebruiker is geïnstalleerd",
+  "nativeMessagingText": {
+    "message": "Kan berichten uitwisselen met een native applicatie die op de computer van de gebruiker is geïnstalleerd",
     "description": "Description of nativeMessaging Text"
-  },
-  "nmU": {
-    "message": "Native_messaging",
-    "description": "Description of nativeMessaging URL"
   },
   "telemetryText": {
     "message": "Alleen Firefox",
     "description": "Description of telemetry Text"
   },
-  "noURL": {
-    "message": "Nee",
-    "description": "Description of noURL"
-  },
   "themeText": {
-    "message": "Schakelt browserextensies in om het browserthema bij te werken",
+    "message": "Kan het browserthema bijwerken",
     "description": "Description of theme Text"
   },
   "cprT": {
@@ -96,11 +88,11 @@
     "description": "Description of clipboardRead Text "
   },
   "idleText": {
-    "message": "Ontdek wanneer het systeem van de gebruiker inactief, vergrendeld of actief is.",
+    "message": "Kan achterhalen wanneer het systeem van de gebruiker inactief, vergrendeld of actief is.",
     "description": "Description of idle Text"
   },
   "notificationText": {
-    "message": "Meldingen weergeven met behulp van het meldingsmechanisme van het onderliggende besturingssysteem",
+    "message": "Kan meldingen weergeven met behulp van het meldingsmechanisme van het onderliggende besturingssysteem",
     "description": "Description of notification Text"
   },
   "bookmarksText": {
@@ -160,7 +152,7 @@
     "description": "Description of topSites Text"
   },
   "webNavText": {
-    "message": "Kan elk HTTP-verzoek onderscheppen dat door de browser wordt gemaakt",
+    "message": "Kan gebeurtenissen toevoegen tijdens de overgang van de browser van de ene naar de andere URL",
     "description": "Description of webNavigation Text"
   },
   "webReqText": {
@@ -194,5 +186,45 @@
   "menusText": {
     "message": "Kan menu-items met rechtermuisknop maken / manipuleren",
     "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "Kan de gegevens op het klembord schrijven",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "elke webpagina in de browser",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "Kan toegang krijgen tot / wijzigen van gegevens op",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "Ken uw toestemmingen",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "uitbreidingen",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "machtigingen",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "Meer...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "Kan op gezette tijden alarm genereren",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "Details van alle machtigingen die door elke geïnstalleerde extensie worden gebruikt",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "Details waarvan alle geïnstalleerde extensies de gegeven toestemming gebruiken",
+    "description": "page heading permissions"
   }
 }

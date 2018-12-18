@@ -1,10 +1,10 @@
 {
   "extensionName": {
-    "message": "Gestionnaire d'extension",
+    "message": "Inspecteur de permission",
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "Gérer tous les addons installés.",
+    "message": "Instantané de toutes les autorisations utilisées par chaque extension installée.",
     "description": "Description of the extension."
   },
   "storageText": {
@@ -16,11 +16,11 @@
     "description": "Description of the geoLocation text"
   },
   "pkcs11Short": {
-    "message": "Accéder aux modules PKCS # 11",
+    "message": "Peut accéder aux modules PKCS # 11",
     "description": "Description of the PKCS #11 module short message"
   },
   "pkcs11Text": {
-    "message": "rendre les modules PKCS # 11 accessibles au navigateur en tant que sources de clés et de certificats",
+    "message": "Peut rendre les modules PKCS # 11 accessibles au navigateur en tant que sources de clés et de certificats",
     "description": "Description of the pkcs11 text"
   },
   "geckoProfilerText": {
@@ -28,7 +28,7 @@
     "description": "Description of the geckoProfile text"
   },
   "sessionsShort": {
-    "message": "Accéder à la session du navigateur",
+    "message": "Peut accéder à la session du navigateur",
     "description": "Description of Sessions Short"
   },
   "sessionsText": {
@@ -36,7 +36,7 @@
     "description": "Description of Session Text"
   },
   "contextualIdentitiesShort": {
-    "message": "Accéder aux conteneurs du navigateur",
+    "message": "Peut accéder aux conteneurs du navigateur",
     "description": "Description of contextualIdentitiesShort"
   },
   "contextualIdentitiesText": {
@@ -52,11 +52,11 @@
     "description": "Description of dnsText"
   },
   "managementText": {
-    "message": "Accéder aux informations sur tous les addons installés",
+    "message": "Peut accéder aux informations sur tous les addons installés",
     "description": "Description of managementText"
   },
   "privacyText": {
-    "message": "Accédez à divers paramètres du navigateur liés à la confidentialité et modifiez-les.",
+    "message": "Peut accéder et modifier divers paramètres du navigateur liés à la confidentialité.",
     "description": "Description of privacy Text"
   },
   "privacyShort": {
@@ -68,27 +68,19 @@
     "description": "Description of proxy Text"
   },
   "nmS": {
-    "message": "Accéder au message depuis les applications natives",
+    "message": "Peut accéder au message à partir d'applications natives",
     "description": "Description of nativeMessaging Short"
   },
-  "nmT": {
-    "message": "La messagerie native permet à une extension d'échanger des messages avec une application native installée sur l'ordinateur de l'utilisateur",
+  "nativeMessagingText": {
+    "message": "Peut échanger des messages avec une application native installée sur l'ordinateur de l'utilisateur",
     "description": "Description of nativeMessaging Text"
-  },
-  "nmU": {
-    "message": "Native_messaging",
-    "description": "Description of nativeMessaging URL"
   },
   "telemetryText": {
     "message": "Firefox uniquement",
     "description": "Description of telemetry Text"
   },
-  "noURL": {
-    "message": "non",
-    "description": "Description of noURL"
-  },
   "themeText": {
-    "message": "Permet aux extensions du navigateur de mettre à jour le thème du navigateur",
+    "message": "Peut mettre à jour le thème du navigateur",
     "description": "Description of theme Text"
   },
   "cprT": {
@@ -96,11 +88,11 @@
     "description": "Description of clipboardRead Text "
   },
   "idleText": {
-    "message": "Découvrez si le système de l'utilisateur est inactif, verrouillé ou actif.",
+    "message": "Peut savoir quand le système de l'utilisateur est inactif, verrouillé ou actif.",
     "description": "Description of idle Text"
   },
   "notificationText": {
-    "message": "Afficher les notifications à l'aide du mécanisme de notification du système d'exploitation sous-jacent",
+    "message": "Peut afficher des notifications à l'aide du mécanisme de notification du système d'exploitation sous-jacent",
     "description": "Description of notification Text"
   },
   "bookmarksText": {
@@ -160,7 +152,7 @@
     "description": "Description of topSites Text"
   },
   "webNavText": {
-    "message": "Peut intercepter chaque requête HTTP faite par le navigateur",
+    "message": "Peut ajouter des événements pendant la transition du navigateur d'une URL à une autre",
     "description": "Description of webNavigation Text"
   },
   "webReqText": {
@@ -188,11 +180,51 @@
     "description": "Description of devtools Text"
   },
   "identityText": {
-    "message": "Peut générer un code d'autorisation OAuth2 ou un jeton d'accès et l'utiliser pour accéder aux données utilisateur",
+    "message": "Peut générer un code d'autorisation OAuth2 ou un jeton d'accès et l'utiliser pour accéder aux données utilisate\n",
     "description": "Description of identity Text"
   },
   "menusText": {
     "message": "Peut créer / manipuler des éléments de menu contextuels",
     "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "Peut écrire les données dans le presse papier",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "toute page Web dans le navigateur",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "Peut accéder / modifier des données sur",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "Connaissez vos permissions",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "Les extensions",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "Les permissions",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "Plus...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "Peut générer une alarme à des intervalles donnés",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "Détails de toutes les autorisations utilisées par chaque extension installée",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "Détails de toutes les extensions installées utilisant l'autorisation donnée",
+    "description": "page heading permissions"
   }
 }

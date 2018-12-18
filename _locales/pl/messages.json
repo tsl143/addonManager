@@ -1,10 +1,10 @@
 {
   "extensionName": {
-    "message": "Menadżer dodatków",
+    "message": "Inspektor uprawnień",
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "Zarządzaj wszystkimi zainstalowanymi dodatkami.",
+    "message": "Migawka wszystkich uprawnień używanych przez każde zainstalowane rozszerzenie.",
     "description": "Description of the extension."
   },
   "storageText": {
@@ -16,11 +16,11 @@
     "description": "Description of the geoLocation text"
   },
   "pkcs11Short": {
-    "message": "Uzyskaj dostęp do modułów PKCS # 11",
+    "message": "Może uzyskać dostęp do modułów PKCS # 11",
     "description": "Description of the PKCS #11 module short message"
   },
   "pkcs11Text": {
-    "message": "sprawiają, że moduły PKCS # 11 są dostępne dla przeglądarki jako źródła kluczy i certyfikatów",
+    "message": "Może uczynić moduły PKCS # 11 dostępnymi dla przeglądarki jako źródła kluczy i certyfikatów",
     "description": "Description of the pkcs11 text"
   },
   "geckoProfilerText": {
@@ -28,7 +28,7 @@
     "description": "Description of the geckoProfile text"
   },
   "sessionsShort": {
-    "message": "Uzyskaj dostęp do sesji przeglądarki",
+    "message": "Może uzyskać dostęp do sesji przeglądarki",
     "description": "Description of Sessions Short"
   },
   "sessionsText": {
@@ -36,7 +36,7 @@
     "description": "Description of Session Text"
   },
   "contextualIdentitiesShort": {
-    "message": "Uzyskaj dostęp do kontenerów przeglądarki",
+    "message": "Może uzyskać dostęp do kontenerów przeglądarki",
     "description": "Description of contextualIdentitiesShort"
   },
   "contextualIdentitiesText": {
@@ -52,11 +52,11 @@
     "description": "Description of dnsText"
   },
   "managementText": {
-    "message": "Uzyskaj dostęp do informacji o wszystkich zainstalowanych dodatkach",
+    "message": "Może uzyskać dostęp do informacji o wszystkich zainstalowanych dodatkach",
     "description": "Description of managementText"
   },
   "privacyText": {
-    "message": "Uzyskaj dostęp i zmień różne ustawienia przeglądarki związane z prywatnością.",
+    "message": "Może uzyskiwać dostęp i modyfikować różne ustawienia przeglądarki związane z prywatnością.",
     "description": "Description of privacy Text"
   },
   "privacyShort": {
@@ -68,27 +68,19 @@
     "description": "Description of proxy Text"
   },
   "nmS": {
-    "message": "Uzyskaj dostęp do wiadomości z natywnych aplikacji",
+    "message": "Może uzyskać dostęp do wiadomości z natywnych aplikacji",
     "description": "Description of nativeMessaging Short"
   },
-  "nmT": {
-    "message": "Natywna obsługa wiadomości umożliwia rozszerzenie do wymiany wiadomości z natywną aplikacją zainstalowaną na komputerze użytkownika",
+  "nativeMessagingText": {
+    "message": "Potrafi wymieniać wiadomości z natywną aplikacją zainstalowaną na komputerze użytkownika",
     "description": "Description of nativeMessaging Text"
-  },
-  "nmU": {
-    "message": "Native_messaging",
-    "description": "Description of nativeMessaging URL"
   },
   "telemetryText": {
     "message": "Tylko Firefox",
     "description": "Description of telemetry Text"
   },
-  "noURL": {
-    "message": "Nie",
-    "description": "Description of noURL"
-  },
   "themeText": {
-    "message": "Włącza rozszerzenia przeglądarki, aby zaktualizować motyw przeglądarki",
+    "message": "Może aktualizować motyw przeglądarki",
     "description": "Description of theme Text"
   },
   "cprT": {
@@ -96,11 +88,11 @@
     "description": "Description of clipboardRead Text "
   },
   "idleText": {
-    "message": "Dowiedz się, kiedy system użytkownika jest bezczynny, zablokowany lub aktywny.",
+    "message": "Może dowiedzieć się, kiedy system użytkownika jest bezczynny, zablokowany lub aktywny.",
     "description": "Description of idle Text"
   },
   "notificationText": {
-    "message": "Wyświetlaj powiadomienia, korzystając z mechanizmu powiadomień systemu operacyjnego",
+    "message": "Może wyświetlać powiadomienia za pomocą mechanizmu powiadamiania systemu operacyjnego",
     "description": "Description of notification Text"
   },
   "bookmarksText": {
@@ -160,7 +152,7 @@
     "description": "Description of topSites Text"
   },
   "webNavText": {
-    "message": "Może przechwytywać każde żądanie HTTP wykonane przez przeglądarkę",
+    "message": "Może dodawać zdarzenia podczas przejścia przeglądarki z jednego adresu URL na inny",
     "description": "Description of webNavigation Text"
   },
   "webReqText": {
@@ -194,5 +186,45 @@
   "menusText": {
     "message": "Potrafi tworzyć / manipulować elementami menu z prawym przyciskiem myszy",
     "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "Potrafi zapisywać dane w schowku",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "dowolna strona internetowa w przeglądarce",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "Może uzyskiwać dostęp / modyfikować dane",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "Poznaj swoje uprawnienia",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "Rozszerzenia",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "Uprawnienia",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "Więcej...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "Potrafi generować alarm w określonych odstępach czasu",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "Szczegóły wszystkich uprawnień używanych przez każde zainstalowane rozszerzenie",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "Szczegółowe informacje na temat wszystkich zainstalowanych rozszerzeń korzystających z danego uprawnienia",
+    "description": "page heading permissions"
   }
 }
