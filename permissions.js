@@ -30,27 +30,27 @@ const permissionsGlossary = {
     },
     "nativeMessaging": {
         short: browser.i18n.getMessage("nmS"),
-        text: browser.i18n.getMessage("nmT"),
-        url: browser.i18n.getMessage("nmU")
+        text: browser.i18n.getMessage("nativeMessagingText"),
+        url: 'Native_messaging'
     },
     "telemetry": {
         text: browser.i18n.getMessage("telemetryText"),
-        url: "No"
+        url: 'no'
     },
     "theme": {
         text: browser.i18n.getMessage("themeText")
     },
     "clipboardRead": {
         text: browser.i18n.getMessage("cprT"),
-        url: "No"
+        url: 'no'
     },
     "clipboardWrite": {
         text: browser.i18n.getMessage("cpWT"),
-        url: "No"
+        url: 'no'
     },
     "geolocation": {
         text: browser.i18n.getMessage("geoLocationText"),
-        url: "No"
+        url: 'no'
     },
     "idle": {
         "text": browser.i18n.getMessage("idleText")
@@ -69,7 +69,7 @@ const permissionsGlossary = {
     },
     "menus.overrideContext": {
         text: browser.i18n.getMessage("mocT"),
-        url: "No"
+        url: 'no'
     },
     "search": {
         text: browser.i18n.getMessage("searchText")
@@ -83,7 +83,7 @@ const permissionsGlossary = {
     },
     "tabHide": {
         text: browser.i18n.getMessage("tabHideText"),
-        url: "No"
+        url: 'no'
     },
     "browserSettings": {
         text: browser.i18n.getMessage("browserSettingsText")

@@ -17,6 +17,11 @@ h4 {
     line-height: 1.5;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 header {
     text-align: center;
     padding: 10px;
@@ -89,7 +94,6 @@ header > div:nth-child(2).active {
 .extension .contentDiv p a {
 
     margin-left: 10px;
-    text-decoration: none;
     color: var(--extensions-bg-color);
     background: #fff;
     padding: 2px 5px;

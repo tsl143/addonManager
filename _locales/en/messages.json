@@ -16,11 +16,11 @@
         "description": "Description of the geoLocation text"
     },
     "pkcs11Short": {
-        "message": "Access PKCS #11 modules",
+        "message": "Can access PKCS #11 modules",
         "description": "Description of the PKCS #11 module short message"
     },
     "pkcs11Text": {
-        "message": "make PKCS #11 modules accessible to the browser as sources of keys and certificates",
+        "message": "Can make PKCS #11 modules accessible to the browser as sources of keys and certificates",
         "description": "Description of the pkcs11 text"
     },
     "geckoProfilerText": {
@@ -28,7 +28,7 @@
         "description": "Description of the geckoProfile text"
     },
     "sessionsShort": {
-        "message": "Access browser session",
+        "message": "Can access browser session",
         "description": "Description of Sessions Short"
     },
     "sessionsText": {
@@ -36,7 +36,7 @@
         "description": "Description of Session Text"
     },
     "contextualIdentitiesShort": {
-        "message": "Access browser containers",
+        "message": "Can access browser containers",
         "description": "Description of contextualIdentitiesShort"
     },
     "contextualIdentitiesText": {
@@ -52,11 +52,11 @@
         "description": "Description of dnsText"
     },
     "managementText": {
-        "message": "Access info about all installed addons",
+        "message": "Can access info about all installed addons",
         "description": "Description of managementText"
     },
     "privacyText": {
-        "message": "Access and modify various privacy-related browser settings.",
+        "message": "Can access and modify various privacy-related browser settings.",
         "description": "Description of privacy Text"
     },
     "privacyShort": {
@@ -68,23 +68,19 @@
         "description": "Description of proxy Text"
     },
     "nmS": {
-        "message": "Access message from native apps",
+        "message": "Can access message from native apps",
         "description": "Description of nativeMessaging Short"
     },
-    "nmT": {
-        "message": "Native messaging enables an extension to exchange messages with a native application installed on the user's computer",
+    "nativeMessagingText": {
+        "message": "Can exchange messages with a native application installed on the user's computer",
         "description": "Description of nativeMessaging Text"
-    },
-    "nmU": {
-        "message": "Native_messaging",
-        "description": "Description of nativeMessaging URL"
     },
     "telemetryText": {
         "message": "Firefox Only",
         "description": "Description of telemetry Text"
     },
     "themeText": {
-        "message": "Enables browser extensions to update the browser theme",
+        "message": "Can update the browser theme",
         "description": "Description of theme Text"
     },
     "cprT": {
@@ -92,11 +88,11 @@
         "description": "Description of clipboardRead Text "
     },
     "idleText": {
-        "message": "Find out when the user's system is idle, locked, or active.",
+        "message": "Can find out when the user's system is idle, locked, or active.",
         "description": "Description of idle Text"
     },
     "notificationText": {
-        "message": "Display notifications, using the underlying operating system's notification mechanism",
+        "message": "Can display notifications, using the underlying operating system's notification mechanism",
         "description": "Description of notification Text"
     },
     "bookmarksText": {

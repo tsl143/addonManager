@@ -1,4 +1,5 @@
 const permissionHash = new Object;
+const mdnURL = 'https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/';
 const extensionsHandle = document.getElementById('extension');
 const permissionsHandle = document.getElementById('permission');
 const extensionsPage = document.getElementById('extensionsPage');
@@ -63,7 +64,6 @@ const createTile = ({
     description,
     id,
     permissions,
-    enabled,
     hostPermissions,
     icons
 }) => {
@@ -75,7 +75,6 @@ const createTile = ({
     mainDiv.appendChild(contentDiv)
     const imageUrl = getIcon(icons, extensionUrl);
     imageDiv.appendChild(createElement({type: 'img', src: imageUrl}));
-    imageDiv.appendChild(createElement({type: 'h4', textContent: `${enabled? 'Enabled': 'Disabled'}`}));
     const heading = createElement({type: 'p', textContent: name});
     contentDiv.appendChild(heading);
     contentDiv.appendChild(createElement({type: 'h5', textContent: description}));
@@ -100,12 +99,19 @@ const createTile = ({
 
 const setPermissionPage = () => {
     Object.keys(permissionHash).forEach(p => {
+        const permObj = permissionsGlossary[p] || {};
+        let permUrl = `${mdnURL}${p}`;
+        if (permObj.url == 'no') {
+            permUrl = ''
+        } else if (permObj.url) {
+            permUrl = `${mdnURL}${permObj.url}`;
+        }
         const mainDiv = createElement({type: 'div', id: p, className: 'permissions'})
-        const imageDiv = createElement({type: 'div', className: 'imageDiv'})
+        const imageDiv = createElement({type: 'a', className: 'imageDiv', custom: [{attr: 'href', val: permUrl}, {attr: 'title', val: permUrl}, {attr: 'target', val: '_blank'}, {attr: 'rel', val: 'noreferrer noopener'}]})
         const contentDiv = createElement({type: 'div', className: 'contentDiv'})
         imageDiv.appendChild(createElement({type: 'img', src: browser.runtime.getURL(`permissions/${p}.svg`)}))
         imageDiv.appendChild(createElement({type: 'h4', textContent: p}));
-        contentDiv.appendChild(createElement({type: 'p', textContent: permissionsGlossary[p].text}))
+        contentDiv.appendChild(createElement({type: 'p', textContent: permObj.text || ''}))
         const addonsDiv = createElement({type: 'div', className: 'addonsDiv'})
         permissionHash[p].forEach( a => {
             const addon = createElement({type: 'div', className: 'addon', title: a.description || ''});
