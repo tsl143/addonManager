@@ -226,5 +226,9 @@
     "alarmsText": {
         "message": "Can generate alarm at given intervals",
         "description": "Description of Alarms Text"
+    },
+    "hostPermission": {
+        "message": "Access your data for all websites",
+        "description": "Description of host Permission"
     }
 }
