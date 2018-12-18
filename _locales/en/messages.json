@@ -83,10 +83,6 @@
         "message": "Firefox Only",
         "description": "Description of telemetry Text"
     },
-    "noURL": {
-        "message": "no",
-        "description": "Description of noURL"
-    },
     "themeText": {
         "message": "Enables browser extensions to update the browser theme",
         "description": "Description of theme Text"
