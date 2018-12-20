@@ -7,6 +7,10 @@
     "message": "Снимок всех разрешений, используемых каждым установленным расширением.",
     "description": "Description of the extension."
   },
+  "browserActionText": {
+      "message": "Знай свои разрешения",
+      "description": "text for browser action."
+  },
   "storageText": {
     "message": "Может хранить данные до 5 МБ",
     "description": "Description of the storage text"

@@ -22,7 +22,7 @@
     "default_icon": {
       "64": "icons/icon_64.png"
     },
-    "default_title": "Know your permissions"
+    "default_title": "__MSG_browserActionText__"
   },
   "permissions": ["management"]
 }
