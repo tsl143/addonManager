@@ -33,8 +33,3 @@ You can request a new feature by [submitting an issue](#filing-an-issue) to our 
 
 * **Major Changes** that you wish to contribute to the project should be discussed first in an issue so that we can better coordinate our efforts, prevent duplication of work, and help you to craft the change so that it is successfully accepted into the project.
 * **Small Changes** can be crafted and submitted as a Pull Request.
-
-
-## Acknowledgements
-A lot of this document was inspired directly by the excellent [Backbone.LayoutManager](https://github.com/tbranyen/backbone.layoutmanager/blob/master/CONTRIBUTING.md) and [Angular.js](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#issue) CONTRIBUTING files.
-
