@@ -7,6 +7,10 @@
     "message": "Instantâneo de todas as permissões usadas por cada extensão instalada.",
     "description": "Description of the extension."
   },
+  "browserActionText": {
+      "message": "Conheça suas permissões",
+      "description": "text for browser action."
+  },
   "storageText": {
     "message": "Pode armazenar dados até 5 MB",
     "description": "Description of the storage text"

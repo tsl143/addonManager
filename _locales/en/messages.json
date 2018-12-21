@@ -7,6 +7,10 @@
         "message": "Snapshot of all the permissions used by each installed extension.",
         "description": "Description of the extension."
     },
+    "browserActionText": {
+        "message": "Know your permissions",
+        "description": "text for browser action."
+    },
     "storageText": {
         "message": "Can store data upto 5 MB",
         "description": "Description of the storage text"

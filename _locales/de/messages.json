@@ -1,11 +1,15 @@
 {
   "extensionName": {
-    "message": "Zulassungsinspektor",
+    "message": "Berechtigungen Inspektor",
     "description": "Name of the extension."
   },
   "extensionDescription": {
     "message": "Momentaufnahme aller Berechtigungen, die von jeder installierten Erweiterung verwendet werden.",
     "description": "Description of the extension."
+  },
+  "browserActionText": {
+      "message": "Kennen Sie Ihre Berechtigungen",
+      "description": "text for browser action."
   },
   "storageText": {
     "message": "Kann Daten bis zu 5 MB speichern",

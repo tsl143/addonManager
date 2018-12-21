@@ -7,6 +7,10 @@
     "message": "Migawka wszystkich uprawnień używanych przez każde zainstalowane rozszerzenie.",
     "description": "Description of the extension."
   },
+  "browserActionText": {
+      "message": "Poznaj swoje uprawnienia",
+      "description": "text for browser action."
+  },
   "storageText": {
     "message": "Może przechowywać dane do 5 MB",
     "description": "Description of the storage text"

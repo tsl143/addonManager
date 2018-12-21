@@ -7,6 +7,10 @@
     "message": "Momentopname van alle machtigingen die door elke geïnstalleerde extensie worden gebruikt.",
     "description": "Description of the extension."
   },
+  "browserActionText": {
+      "message": "Ken uw toestemmingen",
+      "description": "text for browser action."
+  },
   "storageText": {
     "message": "Kan gegevens opslaan tot 5 MB",
     "description": "Description of the storage text"

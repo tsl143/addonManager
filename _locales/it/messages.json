@@ -1,11 +1,15 @@
 {
   "extensionName": {
-    "message": "Ispettore delle autorizzazioni",
+    "message": "Ispettore delle permessi",
     "description": "Name of the extension."
   },
   "extensionDescription": {
     "message": "Istantanea di tutte le autorizzazioni utilizzate da ciascuna estensione installata.",
     "description": "Description of the extension."
+  },
+  "browserActionText": {
+      "message": "Conosci le tue permissi",
+      "description": "text for browser action."
   },
   "storageText": {
     "message": "Può memorizzare dati fino a 5 MB",
