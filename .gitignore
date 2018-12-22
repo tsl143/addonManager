@@ -3,3 +3,7 @@
 /.DS_Store
 **/*.zip
 __MACOSX/
+firefox/*
+chrome/*
+package-lock.json
+node_modules

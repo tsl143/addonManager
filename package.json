@@ -1,0 +1,31 @@
+{
+  "name": "permissioninspector",
+  "version": "0.0.1",
+  "description": "Snapshot of all the permissions used by each installed extension",
+  "main": "build.js",
+  "scripts": {
+    "start": "node build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsl143/addonManager.git"
+  },
+  "keywords": [
+    "browser",
+    "extension"
+  ],
+  "author": "tsl143",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsl143/addonManager/issues"
+  },
+  "homepage": "https://github.com/tsl143/addonManager#readme",
+  "dependencies": {
+    "json-format": "^1.0.1",
+    "jszip": "^3.1.5",
+    "ncp": "^2.0.0",
+    "rimraf": "^2.6.2",
+    "zip-folder": "^1.0.0"
+  }
+}
