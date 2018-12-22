@@ -3,10 +3,8 @@ const path = require('path');
 const ncp = require('ncp').ncp;
 const formatJSON = require('json-format');
 const rimraf = require('rimraf');
-const JSZip = require('jszip')
 const args = process.argv
 const isFirefox = args.includes('firefox');
-const isChrome = args.includes('chrome');
 const isZip = args.includes('zip');
 
 const chromePath = path.join(__dirname, 'chrome');

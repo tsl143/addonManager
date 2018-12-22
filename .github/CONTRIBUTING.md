@@ -3,10 +3,22 @@
 You are welcome to contribute to this project. Here are the guidelines we try to stick to in this project.
 
 
+* [Building addon](#Build-Addon)
 * [Install addon locally](#Install-addon-locally)
 * [Translate in your language](#Internationalization)
 * [Feature Requests](#feature-requests)
 
+
+## Build Addon
+1. `npm-install` (node > 8.5)
+
+2. Code in `src` can already be installed in browsers
+
+3. To build for Firefox `npm start firefox`
+
+4. To build for chrome `npm start chrome`
+
+5. Use `npm start chrome/firefox zip` to generate unsigned packaged extension
 
 ## Install addon locally
 
