@@ -137,4 +137,8 @@ const permissionsGlossary = {
     "contextMenus": {
         text: translated("menusText")
     },
+    "power": {
+        text: `Can override the system's power management features`,
+        absolute: 'https://developer.chrome.com/apps/power'
+    }
 }

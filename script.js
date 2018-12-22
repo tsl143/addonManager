@@ -41,12 +41,13 @@ const createTile = ({
         permissions.forEach(p => {
             if (!permissionsGlossary[p]) {
                 console.log(`${p} - Permission not found`);
-            }
-            permissionHolder.appendChild(createNode({ type: 'li', custom: [{ attr: 'data-permission', val: p }], textContent: permissionsGlossary[p].text }));
-            if (permissionHash[p]) {
-                permissionHash[p].push({ id, name, description, imageUrl });
             } else {
-                permissionHash[p] = [{ id, name, description, imageUrl }];
+                permissionHolder.appendChild(createNode({ type: 'li', custom: [{ attr: 'data-permission', val: p }], textContent: permissionsGlossary[p].text }));
+                if (permissionHash[p]) {
+                    permissionHash[p].push({ id, name, description, imageUrl });
+                } else {
+                    permissionHash[p] = [{ id, name, description, imageUrl }];
+                }
             }
         });
     }
