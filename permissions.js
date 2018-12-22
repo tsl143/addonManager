@@ -1,140 +1,140 @@
 const permissionsGlossary = {
     "pkcs11": {
-        short: browser.i18n.getMessage("pkcs11Short"),
-        text: browser.i18n.getMessage("pkcs11Text")
+        short: translated("pkcs11Short"),
+        text: translated("pkcs11Text")
     },
     "geckoProfiler": {
-        text: browser.i18n.getMessage("geckoProfilerText")
+        text: translated("geckoProfilerText")
     },
     "sessions": {
-        short: browser.i18n.getMessage("sessionsShort"),
-        text: browser.i18n.getMessage("sessionsText")
+        short: translated("sessionsShort"),
+        text: translated("sessionsText")
     },
     "contextualIdentities": {
-        short: browser.i18n.getMessage("contextualIdentitiesShort"),
-        text: browser.i18n.getMessage("contextualIdentitiesText")
+        short: translated("contextualIdentitiesShort"),
+        text: translated("contextualIdentitiesText")
     },
     "dns": {
-        short: browser.i18n.getMessage("dnsShort"),
-        text: browser.i18n.getMessage("dnsText")
+        short: translated("dnsShort"),
+        text: translated("dnsText")
     },
     "management": {
-        text: browser.i18n.getMessage("managementText")
+        text: translated("managementText")
     },
     "privacy": {
-        short: browser.i18n.getMessage("privacyShort"),
-        text: browser.i18n.getMessage("privacyText")
+        short: translated("privacyShort"),
+        text: translated("privacyText")
     },
     "proxy": {
-        text: browser.i18n.getMessage("proxyText")
+        text: translated("proxyText")
     },
     "nativeMessaging": {
-        short: browser.i18n.getMessage("nmS"),
-        text: browser.i18n.getMessage("nativeMessagingText"),
+        short: translated("nmS"),
+        text: translated("nativeMessagingText"),
         url: 'Native_messaging'
     },
     "telemetry": {
-        text: browser.i18n.getMessage("telemetryText"),
+        text: translated("telemetryText"),
         absolute: "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_permissions#API_permissions"
     },
     "theme": {
-        text: browser.i18n.getMessage("themeText")
+        text: translated("themeText")
     },
     "clipboardRead": {
-        text: browser.i18n.getMessage("cprT"),
+        text: translated("cprT"),
         absolute: "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#Clipboard_access"
     },
     "clipboardWrite": {
-        text: browser.i18n.getMessage("cpWT"),
+        text: translated("cpWT"),
         absolute: "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#Clipboard_access"
     },
     "geolocation": {
-        text: browser.i18n.getMessage("geoLocationText"),
+        text: translated("geoLocationText"),
         absolute: "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_permissions#API_permissions"
     },
     "idle": {
-        "text": browser.i18n.getMessage("idleText")
+        "text": translated("idleText")
     },
     "notifications": {
-        text: browser.i18n.getMessage("notificationText")
+        text: translated("notificationText")
     },
     "bookmarks": {
-        text: browser.i18n.getMessage("bookmarksText")
+        text: translated("bookmarksText")
     },
     "find": {
-        text: browser.i18n.getMessage("findText")
+        text: translated("findText")
     },
     "history": {
-        text: browser.i18n.getMessage("historyText")
+        text: translated("historyText")
     },
     "menus.overrideContext": {
-        text: browser.i18n.getMessage("mocT"),
+        text: translated("mocT"),
         absolute: "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_permissions#API_permissions"
     },
     "search": {
-        text: browser.i18n.getMessage("searchText")
+        text: translated("searchText")
     },
     "activeTab": {
-        text: browser.i18n.getMessage("atT"),
+        text: translated("atT"),
         absolute: "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission"
     },
     "tabs": {
-        text: browser.i18n.getMessage("tabsText")
+        text: translated("tabsText")
     },
     "tabHide": {
-        text: browser.i18n.getMessage("tabHideText"),
+        text: translated("tabHideText"),
         absolute: "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_permissions#API_permissions"
     },
     "browserSettings": {
-        text: browser.i18n.getMessage("browserSettingsText")
+        text: translated("browserSettingsText")
     },
     "cookies": {
-        text: browser.i18n.getMessage("cookiesText")
+        text: translated("cookiesText")
     },
     "downloads": {
-        text: browser.i18n.getMessage("downloadsText")
+        text: translated("downloadsText")
     },
     "downloads.open": {
-        text: browser.i18n.getMessage("doT"),
+        text: translated("doT"),
         url: "downloads/open"
     },
     "topSites": {
-        text: browser.i18n.getMessage("topSitesText")
+        text: translated("topSitesText")
     },
     "webNavigation": {
-        text: browser.i18n.getMessage("webNavText")
+        text: translated("webNavText")
     },
     "webRequest": {
-        text: browser.i18n.getMessage("webReqText")
+        text: translated("webReqText")
     },
     "webRequestBlocking": {
-        text: browser.i18n.getMessage("wrbT")
+        text: translated("wrbT")
     },
     "alarms": {
-        text: browser.i18n.getMessage("alarmsText")
+        text: translated("alarmsText")
     },
     "mozillaAddons": {
-        text: browser.i18n.getMessage("mozAddonsText")
+        text: translated("mozAddonsText")
     },
     "storage": {
-        text: browser.i18n.getMessage("storageText")
+        text: translated("storageText")
     },
     "unlimitedStorage": {
-        text: browser.i18n.getMessage("unlimitedStorageText")
+        text: translated("unlimitedStorageText")
     },
     "browsingData": {
-        text: browser.i18n.getMessage("bdT")
+        text: translated("bdT")
     },
     "devtools": {
-        text: browser.i18n.getMessage("devtoolsText")
+        text: translated("devtoolsText")
     },
     "identity": {
-        text: browser.i18n.getMessage("identityText")
+        text: translated("identityText")
     },
     "menus": {
-        text: browser.i18n.getMessage("menusText")
+        text: translated("menusText")
     },
     "contextMenus": {
-        text: browser.i18n.getMessage("menusText")
+        text: translated("menusText")
     },
 }
