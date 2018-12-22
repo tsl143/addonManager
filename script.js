@@ -136,7 +136,7 @@ function gotAll(infoArray = []) {
     const allExtensions = infoArray.filter(e => e.type == 'extension' && e.id != selfId);
     if (allExtensions.length == 0) return;
     allExtensions.forEach(createTile);
-    getMorePermissions(allExtensions);
+    if (isFirefox) getMorePermissions(allExtensions);
     setPermissionPage();
 }
 

@@ -140,5 +140,9 @@ const permissionsGlossary = {
     "power": {
         text: `Can override the system's power management features`,
         absolute: 'https://developer.chrome.com/apps/power'
+    },
+    "newTabPageOverride": {
+        text: `Can change the new tab page of the browser`,
+        url: 'no'
     }
 }
