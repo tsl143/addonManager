@@ -11,17 +11,29 @@ You are welcome to contribute to this project. Here are the guidelines we try to
 ## Install addon locally
 
 1. Clone the repository/
-2. In Firefox's address bar type 'about:debugging' and hit enter.
 
-3. Click on 'Load Temporary Add On' button.
+2. Following as per your browser
+    ##### For Firefox
+    a. In Firefox's address bar type 'about:debugging' and hit enter.
 
-4. Navigate through your files to find the folder where you have clone the repository and double click on the 'manifest.json' file.
+    b. Click on 'Load Temporary Add On' button.
 
-5. Permission Inspector should now be installed. To use it, Click on ![icon](./icons/icon_64.png) that appears in the toolbar.
+    c. Navigate through your files to find the folder where you have clone the repository and select `manifest.json` file (from `src/manifest.json`).
+
+    ##### For Chrome
+    a. Goto More Tools > Extensions.
+
+    b. Check `Developer Mode` (right top corner)
+
+    c. Cliock `Load Unpacked`
+
+    d. Navigate through your files to find the folder where you have clone the repository and select `src` folder
+
+3. Permission Inspector should now be installed. To use it, Click <img width="32" src="../src/icons/icon_64.png"> that appears in the toolbar.
 
 # Translate in your language
 
-1. Go to [`_locales`](https://github.com/tsl143/addonManager/tree/master/_locales).
+1. Go to [`_locales`](https://github.com/tsl143/addonManager/tree/master/src/_locales).
 
 2. Check if your language is already there, want to improve any string? Go to your language folder and make changes and raise a pull request.
 
