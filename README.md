@@ -1,6 +1,7 @@
 # Permission Inspector
 
-[<img align="right" src="./local_resources/AMO-button.png">](https://addons.mozilla.org/en-US/firefox/addon/permission-inspector/)
+[<img src="./local_resources/AMO-button.png">](https://addons.mozilla.org/en-US/firefox/addon/permission-inspector/)
+[<img src="./local_resources/ChromeWebStore_Badge.png">](https://chrome.google.com/webstore/detail/permission-inspector/ahfoecogpaccmnaiilgchbfemajmkcdi)
 
 
 Snapshot of all the permissions used by each installed extension.
