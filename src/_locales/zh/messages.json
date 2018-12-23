@@ -1,15 +1,11 @@
 {
-  "extensionName": {
-    "message": "许可检查员",
-    "description": "Name of the extension."
-  },
   "extensionDescription": {
-    "message": "每个已安装扩展使用的所有权限的快照。",
-    "description": "Description of the extension."
+    "message": "每个已安装扩展使用的所有权限的快照",
+    "description": "Description of the extension"
   },
   "browserActionText": {
-      "message": "了解你的权限",
-      "description": "text for browser action."
+    "message": "了解你的权限",
+    "description": "text for browser action"
   },
   "storageText": {
     "message": "可以存储高达5 MB的数据",
@@ -52,7 +48,7 @@
     "description": "Description of dnsShort"
   },
   "dnsText": {
-    "message": "启用扩展程序以解析域名。",
+    "message": "启用扩展程序以解析域名",
     "description": "Description of dnsText"
   },
   "managementText": {
@@ -60,7 +56,7 @@
     "description": "Description of managementText"
   },
   "privacyText": {
-    "message": "可以访问和修改各种与隐私相关的浏览器设置。",
+    "message": "可以访问和修改各种与隐私相关的浏览器设置",
     "description": "Description of privacy Text"
   },
   "privacyShort": {
@@ -92,7 +88,7 @@
     "description": "Description of clipboardRead Text "
   },
   "idleText": {
-    "message": "可以找出用户系统何时处于空闲，锁定或活动状态。",
+    "message": "可以找出用户系统何时处于空闲，锁定或活动状态",
     "description": "Description of idle Text"
   },
   "notificationText": {
@@ -104,11 +100,11 @@
     "description": "Description of bookmarks Text"
   },
   "findText": {
-    "message": "可以在网页中找到文本，并突出显示匹配项。",
+    "message": "可以在网页中找到文本，并突出显示匹配项",
     "description": "Description of find Text"
   },
   "historyText": {
-    "message": "可以交互和操纵浏览器历史记录。",
+    "message": "可以交互和操纵浏览器历史记录",
     "description": "Description of history Text"
   },
   "mocT": {
@@ -148,11 +144,11 @@
     "description": "Description of downloads Text"
   },
   "doT": {
-    "message": "可以打开任何下载的项目。",
+    "message": "可以打开任何下载的项目",
     "description": "Description of downloads.open Text"
   },
   "topSitesText": {
-    "message": "可以经常频繁地获取用户访问过的页面。",
+    "message": "可以经常频繁地获取用户访问过的页面",
     "description": "Description of topSites Text"
   },
   "webNavText": {
@@ -164,7 +160,7 @@
     "description": "Description of webReqest Text"
   },
   "wrbT": {
-    "message": "可以阻止和修改浏览器发出的请求。",
+    "message": "可以阻止和修改浏览器发出的请求",
     "description": "Description of webRequestBlocking Text"
   },
   "mozAddonsText": {
@@ -232,15 +228,15 @@
     "description": "page heading permissions"
   },
   "enable": {
-      "message": "启用",
-      "description": "Button enable"
+    "message": "启用",
+    "description": "Button enable"
   },
   "disable": {
-      "message": "禁用",
-      "description": "Button disable"
+    "message": "禁用",
+    "description": "Button disable"
   },
   "uninstall": {
-      "message": "卸载",
-      "description": "Button Uninstall"
+    "message": "卸载",
+    "description": "Button Uninstall"
   }
 }

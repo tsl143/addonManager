@@ -1,15 +1,11 @@
 {
-  "extensionName": {
-    "message": "Ispettore delle permessi",
-    "description": "Name of the extension."
-  },
   "extensionDescription": {
-    "message": "Istantanea di tutte le autorizzazioni utilizzate da ciascuna estensione installata.",
-    "description": "Description of the extension."
+    "message": "Istantanea di tutte le autorizzazioni utilizzate da ciascuna estensione installata",
+    "description": "Description of the extension"
   },
   "browserActionText": {
-      "message": "Conosci le tue permissi",
-      "description": "text for browser action."
+    "message": "Conosci le tue autorizzazioni",
+    "description": "text for browser action"
   },
   "storageText": {
     "message": "Può memorizzare dati fino a 5 MB",
@@ -52,7 +48,7 @@
     "description": "Description of dnsShort"
   },
   "dnsText": {
-    "message": "Abilita un'estensione per risolvere i nomi di dominio.",
+    "message": "Abilita un'estensione per risolvere i nomi di dominio",
     "description": "Description of dnsText"
   },
   "managementText": {
@@ -60,7 +56,7 @@
     "description": "Description of managementText"
   },
   "privacyText": {
-    "message": "Può accedere e modificare varie impostazioni del browser relative alla privacy.",
+    "message": "Può accedere e modificare varie impostazioni del browser relative alla privacy",
     "description": "Description of privacy Text"
   },
   "privacyShort": {
@@ -92,7 +88,7 @@
     "description": "Description of clipboardRead Text "
   },
   "idleText": {
-    "message": "Può scoprire quando il sistema dell'utente è inattivo, bloccato o attivo.",
+    "message": "Può scoprire quando il sistema dell'utente è inattivo, bloccato o attivo",
     "description": "Description of idle Text"
   },
   "notificationText": {
@@ -104,11 +100,11 @@
     "description": "Description of bookmarks Text"
   },
   "findText": {
-    "message": "Può trovare testo in una pagina Web ed evidenzia corrispondenze.",
+    "message": "Può trovare testo in una pagina Web ed evidenzia corrispondenze",
     "description": "Description of find Text"
   },
   "historyText": {
-    "message": "Può interagire e manipolare la cronologia del browser.",
+    "message": "Può interagire e manipolare la cronologia del browser",
     "description": "Description of history Text"
   },
   "mocT": {
@@ -148,11 +144,11 @@
     "description": "Description of downloads Text"
   },
   "doT": {
-    "message": "Può aprire qualsiasi elemento scaricato.",
+    "message": "Può aprire qualsiasi elemento scaricato",
     "description": "Description of downloads.open Text"
   },
   "topSitesText": {
-    "message": "Può ottenere pagine che l'utente ha visitato spesso e frequentemente.",
+    "message": "Può ottenere pagine che l'utente ha visitato spesso e frequentemente",
     "description": "Description of topSites Text"
   },
   "webNavText": {
@@ -164,7 +160,7 @@
     "description": "Description of webReqest Text"
   },
   "wrbT": {
-    "message": "Può bloccare e modificare la richiesta fatta dal browser.",
+    "message": "Può bloccare e modificare la richiesta fatta dal browser",
     "description": "Description of webRequestBlocking Text"
   },
   "mozAddonsText": {
@@ -232,15 +228,15 @@
     "description": "page heading permissions"
   },
   "enable": {
-      "message": "Abilitare",
-      "description": "Button enable"
+    "message": "Abilitare",
+    "description": "Button enable"
   },
   "disable": {
-      "message": "disattivare",
-      "description": "Button disable"
+    "message": "disattivare",
+    "description": "Button disable"
   },
   "uninstall": {
-      "message": "Disinstallare",
-      "description": "Button Uninstall"
+    "message": "Disinstallare",
+    "description": "Button Uninstall"
   }
 }

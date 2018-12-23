@@ -1,15 +1,11 @@
 {
-  "extensionName": {
-    "message": "Berechtigungen Inspektor",
-    "description": "Name of the extension."
-  },
   "extensionDescription": {
-    "message": "Momentaufnahme aller Berechtigungen, die von jeder installierten Erweiterung verwendet werden.",
-    "description": "Description of the extension."
+    "message": "Momentaufnahme aller von jeder installierten Erweiterung verwendeten Berechtigungen",
+    "description": "Description of the extension"
   },
   "browserActionText": {
-      "message": "Kennen Sie Ihre Berechtigungen",
-      "description": "text for browser action."
+    "message": "Kennen Sie Ihre Berechtigungen",
+    "description": "text for browser action"
   },
   "storageText": {
     "message": "Kann Daten bis zu 5 MB speichern",
@@ -52,7 +48,7 @@
     "description": "Description of dnsShort"
   },
   "dnsText": {
-    "message": "Ermöglicht eine Erweiterung zum Auflösen von Domänennamen.",
+    "message": "Ermöglicht eine Erweiterung zum Auflösen von Domänennamen",
     "description": "Description of dnsText"
   },
   "managementText": {
@@ -60,7 +56,7 @@
     "description": "Description of managementText"
   },
   "privacyText": {
-    "message": "Kann auf verschiedene datenschutzbezogene Browsereinstellungen zugreifen und diese ändern.",
+    "message": "Kann auf verschiedene datenschutzbezogene Browsereinstellungen zugreifen und diese ändern",
     "description": "Description of privacy Text"
   },
   "privacyShort": {
@@ -92,7 +88,7 @@
     "description": "Description of clipboardRead Text "
   },
   "idleText": {
-    "message": "Kann feststellen, ob das System des Benutzers inaktiv ist, gesperrt oder aktiv ist.",
+    "message": "Kann feststellen, ob das System des Benutzers inaktiv ist, gesperrt oder aktiv ist",
     "description": "Description of idle Text"
   },
   "notificationText": {
@@ -104,11 +100,11 @@
     "description": "Description of bookmarks Text"
   },
   "findText": {
-    "message": "Kann Text auf einer Webseite finden und Übereinstimmungen hervorheben.",
+    "message": "Kann Text auf einer Webseite finden und Übereinstimmungen hervorheben",
     "description": "Description of find Text"
   },
   "historyText": {
-    "message": "Kann den Browserverlauf beeinflussen und bearbeiten.",
+    "message": "Kann den Browserverlauf beeinflussen und bearbeiten",
     "description": "Description of history Text"
   },
   "mocT": {
@@ -148,11 +144,11 @@
     "description": "Description of downloads Text"
   },
   "doT": {
-    "message": "Kann jeden heruntergeladenen Artikel öffnen.",
+    "message": "Kann jeden heruntergeladenen Artikel öffnen",
     "description": "Description of downloads.open Text"
   },
   "topSitesText": {
-    "message": "Kann Seiten erhalten, die der Benutzer häufig und häufig besucht hat.",
+    "message": "Kann Seiten erhalten, die der Benutzer häufig und häufig besucht hat",
     "description": "Description of topSites Text"
   },
   "webNavText": {
@@ -164,7 +160,7 @@
     "description": "Description of webReqest Text"
   },
   "wrbT": {
-    "message": "Kann die vom Browser gestellte Anfrage blockieren und ändern.",
+    "message": "Kann die vom Browser gestellte Anfrage blockieren und ändern",
     "description": "Description of webRequestBlocking Text"
   },
   "mozAddonsText": {
@@ -228,19 +224,19 @@
     "description": "page heading extensions"
   },
   "permissionsHeadingText": {
-    "message": "Details, für die alle installierten Erweiterungen die Berechtigung verwenden",
+    "message": "Details, für die alle installierten Erweiterungen die entsprechende Berechtigung verwenden",
     "description": "page heading permissions"
   },
   "enable": {
-      "message": "Aktivieren",
-      "description": "Button enable"
+    "message": "Aktivieren",
+    "description": "Button enable"
   },
   "disable": {
-      "message": "Deaktivieren",
-      "description": "Button disable"
+    "message": "Deaktivieren",
+    "description": "Button disable"
   },
   "uninstall": {
-      "message": "Deinstallieren Sie",
-      "description": "Button Uninstall"
+    "message": "Deinstallieren",
+    "description": "Button Uninstall"
   }
 }

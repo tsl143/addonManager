@@ -1,15 +1,11 @@
 {
-  "extensionName": {
-    "message": "Inspektor uprawnień",
-    "description": "Name of the extension."
-  },
   "extensionDescription": {
-    "message": "Migawka wszystkich uprawnień używanych przez każde zainstalowane rozszerzenie.",
-    "description": "Description of the extension."
+    "message": "Migawka wszystkich uprawnień używanych przez każde zainstalowane rozszerzenie",
+    "description": "Description of the extension"
   },
   "browserActionText": {
-      "message": "Poznaj swoje uprawnienia",
-      "description": "text for browser action."
+    "message": "Poznaj swoje uprawnienia",
+    "description": "text for browser action"
   },
   "storageText": {
     "message": "Może przechowywać dane do 5 MB",
@@ -52,7 +48,7 @@
     "description": "Description of dnsShort"
   },
   "dnsText": {
-    "message": "Włącza rozszerzenie do rozpoznawania nazw domen.",
+    "message": "Włącza rozszerzenie do rozpoznawania nazw domen",
     "description": "Description of dnsText"
   },
   "managementText": {
@@ -60,7 +56,7 @@
     "description": "Description of managementText"
   },
   "privacyText": {
-    "message": "Może uzyskiwać dostęp i modyfikować różne ustawienia przeglądarki związane z prywatnością.",
+    "message": "Może uzyskiwać dostęp i modyfikować różne ustawienia przeglądarki związane z prywatnością",
     "description": "Description of privacy Text"
   },
   "privacyShort": {
@@ -92,7 +88,7 @@
     "description": "Description of clipboardRead Text "
   },
   "idleText": {
-    "message": "Może dowiedzieć się, kiedy system użytkownika jest bezczynny, zablokowany lub aktywny.",
+    "message": "Może dowiedzieć się, kiedy system użytkownika jest bezczynny, zablokowany lub aktywny",
     "description": "Description of idle Text"
   },
   "notificationText": {
@@ -104,11 +100,11 @@
     "description": "Description of bookmarks Text"
   },
   "findText": {
-    "message": "Potrafi znaleźć tekst na stronie internetowej i podświetla mecze.",
+    "message": "Potrafi znaleźć tekst na stronie internetowej i podświetla mecze",
     "description": "Description of find Text"
   },
   "historyText": {
-    "message": "Może interakować i manipulować historią przeglądarki.",
+    "message": "Może interakować i manipulować historią przeglądarki",
     "description": "Description of history Text"
   },
   "mocT": {
@@ -148,11 +144,11 @@
     "description": "Description of downloads Text"
   },
   "doT": {
-    "message": "Można otworzyć dowolny pobrany element.",
+    "message": "Można otworzyć dowolny pobrany element",
     "description": "Description of downloads.open Text"
   },
   "topSitesText": {
-    "message": "Może pobierać strony, które odwiedził użytkownik często i często.",
+    "message": "Może pobierać strony, które odwiedził użytkownik często i często",
     "description": "Description of topSites Text"
   },
   "webNavText": {
@@ -164,7 +160,7 @@
     "description": "Description of webReqest Text"
   },
   "wrbT": {
-    "message": "Potrafi zablokować i zmodyfikować żądanie zgłoszone przez przeglądarkę.",
+    "message": "Potrafi zablokować i zmodyfikować żądanie zgłoszone przez przeglądarkę",
     "description": "Description of webRequestBlocking Text"
   },
   "mozAddonsText": {
@@ -232,15 +228,15 @@
     "description": "page heading permissions"
   },
   "enable": {
-      "message": "Włączyć",
-      "description": "Button enable"
+    "message": "Włączyć",
+    "description": "Button enable"
   },
   "disable": {
-      "message": "Wyłączyć",
-      "description": "Button disable"
+    "message": "Wyłączyć",
+    "description": "Button disable"
   },
   "uninstall": {
-      "message": "Odinstaluj",
-      "description": "Button Uninstall"
+    "message": "Odinstaluj",
+    "description": "Button Uninstall"
   }
 }

@@ -1,15 +1,11 @@
 {
-  "extensionName": {
-    "message": "Inspector de permisos",
-    "description": "Name of the extension."
-  },
   "extensionDescription": {
-    "message": "Instantánea de todos los permisos utilizados por cada extensión instalada.",
-    "description": "Description of the extension."
+    "message": "Instantánea de todos los permisos utilizados por cada extensión instalada",
+    "description": "Description of the extension"
   },
   "browserActionText": {
-      "message": "Conozca sus permisos",
-      "description": "text for browser action."
+    "message": "Conozca sus permisos",
+    "description": "text for browser action"
   },
   "storageText": {
     "message": "Puede almacenar datos de hasta 5 MB",
@@ -52,7 +48,7 @@
     "description": "Description of dnsShort"
   },
   "dnsText": {
-    "message": "Habilita una extensión para resolver nombres de dominio.",
+    "message": "Habilita una extensión para resolver nombres de dominio",
     "description": "Description of dnsText"
   },
   "managementText": {
@@ -60,7 +56,7 @@
     "description": "Description of managementText"
   },
   "privacyText": {
-    "message": "Puede acceder y modificar varias configuraciones del navegador relacionadas con la privacidad.",
+    "message": "Puede acceder y modificar varias configuraciones del navegador relacionadas con la privacidad",
     "description": "Description of privacy Text"
   },
   "privacyShort": {
@@ -92,7 +88,7 @@
     "description": "Description of clipboardRead Text "
   },
   "idleText": {
-    "message": "Puede averiguar cuándo el sistema del usuario está inactivo, bloqueado o activo.",
+    "message": "Puede averiguar cuándo el sistema del usuario está inactivo, bloqueado o activo",
     "description": "Description of idle Text"
   },
   "notificationText": {
@@ -104,7 +100,7 @@
     "description": "Description of bookmarks Text"
   },
   "findText": {
-    "message": "Puede encontrar texto en una página web, y resalta coincidencias.",
+    "message": "Puede encontrar texto en una página web y resaltar coincidencias.",
     "description": "Description of find Text"
   },
   "historyText": {
@@ -148,11 +144,11 @@
     "description": "Description of downloads Text"
   },
   "doT": {
-    "message": "Puede abrir cualquier elemento descargado.",
+    "message": "Puede abrir cualquier elemento descargado",
     "description": "Description of downloads.open Text"
   },
   "topSitesText": {
-    "message": "Puede obtener páginas que el usuario ha visitado con frecuencia.",
+    "message": "Puede obtener páginas que el usuario ha visitado frecuentemente.",
     "description": "Description of topSites Text"
   },
   "webNavText": {
@@ -232,15 +228,15 @@
     "description": "page heading permissions"
   },
   "enable": {
-      "message": "Habilitar",
-      "description": "Button enable"
+    "message": "Habilitar",
+    "description": "Button enable"
   },
   "disable": {
-      "message": "Inhabilitar",
-      "description": "Button disable"
+    "message": "Inhabilitar",
+    "description": "Button disable"
   },
   "uninstall": {
-      "message": "Desinstalar",
-      "description": "Button Uninstall"
+    "message": "Desinstalar",
+    "description": "Button Uninstall"
   }
 }

@@ -1,15 +1,11 @@
 {
-  "extensionName": {
-    "message": "Permission Inspector",
-    "description": "Name of the extension."
-  },
   "extensionDescription": {
-    "message": "Momentopname van alle machtigingen die door elke geïnstalleerde extensie worden gebruikt.",
-    "description": "Description of the extension."
+    "message": "Momentopname van alle machtigingen die door elke geïnstalleerde extensie worden gebruikt",
+    "description": "Description of the extension"
   },
   "browserActionText": {
-      "message": "Ken uw toestemmingen",
-      "description": "text for browser action."
+    "message": "Ken uw toestemmingen",
+    "description": "text for browser action"
   },
   "storageText": {
     "message": "Kan gegevens opslaan tot 5 MB",
@@ -52,7 +48,7 @@
     "description": "Description of dnsShort"
   },
   "dnsText": {
-    "message": "Schakelt een extensie in om domeinnamen op te lossen.",
+    "message": "Schakelt een extensie in om domeinnamen op te lossen",
     "description": "Description of dnsText"
   },
   "managementText": {
@@ -60,7 +56,7 @@
     "description": "Description of managementText"
   },
   "privacyText": {
-    "message": "Heeft toegang tot verschillende privacygerelateerde browserinstellingen en kan deze wijzigen.",
+    "message": "Heeft toegang tot verschillende privacygerelateerde browserinstellingen en kan deze wijzigen",
     "description": "Description of privacy Text"
   },
   "privacyShort": {
@@ -92,7 +88,7 @@
     "description": "Description of clipboardRead Text "
   },
   "idleText": {
-    "message": "Kan achterhalen wanneer het systeem van de gebruiker inactief, vergrendeld of actief is.",
+    "message": "Kan achterhalen wanneer het systeem van de gebruiker inactief, vergrendeld of actief is",
     "description": "Description of idle Text"
   },
   "notificationText": {
@@ -104,11 +100,11 @@
     "description": "Description of bookmarks Text"
   },
   "findText": {
-    "message": "Kan tekst in een webpagina vinden en overeenkomsten markeren.",
+    "message": "Kan tekst op een webpagina vinden en overeenkomsten markeren",
     "description": "Description of find Text"
   },
   "historyText": {
-    "message": "Kan de browsergeschiedenis interacteren en manipuleren.",
+    "message": "Kan de browsergeschiedenis interacteren en manipuleren",
     "description": "Description of history Text"
   },
   "mocT": {
@@ -148,11 +144,11 @@
     "description": "Description of downloads Text"
   },
   "doT": {
-    "message": "Kan elk gedownload item openen.",
+    "message": "Kan elk gedownload item openen",
     "description": "Description of downloads.open Text"
   },
   "topSitesText": {
-    "message": "Kan pagina's ophalen die de gebruiker vaak en vaak heeft bezocht.",
+    "message": "Kan pagina's ophalen die de gebruiker vaak en vaak heeft bezocht",
     "description": "Description of topSites Text"
   },
   "webNavText": {
@@ -164,7 +160,7 @@
     "description": "Description of webReqest Text"
   },
   "wrbT": {
-    "message": "Kan het verzoek van de browser blokkeren en wijzigen.",
+    "message": "Kan het verzoek van de browser blokkeren en wijzigen",
     "description": "Description of webRequestBlocking Text"
   },
   "mozAddonsText": {
@@ -232,15 +228,15 @@
     "description": "page heading permissions"
   },
   "enable": {
-      "message": "in staat stellen",
-      "description": "Button enable"
+    "message": "in staat stellen",
+    "description": "Button enable"
   },
   "disable": {
-      "message": "onbruikbaar maken",
-      "description": "Button disable"
+    "message": "onbruikbaar maken",
+    "description": "Button disable"
   },
   "uninstall": {
-      "message": "Uninstall",
-      "description": "Button Uninstall"
+    "message": "Uninstall",
+    "description": "Button Uninstall"
   }
 }
