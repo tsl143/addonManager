@@ -35,12 +35,14 @@ const updatePermissions = addonString => {
 }
 
 // exported into platform object which can be used in script.js if firefox platform
-platform.getPermissionsAMO = (extensions = []) => {
-    const allIds = extensions.map(e => e.id).join(',');
-    const addonURL = `https://services.addons.mozilla.org/api/v3/addons/search/?guid=${allIds}&lang=en-US`;
-    const xhr = new XMLHttpRequest();
-    xhr.open('GET', addonURL, true);
-    xhr.responseType = 'jsonp';
-    xhr.onload = () => updatePermissions(xhr.response);
-    xhr.send();
+if(isFirefox) {
+    platform.addMeta = (extensions = []) => {
+        const allIds = extensions.map(e => e.id).join(',');
+        const addonURL = `https://services.addons.mozilla.org/api/v3/addons/search/?guid=${allIds}&lang=en-US`;
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', addonURL, true);
+        xhr.responseType = 'jsonp';
+        xhr.onload = () => updatePermissions(xhr.response);
+        xhr.send();
+    }
 }

@@ -21,10 +21,11 @@ const createTile = ({
     id,
     permissions,
     hostPermissions,
-    icons
+    icons,
+    enabled
 }) => {
     const extensionUrl = getExtensionUrl(hostPermissions);
-    const mainDiv = createNode({ type: 'div', id, custom: [{ attr: 'data-id', val: id }], className: 'extension' })
+    const mainDiv = createNode({ type: 'div', id, custom: [{ attr: 'data-id', val: id }, { attr: 'data-enabled', val: enabled }], className: 'extension' })
     const imageDiv = createNode({ type: 'div', className: 'imageDiv' })
     const contentDiv = createNode({ type: 'div', className: 'contentDiv' })
     mainDiv.appendChild(imageDiv)
@@ -85,11 +86,11 @@ const setPermissionPage = () => {
     })
 }
 
-function gotAll(infoArray = []) {
+const gotAll = (infoArray = []) => {
     const allExtensions = infoArray.filter(e => e.type == 'extension' && e.id != selfId);
     if (allExtensions.length == 0) return;
     allExtensions.forEach(createTile);
-    if (platform.getPermissionsAMO) platform.getPermissionsAMO(allExtensions);
+    platform.addMeta(allExtensions);
     setPermissionPage();
 }
 

@@ -1,6 +1,4 @@
 :root {
-    --extensions-bg-color: #F25252;
-    --permissions-bg-color: #287A72;
     --text-color: #3b88c3;
     --grey-color: #B3C1D3;
     --white-color: #fff;
@@ -101,6 +99,10 @@ header > div.active {
     width: calc(100% - 146px);
     padding: 5px 10px;
     box-shadow: -7px 0px 4px -6px var(--grey-color);
+}
+
+.extension[data-enabled="false"] {
+    filter: grayscale(100%) invert(5%);
 }
 
 .extension .contentDiv p {
