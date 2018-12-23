@@ -102,7 +102,7 @@ header > div.active {
 }
 
 .extension[data-enabled="false"] {
-    filter: grayscale(100%) invert(5%);
+    filter: grayscale(1);
 }
 
 .extension .contentDiv p {
@@ -114,12 +114,27 @@ header > div.active {
     font-weight: bold;
 }
 
-.extension .contentDiv p a {
+.extension .contentDiv p > a, .extension .contentDiv p > span {
     font-weight: normal;
     padding: 2px 5px;
     position: absolute;
     right: 0;
+    top: -5px;
+}
 
+.extension .contentDiv p > span button {
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+    cursor: pointer;
+    background: none;
+    margin-left: 5px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.extension .contentDiv p > span button:hover {
+    background: var(--text-color);
+    color: var(--white-color)
 }
 
 .contentDiv h5 {

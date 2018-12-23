@@ -230,5 +230,17 @@
   "permissionsHeadingText": {
     "message": "Szczegółowe informacje na temat wszystkich zainstalowanych rozszerzeń korzystających z danego uprawnienia",
     "description": "page heading permissions"
+  },
+  "enable": {
+      "message": "Włączyć",
+      "description": "Button enable"
+  },
+  "disable": {
+      "message": "Wyłączyć",
+      "description": "Button disable"
+  },
+  "uninstall": {
+      "message": "Odinstaluj",
+      "description": "Button Uninstall"
   }
 }

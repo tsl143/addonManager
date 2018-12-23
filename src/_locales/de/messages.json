@@ -230,5 +230,17 @@
   "permissionsHeadingText": {
     "message": "Details, für die alle installierten Erweiterungen die Berechtigung verwenden",
     "description": "page heading permissions"
+  },
+  "enable": {
+      "message": "Aktivieren",
+      "description": "Button enable"
+  },
+  "disable": {
+      "message": "Deaktivieren",
+      "description": "Button disable"
+  },
+  "uninstall": {
+      "message": "Deinstallieren Sie",
+      "description": "Button Uninstall"
   }
 }

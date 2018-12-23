@@ -230,5 +230,17 @@
   "permissionsHeadingText": {
     "message": "Подробная информация о том, какие все установленные расширения использует данное разрешение",
     "description": "page heading permissions"
+  },
+  "enable": {
+      "message": "включить",
+      "description": "Button enable"
+  },
+  "disable": {
+      "message": "запрещать",
+      "description": "Button disable"
+  },
+  "uninstall": {
+      "message": "Удалить",
+      "description": "Button Uninstall"
   }
 }

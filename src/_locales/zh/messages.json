@@ -230,5 +230,17 @@
   "permissionsHeadingText": {
     "message": "所有已安装扩展使用给定权限的详细信息",
     "description": "page heading permissions"
+  },
+  "enable": {
+      "message": "启用",
+      "description": "Button enable"
+  },
+  "disable": {
+      "message": "禁用",
+      "description": "Button disable"
+  },
+  "uninstall": {
+      "message": "卸载",
+      "description": "Button Uninstall"
   }
 }

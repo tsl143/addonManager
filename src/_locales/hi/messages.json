@@ -230,5 +230,17 @@
   "permissionsHeadingText": {
     "message": "विवरण जिसमें सभी स्थापित एक्सटेंशन दिए गए अनुमति का उपयोग करते हैं",
     "description": "page heading permissions"
+  },
+  "enable": {
+      "message": "सक्षम करें",
+      "description": "Button enable"
+  },
+  "disable": {
+      "message": "अक्षम करें",
+      "description": "Button disable"
+  },
+  "uninstall": {
+      "message": "अनइंस्टाल करें",
+      "description": "Button Uninstall"
   }
 }

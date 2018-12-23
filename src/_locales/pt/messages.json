@@ -230,5 +230,17 @@
   "permissionsHeadingText": {
     "message": "Detalhes dos quais todas as extensões instaladas usam permissão dada",
     "description": "page heading permissions"
+  },
+  "enable": {
+      "message": "Habilitar",
+      "description": "Button enable"
+  },
+  "disable": {
+      "message": "Desabilitar",
+      "description": "Button disable"
+  },
+  "uninstall": {
+      "message": "Desinstalar",
+      "description": "Button Uninstall"
   }
 }
