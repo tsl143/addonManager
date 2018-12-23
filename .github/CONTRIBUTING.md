@@ -37,7 +37,7 @@ You are welcome to contribute to this project. Here are the guidelines we try to
 
     b. Check `Developer Mode` (right top corner)
 
-    c. Cliock `Load Unpacked`
+    c. Click `Load Unpacked`
 
     d. Navigate through your files to find the folder where you have clone the repository and select `src` folder
 
