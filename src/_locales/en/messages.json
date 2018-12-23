@@ -1,15 +1,11 @@
 {
-    "extensionName": {
-        "message": "Permission Inspector",
-        "description": "Name of the extension."
-    },
     "extensionDescription": {
-        "message": "Snapshot of all the permissions used by each installed extension.",
-        "description": "Description of the extension."
+        "message": "Snapshot of all the permissions used by each installed extension",
+        "description": "Description of the extension"
     },
     "browserActionText": {
         "message": "Know your permissions",
-        "description": "text for browser action."
+        "description": "text for browser action"
     },
     "storageText": {
         "message": "Can store data upto 5 MB",
@@ -52,7 +48,7 @@
         "description": "Description of dnsShort"
     },
     "dnsText": {
-        "message": "Enables an extension to resolve domain names.",
+        "message": "Enables an extension to resolve domain names",
         "description": "Description of dnsText"
     },
     "managementText": {
@@ -60,7 +56,7 @@
         "description": "Description of managementText"
     },
     "privacyText": {
-        "message": "Can access and modify various privacy-related browser settings.",
+        "message": "Can access and modify various privacy-related browser settings",
         "description": "Description of privacy Text"
     },
     "privacyShort": {
@@ -92,7 +88,7 @@
         "description": "Description of clipboardRead Text "
     },
     "idleText": {
-        "message": "Can find out when the user's system is idle, locked, or active.",
+        "message": "Can find out when the user's system is idle, locked, or active",
         "description": "Description of idle Text"
     },
     "notificationText": {
@@ -104,11 +100,11 @@
         "description": "Description of bookmarks Text"
     },
     "findText": {
-        "message": "Can find text in a web page, and highlights matches.",
+        "message": "Can find text in a web page, and highlights matches",
         "description": "Description of find Text"
     },
     "historyText": {
-        "message": "Can interact and manipulate the browser history.",
+        "message": "Can interact and manipulate the browser history",
         "description": "Description of history Text"
     },
     "mocT": {
@@ -148,11 +144,11 @@
         "description": "Description of downloads Text"
     },
     "doT": {
-        "message": "Can open any downloaded item.",
+        "message": "Can open any downloaded item",
         "description": "Description of downloads.open Text"
     },
     "topSitesText": {
-        "message": "Can get pages that the user has visited often and frequently.",
+        "message": "Can get pages that the user has visited often and frequently",
         "description": "Description of topSites Text"
     },
     "webNavText": {
@@ -164,7 +160,7 @@
         "description": "Description of webReqest Text"
     },
     "wrbT": {
-        "message": "Can block and modify the request made by browser.",
+        "message": "Can block and modify the request made by browser",
         "description": "Description of webRequestBlocking Text"
     },
     "mozAddonsText": {

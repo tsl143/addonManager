@@ -1,30 +1,26 @@
 {
-  "extensionName": {
-    "message": "अनुमति निरीक्षक",
-    "description": "Name of the extension."
-  },
   "extensionDescription": {
-    "message": "प्रत्येक स्थापित एक्सटेंशन द्वारा उपयोग की जाने वाली सभी अनुमतियों का स्नैपशॉट।",
-    "description": "Description of the extension."
+    "message": "प्रत्येक इंस्टॉल किए गए एक्सटेंशन द्वारा उपयोग की जाने वाली सभी अनुमतियों का स्नैपशॉट",
+    "description": "Description of the extension"
   },
   "browserActionText": {
-      "message": "अपनी अनुमतियों को जानें",
-      "description": "text for browser action."
+    "message": "अपनी अनुमतियों को जानें",
+    "description": "text for browser action"
   },
   "storageText": {
     "message": "5 एमबी तक डेटा स्टोर कर सकते हैं",
     "description": "Description of the storage text"
   },
   "geoLocationText": {
-    "message": "अपने भौगोलिक स्थान को जान सकते हैं",
+    "message": "अपने जियोलोकेशन को जान सकते हैं",
     "description": "Description of the geoLocation text"
   },
   "pkcs11Short": {
-    "message": "पीकेसीएस # 11 मॉड्यूल तक पहुंच सकते हैं",
+    "message": "PKCS # 11 मॉड्यूल का उपयोग कर सकते हैं",
     "description": "Description of the PKCS #11 module short message"
   },
   "pkcs11Text": {
-    "message": "चाबियाँ और प्रमाणपत्रों के स्रोत के रूप में ब्राउजर के लिए पीकेसीएस # 11 मॉड्यूल उपलब्ध करा सकते हैं",
+    "message": "पीकेसीएस # 11 मॉड्यूल को कुंजी और प्रमाणपत्र के स्रोतों के रूप में ब्राउज़र के लिए सुलभ बना सकता है",
     "description": "Description of the pkcs11 text"
   },
   "geckoProfilerText": {
@@ -32,19 +28,19 @@
     "description": "Description of the geckoProfile text"
   },
   "sessionsShort": {
-    "message": "ब्राउज़र सत्र तक पहुंच सकते हैं",
+    "message": "ब्राउज़र सत्र तक पहुँच सकते हैं",
     "description": "Description of Sessions Short"
   },
   "sessionsText": {
-    "message": "ब्राउज़र चालू होने पर बंद किए गए टैब और विंडो को सूचीबद्ध और पुनर्स्थापित कर सकते हैं",
+    "message": "ब्राउज़र को चलाने के दौरान बंद किए गए टैब और विंडो को सूचीबद्ध और पुनर्स्थापित कर सकते हैं",
     "description": "Description of Session Text"
   },
   "contextualIdentitiesShort": {
-    "message": "ब्राउज़र कंटेनर तक पहुंच सकते हैं",
+    "message": "ब्राउज़र कंटेनरों तक पहुँच सकते हैं",
     "description": "Description of contextualIdentitiesShort"
   },
   "contextualIdentitiesText": {
-    "message": "प्रासंगिक पहचान / कंटेनर सूचीबद्ध, बना, निकालें और अपडेट कर सकते हैं",
+    "message": "प्रासंगिक पहचान / कंटेनरों की सूची, निर्माण, हटाने और अद्यतन कर सकते हैं",
     "description": "Description of contextualIdentities Text"
   },
   "dnsShort": {
@@ -52,27 +48,27 @@
     "description": "Description of dnsShort"
   },
   "dnsText": {
-    "message": "डोमेन नामों को हल करने के लिए एक एक्सटेंशन सक्षम करता है।",
+    "message": "डोमेन नाम को हल करने के लिए एक एक्सटेंशन सक्षम करता है",
     "description": "Description of dnsText"
   },
   "managementText": {
-    "message": "सभी स्थापित एडॉन्स के बारे में जानकारी तक पहुंच सकते हैं",
+    "message": "सभी इंस्टॉल किए गए addons के बारे में जानकारी तक पहुंच सकते हैं",
     "description": "Description of managementText"
   },
   "privacyText": {
-    "message": "विभिन्न गोपनीयता-संबंधित ब्राउज़र सेटिंग्स तक पहुंच और संशोधित कर सकते हैं।",
+    "message": "विभिन्न गोपनीयता-संबंधित ब्राउज़र सेटिंग्स तक पहुंच और संशोधित कर सकते हैं",
     "description": "Description of privacy Text"
   },
   "privacyShort": {
-    "message": "गोपनीयता से संबंधित ब्राउज़र सेटिंग्स तक पहुंचें",
+    "message": "गोपनीयता-संबंधी ब्राउज़र सेटिंग्स तक पहुँचें",
     "description": "Description of privacyShort "
   },
   "proxyText": {
-    "message": "वेब प्रॉक्सी प्रॉक्सी कर सकते हैं",
+    "message": "WebRequests को प्रॉक्सी कर सकते हैं",
     "description": "Description of proxy Text"
   },
   "nmS": {
-    "message": "देशी ऐप्स से संदेश का उपयोग कर सकते हैं",
+    "message": "मूल एप्लिकेशन से संदेश तक पहुँच सकते हैं",
     "description": "Description of nativeMessaging Short"
   },
   "nativeMessagingText": {
@@ -84,7 +80,7 @@
     "description": "Description of telemetry Text"
   },
   "themeText": {
-    "message": "ब्राउज़र विषय अपडेट कर सकते हैं",
+    "message": "ब्राउज़र थीम को अपडेट कर सकते हैं",
     "description": "Description of theme Text"
   },
   "cprT": {
@@ -92,23 +88,23 @@
     "description": "Description of clipboardRead Text "
   },
   "idleText": {
-    "message": "पता लगा सकता है कि उपयोगकर्ता का सिस्टम निष्क्रिय, लॉक या सक्रिय है।",
+    "message": "पता कर सकते हैं कि उपयोगकर्ता का सिस्टम निष्क्रिय, लॉक या सक्रिय कब है",
     "description": "Description of idle Text"
   },
   "notificationText": {
-    "message": "अंतर्निहित ऑपरेटिंग सिस्टम की अधिसूचना तंत्र का उपयोग करके नोटिफिकेशन प्रदर्शित कर सकते हैं",
+    "message": "अंतर्निहित ऑपरेटिंग सिस्टम की सूचना तंत्र का उपयोग करके सूचनाएं प्रदर्शित कर सकते हैं",
     "description": "Description of notification Text"
   },
   "bookmarksText": {
-    "message": "ब्राउज़र की बुकमार्किंग प्रणाली के साथ बातचीत और कुशलतापूर्वक उपयोग कर सकते हैं",
+    "message": "ब्राउज़र की बुकमार्किंग प्रणाली के साथ सहभागिता और हेरफेर कर सकते हैं",
     "description": "Description of bookmarks Text"
   },
   "findText": {
-    "message": "वेब पेज में टेक्स्ट पा सकते हैं, और मैचों को हाइलाइट कर सकते हैं।",
+    "message": "एक वेब पेज में पाठ पा सकते हैं, और मैच पर प्रकाश डाला जा सकता है",
     "description": "Description of find Text"
   },
   "historyText": {
-    "message": "ब्राउज़र इतिहास पर बातचीत और कुशलतापूर्वक उपयोग कर सकते हैं।",
+    "message": "ब्राउज़र इतिहास को इंटरैक्ट और जोड़ तोड़ कर सकते हैं",
     "description": "Description of history Text"
   },
   "mocT": {
@@ -116,11 +112,11 @@
     "description": "Description of menus overrideContext Text "
   },
   "searchText": {
-    "message": "सभी खोज इंजन सूचीबद्ध कर सकते हैं और एक विशिष्ट खोज इंजन के साथ खोज सकते हैं",
+    "message": "सभी खोज इंजन को सूचीबद्ध कर सकते हैं और एक विशिष्ट खोज इंजन के साथ खोज कर सकते हैं",
     "description": "Description of search Text"
   },
   "atT": {
-    "message": "किसी भी सक्रिय टैब से डेटा तक पहुंच सकते हैं और सक्रिय टैब पर कोड और शैली इंजेक्ट कर सकते हैं",
+    "message": "किसी भी सक्रिय टैब से डेटा का उपयोग कर सकते हैं और सक्रिय टैब के लिए कोड और शैली इंजेक्ट कर सकते हैं",
     "description": "Description of activeTabs Text"
   },
   "atA": {
@@ -128,43 +124,43 @@
     "description": "Description of activeTabs Absolute"
   },
   "tabsText": {
-    "message": "खोले गए टैब की एक सूची प्राप्त कर सकते हैं और टैब खोल सकते हैं, अपडेट कर सकते हैं, स्थानांतरित कर सकते हैं, पुनः लोड कर सकते हैं और हटा सकते हैं",
+    "message": "खोले गए टैब की सूची प्राप्त कर सकते हैं और टैब को खोल सकते हैं, अपडेट कर सकते हैं, स्थानांतरित कर सकते हैं, और टैब को हटा सकते हैं",
     "description": "Description of tabs Text"
   },
   "tabHideText": {
-    "message": "टैब छुपा सकते हैं",
+    "message": "टैब को छिपाया जा सकता है",
     "description": "Description of tabHide Text"
   },
   "browserSettingsText": {
-    "message": "पॉपअप की अनुमति देने जैसी वैश्विक ब्राउज़र सेटिंग्स बदल सकते हैं",
+    "message": "पॉपअप की अनुमति देने जैसी वैश्विक ब्राउज़र सेटिंग्स को बदल सकते हैं",
     "description": "Description of browserSettings Text"
   },
   "cookiesText": {
-    "message": "कुकीज प्राप्त और सेट कर सकते हैं, और जब वे बदलते हैं तो अधिसूचित किया जा सकता है",
+    "message": "कुकीज़ प्राप्त और सेट कर सकते हैं, और जब वे बदलते हैं तो उन्हें सूचित किया जा सकता है",
     "description": "Description of cookies Text"
   },
   "downloadsText": {
-    "message": "फ़ाइलों को डाउनलोड, रद्द, रोकें, डाउनलोड फिर से शुरू कर सकते हैं",
+    "message": "फ़ाइलें डाउनलोड कर सकते हैं, रद्द कर सकते हैं, रोक सकते हैं, डाउनलोड फिर से शुरू कर सकते हैं",
     "description": "Description of downloads Text"
   },
   "doT": {
-    "message": "कोई डाउनलोड की गई वस्तु खोल सकते हैं।",
+    "message": "किसी भी डाउनलोड किए गए आइटम को खोल सकते हैं",
     "description": "Description of downloads.open Text"
   },
   "topSitesText": {
-    "message": "उन पृष्ठों को प्राप्त कर सकते हैं जिन्हें उपयोगकर्ता ने अक्सर और अक्सर देखा है।",
+    "message": "उन पृष्ठों को प्राप्त कर सकते हैं जो उपयोगकर्ता ने अक्सर और अक्सर दौरा किया है",
     "description": "Description of topSites Text"
   },
   "webNavText": {
-    "message": "एक यूआरएल से दूसरे यूआरएल में ब्राउजर संक्रमण के दौरान ईवेंट जोड़ सकते हैं",
+    "message": "एक URL से दूसरे URL में ब्राउज़र संक्रमण होने पर ईवेंट जोड़ सकते हैं",
     "description": "Description of webNavigation Text"
   },
   "webReqText": {
-    "message": "ब्राउज़र द्वारा किए गए हर HTTP अनुरोध को रोक सकते हैं",
+    "message": "ब्राउज़र द्वारा किए गए हर HTTP अनुरोध को रोक सकता है",
     "description": "Description of webReqest Text"
   },
   "wrbT": {
-    "message": "ब्राउज़र द्वारा किए गए अनुरोध को अवरुद्ध और संशोधित कर सकते हैं।",
+    "message": "ब्राउज़र द्वारा किए गए अनुरोध को ब्लॉक और संशोधित कर सकते हैं",
     "description": "Description of webRequestBlocking Text"
   },
   "mozAddonsText": {
@@ -172,11 +168,11 @@
     "description": "Description of mozAddons Text"
   },
   "unlimitedStorageText": {
-    "message": "किसी भी मात्रा में डेटा स्टोर कर सकते हैं",
+    "message": "किसी भी डेटा को स्टोर कर सकते हैं",
     "description": "Description of unlimitedStorage Text"
   },
   "bdT": {
-    "message": "कुकीज / पासवर्ड / कैश / इतिहास / डाउनलोड / फॉर्मडेटा ब्राउज़ करते समय एकत्र किए गए सभी डेटा को साफ़ कर सकते हैं",
+    "message": "कुकीज / पासवर्ड / कैश / हिस्ट्री / डाउनलोड / फॉर्मडाटा ब्राउज़ करते समय एकत्रित किए गए सभी डेटा को साफ कर सकते हैं",
     "description": "Description of browsingData Text"
   },
   "devtoolsText": {
@@ -184,11 +180,11 @@
     "description": "Description of devtools Text"
   },
   "identityText": {
-    "message": "OAuth2 प्रमाणीकरण कोड या टोकन एक्सेस और उपयोगकर्ता डेटा तक पहुंचने के लिए उपयोग कर सकते हैं",
+    "message": "OAuth2 प्राधिकरण कोड या पहुंच टोकन और उपयोगकर्ता डेटा तक पहुंचने के लिए उपयोग कर सकते हैं",
     "description": "Description of identity Text"
   },
   "menusText": {
-    "message": "राइट-क्लिक मेनू आइटम बना / कुशल बना सकते हैं",
+    "message": "राइट-क्लिक मेनू आइटम बना / जोड़ सकते हैं",
     "description": "Description of Menus Text"
   },
   "cpWT": {
@@ -196,11 +192,11 @@
     "description": "Description of clipboardWrite Text "
   },
   "allDomain": {
-    "message": "ब्राउज़र में कोई वेबपेज",
+    "message": "ब्राउज़र में कोई भी वेबपेज",
     "description": "Description of modify/access domain"
   },
   "modifyDomain": {
-    "message": "डेटा को एक्सेस / संशोधित कर सकते हैं",
+    "message": "पर डेटा तक पहुँच / संशोधित कर सकते हैं",
     "description": "Description of modify/access domain"
   },
   "pageTitle": {
@@ -220,27 +216,27 @@
     "description": "more info"
   },
   "alarmsText": {
-    "message": "दिए गए अंतराल पर अलार्म उत्पन्न कर सकते हैं",
+    "message": "दिए गए अंतराल पर अलार्म उत्पन्न कर सकता है",
     "description": "Description of Alarms Text"
   },
   "extensionsHeadingText": {
-    "message": "प्रत्येक स्थापित एक्सटेंशन द्वारा उपयोग की जाने वाली सभी अनुमतियों का विवरण",
+    "message": "प्रत्येक इंस्टॉल किए गए एक्सटेंशन द्वारा उपयोग की जाने वाली सभी अनुमतियों का विवरण",
     "description": "page heading extensions"
   },
   "permissionsHeadingText": {
-    "message": "विवरण जिसमें सभी स्थापित एक्सटेंशन दिए गए अनुमति का उपयोग करते हैं",
+    "message": "सभी संस्थापित एक्सटेंशनों का विवरण दी गई अनुमति का उपयोग करता है",
     "description": "page heading permissions"
   },
   "enable": {
-      "message": "सक्षम करें",
-      "description": "Button enable"
+    "message": "सक्षम करें",
+    "description": "Button enable"
   },
   "disable": {
-      "message": "अक्षम करें",
-      "description": "Button disable"
+    "message": "अक्षम",
+    "description": "Button disable"
   },
   "uninstall": {
-      "message": "अनइंस्टाल करें",
-      "description": "Button Uninstall"
+    "message": "स्थापना रद्द करें",
+    "description": "Button Uninstall"
   }
 }

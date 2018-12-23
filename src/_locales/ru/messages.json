@@ -1,15 +1,11 @@
 {
-  "extensionName": {
-    "message": "Инспектор разрешений",
-    "description": "Name of the extension."
-  },
   "extensionDescription": {
-    "message": "Снимок всех разрешений, используемых каждым установленным расширением.",
-    "description": "Description of the extension."
+    "message": "Снимок всех разрешений, используемых каждым установленным расширением",
+    "description": "Description of the extension"
   },
   "browserActionText": {
-      "message": "Знай свои разрешения",
-      "description": "text for browser action."
+    "message": "Знай свои разрешения",
+    "description": "text for browser action"
   },
   "storageText": {
     "message": "Может хранить данные до 5 МБ",
@@ -52,7 +48,7 @@
     "description": "Description of dnsShort"
   },
   "dnsText": {
-    "message": "Включает расширение для разрешения доменных имен.",
+    "message": "Включает расширение для разрешения доменных имен",
     "description": "Description of dnsText"
   },
   "managementText": {
@@ -60,7 +56,7 @@
     "description": "Description of managementText"
   },
   "privacyText": {
-    "message": "Может получать доступ и изменять различные настройки браузера, связанные с конфиденциальностью.",
+    "message": "Может получать доступ и изменять различные настройки браузера, связанные с конфиденциальностью",
     "description": "Description of privacy Text"
   },
   "privacyShort": {
@@ -92,7 +88,7 @@
     "description": "Description of clipboardRead Text "
   },
   "idleText": {
-    "message": "Может узнать, когда система пользователя находится в режиме ожидания, заблокирована или активна.",
+    "message": "Может узнать, когда система пользователя находится в режиме ожидания, заблокирована или активна",
     "description": "Description of idle Text"
   },
   "notificationText": {
@@ -104,11 +100,11 @@
     "description": "Description of bookmarks Text"
   },
   "findText": {
-    "message": "Можно найти текст на веб-странице и выделить совпадения.",
+    "message": "Можно найти текст на веб-странице и выделить совпадения",
     "description": "Description of find Text"
   },
   "historyText": {
-    "message": "Может взаимодействовать и манипулировать историей браузера.",
+    "message": "Может взаимодействовать и манипулировать историей браузера",
     "description": "Description of history Text"
   },
   "mocT": {
@@ -148,11 +144,11 @@
     "description": "Description of downloads Text"
   },
   "doT": {
-    "message": "Можно открыть любой загруженный элемент.",
+    "message": "Можно открыть любой загруженный элемент",
     "description": "Description of downloads.open Text"
   },
   "topSitesText": {
-    "message": "Может получать страницы, которые пользователь посещал часто и часто.",
+    "message": "Может получать страницы, которые пользователь посещал часто и часто",
     "description": "Description of topSites Text"
   },
   "webNavText": {
@@ -164,7 +160,7 @@
     "description": "Description of webReqest Text"
   },
   "wrbT": {
-    "message": "Может заблокировать и изменить запрос, сделанный браузером.",
+    "message": "Может заблокировать и изменить запрос, сделанный браузером",
     "description": "Description of webRequestBlocking Text"
   },
   "mozAddonsText": {
@@ -176,7 +172,7 @@
     "description": "Description of unlimitedStorage Text"
   },
   "bdT": {
-    "message": "Может очистить все данные, которые собираются при просмотре Cookies / пароли / Cache / history / downloads / formData",
+    "message": "Может очистить все данные, которые собираются при просмотре Cookies / пароли / кэш / история / загрузки / formData",
     "description": "Description of browsingData Text"
   },
   "devtoolsText": {
@@ -232,15 +228,15 @@
     "description": "page heading permissions"
   },
   "enable": {
-      "message": "включить",
-      "description": "Button enable"
+    "message": "включить",
+    "description": "Button enable"
   },
   "disable": {
-      "message": "запрещать",
-      "description": "Button disable"
+    "message": "запрещать",
+    "description": "Button disable"
   },
   "uninstall": {
-      "message": "Удалить",
-      "description": "Button Uninstall"
+    "message": "Удалить",
+    "description": "Button Uninstall"
   }
 }
