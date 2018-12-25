@@ -1,73 +1,116 @@
-const fs = require('fs');
-const path = require('path');
-const ncp = require('ncp').ncp;
-const formatJSON = require('json-format');
-const rimraf = require('rimraf');
-const args = process.argv
-const isFirefox = args.includes('firefox');
-const isZip = args.includes('zip');
+const fs = require("fs");
+const path = require("path");
+const ncp = require("ncp").ncp;
+const formatJSON = require("json-format");
+const rimraf = require("rimraf");
+const JSZip = require("jszip");
+const args = process.argv;
+const isFirefox = args.includes("firefox");
+const isZip = args.includes("zip");
 
-const chromePath = path.join(__dirname, 'chrome');
-const firefoxPath = path.join(__dirname, 'firefox');
+const chromePath = path.join(__dirname, "chrome");
+const firefoxPath = path.join(__dirname, "firefox");
 const buildPath = isFirefox ? firefoxPath : chromePath;
-const src = path.join(__dirname, 'src');
+const src = path.join(__dirname, "src");
 ncp.limit = 16;
 
 // convert callback to promises
 const promisify = (fn, args) => {
-    return new Promise((resolve, reject) => {
-        try {
-            args.push((...arg) => resolve(arg))
-            fn.apply(this, args);
-        } catch(e) {
-            reject(e);
-        }
-    })
-}
+	return new Promise((resolve, reject) => {
+		try {
+			args.push((...arg) => resolve(arg));
+			fn.apply(this, args);
+		} catch (e) {
+			reject(e);
+		}
+	});
+};
 
 // remove existing directory
 promisify(rimraf, [buildPath])
-    .then(() => {
-        // make directory
-        return promisify(fs.mkdir, [buildPath])
-    })
-    .then(() => {
-        // copy all files/folders recursively to destination
-        return promisify(ncp, [src, buildPath])
-    })
-    .then(() => {
-        // read manifest.json
-        return promisify(fs.readFile, [path.join(buildPath, 'manifest.json'), 'utf8']);
-    })
-    .then(res => {
-        // modify JSON if firefox
-        if (res[0]) throw Error('unable to read manifest');
-        const fileJson = JSON.parse(res[1]);
-        if (isFirefox) {
-            fileJson.applications = {
-                "gecko": {
-                    "id": "permissionInspector@web-ext-labs",
-                    "strict_min_version": "55.0"
-                }
-            }
-        }
-        return promisify(fs.writeFile, [path.join(buildPath, 'manifest.json'), formatJSON(fileJson)])
-    })
-    .then(() => {
-        // delete chrome/firefox as per build
-        const toDelete = path.join(buildPath, isFirefox ? 'chrome.js': 'firefox.js');
-        return promisify(fs.unlink, [toDelete]);
-    })
-    .then(() => {
-        // read index.html
-        return promisify(fs.readFile, [path.join(buildPath, 'index.html'), 'utf8']);
-    })
-    .then(res => {
-        // remove chrome/firefox script as per build
-        if (res[0]) throw Error('unable to read index file');
-        const lines = res[1].split('\n');
-        const matcher = isFirefox ? 'chrome' : 'firefox';
-        const finalArr = lines.filter(l => !l.includes(matcher));
-        return promisify(fs.writeFile, [path.join(buildPath, 'index.html'), finalArr.join('\n')]);
-    })
-    .catch(e => console.log(`Schaize: ${e}`));
+	.then(() => {
+		// make directory
+		return promisify(fs.mkdir, [buildPath]);
+	})
+	.then(() => {
+		// copy all files/folders recursively to destination
+		return promisify(ncp, [src, buildPath]);
+	})
+	.then(() => {
+		// read manifest.json
+		return promisify(fs.readFile, [
+			path.join(buildPath, "manifest.json"),
+			"utf8"
+		]);
+	})
+	.then(res => {
+		// modify JSON if firefox
+		if (res[0]) throw Error("unable to read manifest");
+		const fileJson = JSON.parse(res[1]);
+		if (isFirefox) {
+			fileJson.applications = {
+				gecko: {
+					id: "permissionInspector@web-ext-labs",
+					strict_min_version: "55.0"
+				}
+			};
+		}
+		return promisify(fs.writeFile, [
+			path.join(buildPath, "manifest.json"),
+			formatJSON(fileJson)
+		]);
+	})
+	.then(() => {
+		// delete chrome/firefox as per build
+		const toDelete = path.join(
+			buildPath,
+			isFirefox ? "chrome.js" : "firefox.js"
+		);
+		return promisify(fs.unlink, [toDelete]);
+	})
+	.then(() => {
+		// read index.html
+		return promisify(fs.readFile, [path.join(buildPath, "index.html"), "utf8"]);
+	})
+	.then(res => {
+		// remove chrome/firefox script as per build
+		if (res[0]) throw Error("unable to read index file");
+		const lines = res[1].split("\n");
+		const matcher = isFirefox ? "chrome" : "firefox";
+		const finalArr = lines.filter(l => !l.includes(matcher));
+		return promisify(fs.writeFile, [
+			path.join(buildPath, "index.html"),
+			finalArr.join("\n")
+		]);
+	}).then(() => {
+		return promisify(fs.unlink, [`${buildPath}.zip`])
+	})
+	.then(() => {
+		if (isZip) {
+			const zip = new JSZip();
+			const build = isFirefox ? "firefox" : "chrome";
+
+			const readAll = function (dir, filelist = []) {
+				fs.readdirSync(dir).forEach(function (file) {
+					if (fs.statSync(path.join(dir, file)).isDirectory())
+						filelist = readAll(path.join(dir, file), filelist);
+					else
+						filelist.push(path.join(dir, file));
+				});
+				return filelist;
+			};
+
+			readAll(build).forEach(f =>
+				zip.file(f.replace(`${build}`, ""), fs.readFileSync(f))
+			);
+
+			zip
+				.generateNodeStream({ type: "nodebuffer", streamFiles: true })
+				.pipe(fs.createWriteStream(`${build}.zip`))
+				.on("finish", () => {
+					console.log(`${build}.zip written`);
+					promisify(rimraf, [buildPath]);
+				});
+		}
+	})
+	.catch(e => console.log(`Schaize: ${e}`));
