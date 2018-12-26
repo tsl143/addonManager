@@ -9,13 +9,13 @@
 
 ## Why use Permission Inspector?
 
-Extensions are powerful tools which can modify the browser using various features allowed by the browser. While installing an extension there is a permission prompt which lists allthe browser features that will be accessed by the extension. Post that we have no way to know what an installed extension is accessing. Permission inspector bridges this gap and shows what all an extension can do to the browser.
+Extensions are powerful tools which can modify the browser using various features allowed by the browser. While installing an extension there is a permission prompt which lists all the browser features that will be accessed by the extension. Post that we have no way to know what an installed extension is accessing. Permission inspector bridges this gap and shows what all an extension can do to the browser.
 
 _Firefox Specific -_
-This extension fetches details of all the installed extensions from [addons.mozilla.org](https://addons.mozilla.org) and improves the permission listing by adding host permissions too.
+Firefox extension fetches details of all the installed extensions from [addons.mozilla.org](https://addons.mozilla.org) and improves the permission listing by adding `host permissions` too.
 
 _Chrome specific -_
-Chrom extension allows you to disable/enable/uninstall the extension right from Permission Inspector page. (Chrome allows `chrome.management.setEnabled` API)
+Chrome extension allows you to disable/enable/uninstall the extension right from Permission Inspector page. (Chrome allows `chrome.management.setEnabled` API)
 
 ## Contributing
 
