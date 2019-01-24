@@ -8,7 +8,7 @@
         "description": "text for browser action"
     },
     "storageText": {
-        "message": "Can store data upto 5 MB",
+        "message": "Can store data up to 5 MB",
         "description": "Description of the storage text"
     },
     "geoLocationText": {
