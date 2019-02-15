@@ -1,0 +1,242 @@
+{
+  "extensionDescription": {
+    "message": "Snapshot av alla behörigheter som används av varje installerad tillägg",
+    "description": "Description of the extension"
+  },
+  "browserActionText": {
+    "message": "Känn dina behörigheter",
+    "description": "text for browser action"
+  },
+  "storageText": {
+    "message": "Kan lagra data upp till 5 MB",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "Kan känna din geolocation",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "Kan komma åt PKCS # 11-moduler",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "Kan göra PKCS # 11-moduler tillgängliga för webbläsaren som källor till nycklar och certifikat",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "Endast Firefox",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "Har tillgång till webbläsarsession",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "Kan lista och återställa, flikar och fönster som har stängts när webbläsaren har körts",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "Kan komma åt webbläsarebehållare",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "Kan lista, skapa, ta bort och uppdatera kontextuella identiteter / behållare",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "Kan lösa DNS",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "Aktiverar en förlängning för att lösa domännamn",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "Kan komma åt information om alla installerade tillägg",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "Kan komma åt och ändra olika sekretessrelaterade webbläsarinställningar",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "Få tillgång till sekretessrelaterade webbläsarinställningar",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "Kan proxy webrequests",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "Kan komma åt meddelandet från inhemska appar",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nativeMessagingText": {
+    "message": "Kan utbyta meddelanden med en inbyggd applikation som är installerad på användarens dator",
+    "description": "Description of nativeMessaging Text"
+  },
+  "telemetryText": {
+    "message": "Endast Firefox",
+    "description": "Description of telemetry Text"
+  },
+  "themeText": {
+    "message": "Kan uppdatera webbläsarens tema",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "Kan kopiera data från webbsida",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "Kan ta reda på när användarens system är viloläge, låst eller aktivt",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "Kan visa meddelanden, med hjälp av det underliggande operativsystemets anmälningsmekanism",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "Kan interagera med och manipulera webbläsarens bokmärkningssystem",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "Kan hitta text på en webbsida och höjdpunkter matchar",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "Kan interagera och manipulera webbläsarens historia",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "Endast Firefox",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "Kan lista alla sökmotorer och söka med en viss sökmotor",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "Kan komma åt data från någon aktiv flik och kan injicera kod och stil till aktiv flik",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "Kan få en lista med öppnad flik och kan öppna, uppdatera, flytta, ladda om och ta bort flik",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "Kan göra fliken gömd",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "Kan ändra globala webbläsarinställningar, som att tillåta popup-fönster",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "Kan få och ställa in cookies och meddelas när de ändras",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "Kan ladda ner filer, avbryta, pausa, återuppta nedladdningar",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "Kan öppna alla nedladdade objekt",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "Kan få sidor som användaren har besökt ofta och ofta",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "Kan lägga till händelser medan webbläsarövergång från en webbadress till en annan",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "Kan fånga alla HTTP-förfrågningar som görs av webbläsaren",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "Kan blockera och ändra begäran från webbläsaren",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "Endast Firefox",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "Kan lagra vilken mängd data som helst",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "Kan rensa all data som samlas in medan du surfar Cookies / lösenord / Cache / History / downloads / formData",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "Kan skapa en utvecklingsverktygspanel",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "Kan generera OAuth2-behörighetskod eller åtkomsttoken och använda för att komma åt användardata",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "Kan skapa / manipulera högerklicka menyalternativ",
+    "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "Kan skriva data på Urklipp",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "vilken webbsida som helst i webbläsaren",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "Kan komma åt / ändra data på",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "Känn dina behörigheter",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "Extensions",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "Behörigheter",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "Mer...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "Kan generera larm med angivna intervaller",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "Detaljer om alla behörigheter som används av varje installerad tillägg",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "Detaljer om vilka alla installerade tillägg använder givet tillstånd",
+    "description": "page heading permissions"
+  },
+  "enable": {
+    "message": "Gör det möjligt",
+    "description": "Button enable"
+  },
+  "disable": {
+    "message": "inaktivera",
+    "description": "Button disable"
+  },
+  "uninstall": {
+    "message": "Uninstall",
+    "description": "Button Uninstall"
+  }
+}

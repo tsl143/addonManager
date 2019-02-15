@@ -1,0 +1,242 @@
+{
+  "extensionDescription": {
+    "message": "每個已安裝擴展使用的所有權限的快照",
+    "description": "Description of the extension"
+  },
+  "browserActionText": {
+    "message": "了解你的權限",
+    "description": "text for browser action"
+  },
+  "storageText": {
+    "message": "可以存儲最大5 MB的數據",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "可以知道你的地理位置",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "可以訪問PKCS＃11模塊",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "可以使瀏覽器可以訪問PKCS＃11模塊作為密鑰和證書的來源",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "僅限Firefox",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "可以訪問瀏覽器會話",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "可以列出和恢復，瀏覽器運行時已關閉的選項卡和窗口",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "可以訪問瀏覽器容器",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "可以列出，創建，刪除和更新上下文身份/容器",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "可以解析DNS",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "啟用擴展程序以解析域名",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "可以訪問有關所有已安裝插件的信息",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "可以訪問和修改各種與隱私相關的瀏覽器設置",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "訪問與隱私相關的瀏覽器設置",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "可以代理webRequests",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "可以從本機應用訪問消息",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nativeMessagingText": {
+    "message": "可以與用戶計算機上安裝的本機應用程序交換消息",
+    "description": "Description of nativeMessaging Text"
+  },
+  "telemetryText": {
+    "message": "僅限Firefox",
+    "description": "Description of telemetry Text"
+  },
+  "themeText": {
+    "message": "可以更新瀏覽器主題",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "可以從網頁複製數據",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "可以找出用戶的系統何時處於空閒，鎖定或活動狀態",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "可以使用基礎操作系統的通知機制顯示通知",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "可以與瀏覽器的書籤系統進行交互和操作",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "可以在網頁中找到文本，並突出顯示匹配項",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "可以交互和操縱瀏覽器歷史記錄",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "僅限Firefox",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "可以列出所有搜索引擎並使用特定搜索引擎進行搜索",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "可以從任何活動選項卡訪問數據，並可以將代碼和样式註入活動選項卡",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "可以獲取已打開選項卡的列表，並可以打開，更新，移動，重新加載和刪除選項卡",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "可以隱藏標籤",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "可以更改全局瀏覽器設置，例如允許彈出窗口",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "可以獲取和設置cookie，並在更改時收到通知",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "可以下載文件，取消，暫停，恢復下載",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "可以打開任何下載的項目",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "可以經常頻繁地獲取用戶訪問過的頁面",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "瀏覽器從一個URL轉換到另一個URL時可以添加事件",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "可以攔截瀏覽器發出的每個HTTP請求",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "可以阻止和修改瀏覽器發出的請求",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "僅限Firefox",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "可以存儲任何數量的數據",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "可以清除瀏覽Cookies /密碼/緩存/歷史/下載/ formData時收集的所有數據",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "可以創建開發人員工具面板",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "可以生成OAuth2授權代碼或訪問令牌，並用於訪問用戶數據",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "可以創建/操作右鍵單擊菜單項",
+    "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "可以在剪貼板上寫入數據",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "瀏覽器中的任何網頁",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "可以訪問/修改數據",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "了解你的權限",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "擴展",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "權限",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "更多...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "可以按給定間隔生成警報",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "每個已安裝擴展使用的所有權限的詳細信息",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "所有已安裝擴展使用給定權限的詳細信息",
+    "description": "page heading permissions"
+  },
+  "enable": {
+    "message": "啟用",
+    "description": "Button enable"
+  },
+  "disable": {
+    "message": "禁用",
+    "description": "Button disable"
+  },
+  "uninstall": {
+    "message": "卸載",
+    "description": "Button Uninstall"
+  }
+}

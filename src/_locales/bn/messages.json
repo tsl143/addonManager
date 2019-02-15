@@ -1,0 +1,242 @@
+{
+  "extensionDescription": {
+    "message": "প্রতিটি ইনস্টল এক্সটেনশান দ্বারা ব্যবহৃত সমস্ত অনুমতি স্ন্যাপশট",
+    "description": "Description of the extension"
+  },
+  "browserActionText": {
+    "message": "আপনার অনুমতি জানুন",
+    "description": "text for browser action"
+  },
+  "storageText": {
+    "message": "5 এমবি পর্যন্ত তথ্য সংরক্ষণ করতে পারেন",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "আপনার ভৌগোলিক অবস্থান জানতে পারেন",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "PKCS # 11 মডিউল অ্যাক্সেস করতে পারেন",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "কী এবং সার্টিফিকেটের উৎস হিসাবে ব্রাউজারে PKCS # 11 মডিউল অ্যাক্সেসযোগ্য করতে পারে",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "শুধুমাত্র ফায়ারফক্স",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "ব্রাউজার সেশন অ্যাক্সেস করতে পারেন",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "তালিকা এবং পুনরুদ্ধার করতে পারেন, ব্রাউজার চলমান অবস্থায় ট্যাব এবং উইন্ডো বন্ধ করা হয়েছে",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "ব্রাউজার পাত্রে অ্যাক্সেস করতে পারেন",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "প্রসঙ্গগত সনাক্তকরণ / পাত্রে তালিকা, তৈরি, অপসারণ, এবং আপডেট করতে পারেন",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "DNS সমাধান করতে পারেন",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "ডোমেইন নাম সমাধান করার জন্য একটি এক্সটেনশান সক্রিয় করে",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "সব ইনস্টল addons সম্পর্কে তথ্য অ্যাক্সেস করতে পারেন",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "অ্যাক্সেস এবং বিভিন্ন গোপনীয়তা-সম্পর্কিত ব্রাউজার সেটিংস পরিবর্তন করতে পারেন",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "গোপনীয়তা-সম্পর্কিত ব্রাউজার সেটিংস অ্যাক্সেস",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "WebRequests প্রক্সি করতে পারেন",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "নেটিভ অ্যাপ্লিকেশন থেকে বার্তা অ্যাক্সেস করতে পারেন",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nativeMessagingText": {
+    "message": "ব্যবহারকারীর কম্পিউটারে ইনস্টল থাকা একটি নেটিভ অ্যাপ্লিকেশন সহ বার্তা বিনিময় করতে পারেন",
+    "description": "Description of nativeMessaging Text"
+  },
+  "telemetryText": {
+    "message": "শুধুমাত্র ফায়ারফক্স",
+    "description": "Description of telemetry Text"
+  },
+  "themeText": {
+    "message": "ব্রাউজার থিম আপডেট করতে পারেন",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "ওয়েব পেজ থেকে তথ্য অনুলিপি করতে পারেন",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "ব্যবহারকারীর সিস্টেম নিষ্ক্রিয়, লক করা, বা সক্রিয় যখন খুঁজে বের করতে পারেন",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "অন্তর্নিহিত অপারেটিং সিস্টেমের বিজ্ঞপ্তি প্রক্রিয়া ব্যবহার করে বিজ্ঞপ্তিগুলি প্রদর্শন করতে পারে",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "ব্রাউজারের বুকমার্কিং সিস্টেমের সাথে ইন্টারঅ্যাক্ট এবং ম্যানিপুলেট করতে পারেন",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "একটি ওয়েব পেজ টেক্সট, এবং হাইলাইট মিল খুঁজে পেতে পারেন",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "ইন্টারঅ্যাক্ট এবং ব্রাউজার ইতিহাস ম্যানিপুলেট করতে পারেন",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "শুধুমাত্র ফায়ারফক্স",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "সমস্ত সার্চ ইঞ্জিন তালিকা এবং একটি নির্দিষ্ট সার্চ ইঞ্জিন সঙ্গে অনুসন্ধান করতে পারেন",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "কোন সক্রিয় ট্যাব থেকে তথ্য অ্যাক্সেস করতে পারেন এবং সক্রিয় ট্যাবে কোড এবং শৈলী ইনজেকশন করতে পারেন",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "খোলা ট্যাবের একটি তালিকা পেতে পারেন এবং ট্যাব খুলতে, আপডেট করতে, সরানো, পুনরায় লোড এবং সরাতে পারেন",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "ট্যাব লুকানো করতে পারেন",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "পপআপ অনুমতি মত গ্লোবাল ব্রাউজার সেটিংস পরিবর্তন করতে পারেন",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "পেতে এবং কুকি সেট করতে পারেন, এবং তারা পরিবর্তন যখন অবহিত করা",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "ফাইল ডাউনলোড, বাতিল, বিরতি, ডাউনলোড পুনরায় শুরু করতে পারেন",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "কোন ডাউনলোড আইটেম খুলতে পারেন",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "ব্যবহারকারীরা প্রায়ই এবং ঘন ঘন ঘন ঘন পৃষ্ঠাগুলি পেতে পারেন",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "একটি URL থেকে অন্য URL থেকে ব্রাউজার সংক্রমণ যখন ঘটনা যোগ করতে পারেন",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "ব্রাউজার দ্বারা তৈরি প্রতি HTTP অনুরোধ আটকাতে পারেন",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "ব্রাউজার দ্বারা অনুরোধ অনুরোধ ব্লক এবং পরিবর্তন করতে পারেন",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "শুধুমাত্র ফায়ারফক্স",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "তথ্য কোন পরিমাণ সংরক্ষণ করতে পারেন",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "কুকি / পাসওয়ার্ড / ক্যাশে / ইতিহাস / ডাউনলোড / ফর্মডটা ব্রাউজ করার সময় সংগৃহীত সমস্ত ডেটা সাফ করতে পারে",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "একটি বিকাশকারী হাতিয়ার প্যানেল তৈরি করতে পারেন",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "OAuth2 অনুমোদন কোড বা অ্যাক্সেস টোকেন জেনারেট করতে এবং ব্যবহারকারীর ডেটা অ্যাক্সেস করতে ব্যবহার করতে পারে",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "ডান ক্লিক করুন মেনু আইটেম তৈরি / ম্যানিপুলেট করতে পারেন",
+    "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "ক্লিপবোর্ডে তথ্য লিখতে পারেন",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "ব্রাউজারে কোন ওয়েব পেজ",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "তথ্য অ্যাক্সেস / পরিবর্তন করতে পারেন",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "আপনার অনুমতি জানুন",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "এক্সটেনশানগুলি",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "অনুমতিসমূহ",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "আরও ...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "প্রদত্ত অন্তর এ এলার্ম তৈরি করতে পারেন",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "প্রতিটি ইনস্টল এক্সটেনশান দ্বারা ব্যবহৃত সমস্ত অনুমতি বিবরণ",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "সমস্ত ইনস্টল এক্সটেনশান যা দেওয়া অনুমতি ব্যবহার করে",
+    "description": "page heading permissions"
+  },
+  "enable": {
+    "message": "সক্ষম করা",
+    "description": "Button enable"
+  },
+  "disable": {
+    "message": "অক্ষম",
+    "description": "Button disable"
+  },
+  "uninstall": {
+    "message": "আনইনস্টল",
+    "description": "Button Uninstall"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "extensionDescription": {
+    "message": "Snapshot de toate permisiunile folosite de fiecare extensie instalată",
+    "description": "Description of the extension"
+  },
+  "browserActionText": {
+    "message": "Cunoașteți permisiunile dvs.",
+    "description": "text for browser action"
+  },
+  "storageText": {
+    "message": "Poate stoca date de până la 5 MB",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "Poate cunoaște geolocația dvs.",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "Poate accesa modulele PKCS # 11",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "Poate face ca modulele PKCS # 11 să fie accesibile browserului ca surse de chei și certificate",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "Doar pentru Firefox",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "Poate accesa sesiunea browserului",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "Poate lista și restaura, tab-urile și ferestrele care au fost închise în timp ce browserul a fost rulat",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "Poate accesa containerele de browser",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "Poate lista, crea, elimina și actualiza identități / containere contextuale",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "Poate rezolva DNS-ul",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "Permite o extensie pentru a rezolva numele de domeniu",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "Poate accesa informații despre toate add-on-urile instalate",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "Poate accesa și modifica diferite setări ale browserului legate de confidențialitate",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "Accesați setările browserului legate de confidențialitate",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "Pot webRequests proxy",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "Poate accesa mesajul din aplicațiile native",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nativeMessagingText": {
+    "message": "Poate schimba mesaje cu o aplicație nativă instalată pe computerul utilizatorului",
+    "description": "Description of nativeMessaging Text"
+  },
+  "telemetryText": {
+    "message": "Doar pentru Firefox",
+    "description": "Description of telemetry Text"
+  },
+  "themeText": {
+    "message": "Poate actualiza tema browserului",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "Poate copia datele de pe pagina web",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "Poate afla dacă sistemul utilizatorului este inactiv, blocat sau activ",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "Pot afișa notificări utilizând mecanismul de notificare al sistemului de operare",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "Poate interacționa cu și manipula sistemul de marcare al browserului",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "Poate găsi text într-o pagină web și evidențiază potriviri",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "Poate interacționa și manipula istoricul browserului",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "Doar pentru Firefox",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "Poți lista toate motoarele de căutare și căuta cu un anumit motor de căutare",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "Poate accesa datele din orice filă activă și poate injecta cod și stil în fila activă",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "Poate obține o listă a filei deschise și poate deschide, actualiza, muta, reîncărca și elimina fila",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "Poate face fila ascunsă",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "Poate modifica setările browserului global, cum ar fi permiterea accesării ferestrelor pop-up",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "Poate obține și seta cookie-urile și să fie notificat atunci când se schimbă",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "Poate descărca fișiere, anula, întrerupe, reia descărcările",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "Poate deschide orice element descărcat",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "Pot obține pagini pe care utilizatorul le-a vizitat frecvent și frecvent",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "Poate adăuga evenimente în timp ce browserul trece de la o adresă URL la alta",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "Poate intercepta fiecare cerere HTTP făcută de browser",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "Poate bloca și modifica solicitarea efectuată de browser",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "Doar pentru Firefox",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "Poate stoca orice cantitate de date",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "Poate șterge toate datele colectate în timpul navigării în Cookies / passwords / Cache / history / downloads / formData",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "Poți crea un panou de instrumente pentru dezvoltatori",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "Poate genera codul de autorizare OAuth2 sau simbolul de acces și poate folosi pentru a accesa datele utilizatorului",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "Poate crea / manipula elemente de meniu cu clic dreapta",
+    "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "Pot scrie datele în clipboard",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "orice pagină web din browser",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "Poate accesa / modifica datele",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "Cunoașteți permisiunile dvs.",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "Extensii",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "Permisiuni",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "Mai Mult...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "Poate genera alarme la anumite intervale",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "Detalii despre toate permisiunile utilizate de fiecare extensie instalată",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "Detalii despre care toate extensiile instalate utilizează permisiunea acordată",
+    "description": "page heading permissions"
+  },
+  "enable": {
+    "message": "Permite",
+    "description": "Button enable"
+  },
+  "disable": {
+    "message": "Dezactivați",
+    "description": "Button disable"
+  },
+  "uninstall": {
+    "message": "Dezinstalați",
+    "description": "Button Uninstall"
+  }
+}

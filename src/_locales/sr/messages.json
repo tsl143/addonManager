@@ -1,0 +1,242 @@
+{
+  "extensionDescription": {
+    "message": "Снимак свих дозвола које користи свако инсталирано проширење",
+    "description": "Description of the extension"
+  },
+  "browserActionText": {
+    "message": "Упознајте своје дозволе",
+    "description": "text for browser action"
+  },
+  "storageText": {
+    "message": "Може да складишти податке до 5 МБ",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "Може знати вашу геолокацију",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "Може приступити модулима ПКЦС # 11",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "Може учинити ПКЦС # 11 модуле доступним претраживачу као изворе кључева и цертификата",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "Фирефок Онли",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "Може приступити сесији прегледача",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "Може да наводи и обнавља, картице и прозоре који су затворени док је прегледач покренут",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "Може приступити контејнерима прегледача",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "Може да наводи, креира, уклања и ажурира контекстуалне идентитете / контејнере",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "Може да реши ДНС",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "Омогућава проширење за решавање имена домена",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "Може приступити информацијама о свим инсталираним додацима",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "Може приступити и изменити различите поставке прегледача у вези са приватношћу",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "Приступите поставкама прегледача у вези са приватношћу",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "Могу проки вебРекуестс",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "Може приступити поруци из изворних апликација",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nativeMessagingText": {
+    "message": "Може размјењивати поруке с изворном апликацијом инсталираном на рачуналу корисника",
+    "description": "Description of nativeMessaging Text"
+  },
+  "telemetryText": {
+    "message": "Фирефок Онли",
+    "description": "Description of telemetry Text"
+  },
+  "themeText": {
+    "message": "Може ажурирати тему претраживача",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "Може копирати податке са веб странице",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "Може да открије када је кориснички систем у стању мировања, закључан или активан",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "Може приказати обавештења, користећи механизам за обавештавање оперативног система",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "Може да комуницира и манипулише системом обележавања у претраживачу",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "Може пронаћи текст на веб страници и истакнути утакмице",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "Може да комуницира и манипулише историјом прегледача",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "Фирефок Онли",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "Може навести све претраживаче и претраживати помоћу одређене тражилице",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "Може приступити подацима са било које активне картице и може убацити код и стил у активну картицу",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "хттпс://девелопер.мозилла.орг/ен-УС/доцс/Мозилла/Адд-онс/ВебЕктенсионс/манифест.јсон/пермиссионс#ацтивеТаб_пермиссион",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "Може да добије листу отворених картица и може да отвори, ажурира, премести, поново учита и уклони картицу",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "Може направити картицу скривеном",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "Може да мења глобалне поставке претраживача, као што је дозвољавање скочних прозора",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "Могу добити и поставити колачиће и бити обавијештени када се промијене",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "Може да преузме датотеке, откаже, паузира, настави преузимања",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "Може да отвори било коју преузету ставку",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "Могу добити странице које је корисник често и често посјећивао",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "Може да додаје догађаје док прелазак са једног УРЛ-а на други",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "Може пресрести сваки ХТТП захтјев који је направио претраживач",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "Може блокирати и модификовати захтев који је направио претраживач",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "Фирефок Онли",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "Може да складишти било коју количину података",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "Може да избрише све податке који се прикупљају приликом прегледавања колачића / лозинки / кеша / историје / довнлоадс / формДата",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "Може да креира панел алата за развојне програмере",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "Може да генерише ОАутх2 ауторизациони код или приступни токен и да користи за приступ корисничким подацима",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "Може да креира / манипулише ставке менија десним кликом",
+    "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "Може да пише податке у међуспремник",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "било коју веб страницу у прегледнику",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "Може приступити / измијенити податке на",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "Упознајте своје дозволе",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "Ектенсионс",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "Дозволе",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "Више...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "Може да генерише аларм у датим интервалима",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "Појединости о свим дозволама које користе сва инсталирана проширења",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "Детаљи од којих сва инсталирана проширења користе дозволу",
+    "description": "page heading permissions"
+  },
+  "enable": {
+    "message": "Омогући",
+    "description": "Button enable"
+  },
+  "disable": {
+    "message": "Онемогући",
+    "description": "Button disable"
+  },
+  "uninstall": {
+    "message": "Деинсталирај",
+    "description": "Button Uninstall"
+  }
+}

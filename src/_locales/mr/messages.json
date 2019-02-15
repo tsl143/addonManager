@@ -1,0 +1,242 @@
+{
+  "extensionDescription": {
+    "message": "प्रत्येक स्थापित केलेल्या विस्ताराद्वारे वापरल्या जाणार्या सर्व परवानग्यांचे स्नॅपशॉट",
+    "description": "Description of the extension"
+  },
+  "browserActionText": {
+    "message": "आपल्या परवानग्या जाणून घ्या",
+    "description": "text for browser action"
+  },
+  "storageText": {
+    "message": "5 एमबी पर्यंत डेटा संचयित करू शकतो",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "आपले भौगोलिक स्थान माहित आहे",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "PKCS # 11 मॉड्यूलमध्ये प्रवेश करू शकतो",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "की आणि प्रमाणपत्रांच्या स्त्रोत म्हणून ब्राउझरमध्ये PKCS # 11 मॉड्यूल प्रवेशयोग्य बनवू शकतात",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "केवळ फायरफॉक्स",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "ब्राउझर सत्र प्रवेश करू शकता",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "ब्राउझर चालू असताना बंद केल्या गेलेल्या टॅब आणि विंडो, सूची आणि पुनर्संचयित करू शकता",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "ब्राउजर कंटेनर्समध्ये प्रवेश करू शकतो",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "संदर्भात्मक ओळख / कंटेनर सूचीबद्ध, तयार, काढू आणि अद्यतनित करू शकता",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "डीएनएस निराकरण करू शकता",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "डोमेन नावांचे निराकरण करण्यासाठी विस्तार सक्षम करते",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "सर्व स्थापित अॅडॉनबद्दल माहिती मिळवू शकता",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "विविध गोपनीयता-संबंधित ब्राउझर सेटिंग्जमध्ये प्रवेश करू आणि सुधारित करू शकता",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "गोपनीयता-संबंधित ब्राउझर सेटिंग्जमध्ये प्रवेश करा",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "वेबरूक्स्ट प्रॉक्सी करू शकता",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "मूळ अॅप्सवरून संदेशात प्रवेश करू शकता",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nativeMessagingText": {
+    "message": "वापरकर्त्याच्या संगणकावर स्थापित मूळ अनुप्रयोगासह संदेशांची देवाणघेवाण करू शकता",
+    "description": "Description of nativeMessaging Text"
+  },
+  "telemetryText": {
+    "message": "केवळ फायरफॉक्स",
+    "description": "Description of telemetry Text"
+  },
+  "themeText": {
+    "message": "ब्राउझर थीम अद्ययावत करू शकता",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "वेब पृष्ठावरून डेटा कॉपी करू शकता",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "वापरकर्त्याचे सिस्टम निष्क्रिय, लॉक केलेले किंवा सक्रिय असताना शोधू शकता",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "अंतर्निहित ऑपरेटिंग सिस्टमच्या सूचना यंत्रणा वापरुन अधिसूचना प्रदर्शित करू शकता",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "ब्राउजरच्या बुकमार्किंग सिस्टमशी परस्पर संवाद साधू शकते",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "वेब पृष्ठात मजकूर शोधू शकता आणि मथळे हायलाइट करू शकता",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "ब्राउजर इतिहासाशी संवाद साधू शकता आणि हाताळू शकता",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "केवळ फायरफॉक्स",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "सर्व शोध इंजिनची यादी आणि विशिष्ट शोध इंजिनसह शोध घेऊ शकता",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "कोणत्याही सक्रिय टॅबवरून डेटामध्ये प्रवेश करू शकतो आणि सक्रिय टॅबवर कोड आणि शैली निविष्ट करू शकते",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_Permission",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "उघडलेल्या टॅबची सूची मिळू शकते आणि टॅब उघडा, अपडेट करा, हलवा, रीलोड करा आणि काढा",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "टॅब लपवू शकता",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "पॉपअपला परवानगी देण्यासारख्या, जागतिक ब्राउझर सेटिंग्ज बदलू शकतात",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "कुकीज मिळवू आणि सेट करू शकतात आणि जेव्हा ते बदलतात तेव्हा अधिसूचित केले जाऊ शकतात",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "फाइल्स डाउनलोड, रद्द, विराम, डाउनलोड पुन्हा डाउनलोड करू शकता",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "कोणताही डाउनलोड केलेला आयटम उघडू शकतो",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "वापरकर्त्यांनी वारंवार वारंवार भेट दिलेल्या पृष्ठे मिळवू शकतात",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "एका URL वरून दुसर्या ब्राउझरमध्ये संक्रमण करताना कार्यक्रम जोडू शकता",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "ब्राउझरद्वारे बनविलेल्या प्रत्येक HTTP विनंतीमध्ये व्यत्यय आणू शकतो",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "ब्राउझरद्वारे विनंती अवरोधित आणि सुधारित करू शकता",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "केवळ फायरफॉक्स",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "कोणत्याही प्रमाणात डेटा साठवू शकतो",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "कुकीज / संकेतशब्द / कॅशे / इतिहास / डाउनलोड / फॉर्मडेटा ब्राउझ करताना गोळा केलेला सर्व डेटा साफ करू शकतो",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "एक विकासक साधन पॅनेल तयार करू शकता",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "OAuth2 अधिकृतता कोड किंवा प्रवेश टोकन व्युत्पन्न करू शकतो आणि वापरकर्ता डेटामध्ये प्रवेश करण्यासाठी वापरू शकतो",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "उजवे-क्लिक मेनू आयटम तयार / हाताळू शकता",
+    "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "क्लिपबोर्डवर डेटा लिहू शकतो",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "ब्राउझरमध्ये कोणतेही वेबपृष्ठ",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "डेटा वर प्रवेश / सुधारित करू शकता",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "आपल्या परवानग्या जाणून घ्या",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "विस्तार",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "परवानग्या",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "अधिक ...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "दिलेल्या अंतरावर अलार्म तयार करू शकतो",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "प्रत्येक स्थापित केलेल्या विस्ताराद्वारे वापरल्या जाणार्या सर्व परवानग्यांचा तपशील",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "सर्व स्थापित विस्तारांचा तपशील दिलेल्या परवानगीचा वापर करतो",
+    "description": "page heading permissions"
+  },
+  "enable": {
+    "message": "सक्षम करा",
+    "description": "Button enable"
+  },
+  "disable": {
+    "message": "अक्षम करा",
+    "description": "Button disable"
+  },
+  "uninstall": {
+    "message": "विस्थापित करा",
+    "description": "Button Uninstall"
+  }
+}

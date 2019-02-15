@@ -1,0 +1,242 @@
+{
+  "extensionDescription": {
+    "message": "عکس فوری از تمام مجوزهای استفاده شده توسط هر افزونه نصب شده",
+    "description": "Description of the extension"
+  },
+  "browserActionText": {
+    "message": "مجوز های خود را می دانید",
+    "description": "text for browser action"
+  },
+  "storageText": {
+    "message": "می تواند داده ها را تا 5 مگابایت ذخیره کند",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "می توانید موقعیت جغرافیایی خود را بیابید",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "آیا می توانم ماژول های PKCS # 11 دسترسی داشته باشیم",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "می توانید PKCS # 11 ماژول ها را به عنوان منبع کلید ها و گواهی ها به مرورگر دسترسی داشته باشید",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "فقط فایرفاکس",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "می توانید جلسه مرور را داشته باشید",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "می توانید فهرست و بازگردانی، زبانه ها و پنجره هایی که در هنگام اجرای مرورگر بسته شده اند",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "می توانید ظروف مرورگر را مشاهده کنید",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "می توانید هویت / ظاهر متنی را لیست کنید، ایجاد، حذف و به روز کنید",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "می تواند DNS را حل کند",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "یک پسوند برای حل و فصل نام دامنه را فعال می کند",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "می توانید اطلاعات مربوط به تمام افزونه های نصب شده را مشاهده کنید",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "می توانید تنظیمات مرورگر مختلف مربوط به حریم خصوصی را مشاهده و تغییر دهید",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "دسترسی به تنظیمات مرورگر مربوط به حریم خصوصی",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "آیا می توانم از وب پروکسی استفاده کنم؟",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "می توانید پیام از برنامه های بومی را دریافت کنید",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nativeMessagingText": {
+    "message": "می توانید پیام ها را با یک برنامه بومی نصب شده روی رایانه کاربر مبادله کنید",
+    "description": "Description of nativeMessaging Text"
+  },
+  "telemetryText": {
+    "message": "فقط فایرفاکس",
+    "description": "Description of telemetry Text"
+  },
+  "themeText": {
+    "message": "می توانید موضوع مرورگر را به روز کنید",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "می توانید داده ها را از صفحه وب کپی کنید",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "می توانید زمانی که سیستم کاربر بیکار، قفل شده یا فعال باشد پیدا کنید",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "می تواند اعلان ها را با استفاده از مکانیزم اعلان سیستم عامل پایه نمایش دهد",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "می توانید سیستم نشانه گذاری مرورگر را تحت تاثیر قرار دهید و دستکاری کنید",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "می توانید متن را در یک صفحه وب پیدا کنید و مسائل را برجسته کنید",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "می توانید تاریخچه مرورگر را تعامل و دستکاری کنید",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "فقط فایرفاکس",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "می تواند تمام موتور جستجو را فهرست و جستجو با یک موتور جستجوی خاص",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "می توانید از هر برگه فعال دسترسی داشته باشید و می توانید کد و سبک را به برگه فعال تزریق کنید",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "می توانید یک لیست از برگه باز را دریافت کنید و می توانید باز، به روز رسانی، حرکت، بارگذاری مجدد و حذف تب",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "میتواند تب را مخفی کند",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "می توانید تنظیمات مرورگر جهانی را تغییر دهید، مانند فعال کردن پنجره ها",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "می توانید کوکی ها را دریافت و تنظیم کنید و در هنگام تغییر آنها مطلع شوید",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "می توانید فایل ها را دانلود کنید، لغو، مکث، دانلود را شروع کنید",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "می توانید هر مورد دانلود شده را باز کنید",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "می توانید صفحاتی را که کاربر اغلب و اغلب بازدید کرده است دریافت کنید",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "می توانید رویدادها را در حالی که انتقال مرورگر از یک URL به دیگری اضافه می کنید اضافه کنید",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "می توانید هر درخواست HTTP ساخته شده توسط مرورگر را رد کنید",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "می توانید درخواست انجام شده توسط مرورگر را مسدود کرده و تغییر دهید",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "فقط فایرفاکس",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "می تواند هر مقدار داده را ذخیره کند",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "می توانید تمام داده هایی را که در هنگام مرور کوکی ها / گذرواژه ها / کش / تاریخ / بارگیری / فرمData جمع آوری شده، پاک کنید",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "می توانید پانل ابزار توسعه دهنده ایجاد کنید",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "می توانید کد مجوز OAuth2 یا دسترسی به token ایجاد کنید و برای دسترسی به داده های کاربر استفاده کنید",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "می توانید آیتم های منوی راست کلیک را ایجاد / دستکاری کنید",
+    "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "می توانید داده ها را در کلیپ بورد بنویسید",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "هر صفحه وب در مرورگر",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "می توانید داده ها را در دسترسی / تغییر دهید",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "مجوز های خود را می دانید",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "برنامه های افزودنی",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "مجوزها",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "بیشتر...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "می تواند زنگ در فواصل داده شده تولید کند",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "جزئیات هر مجوز استفاده شده توسط هر پسوند نصب شده",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "جزئیات که همه پسوندهای نصب شده از مجوز داده شده استفاده می کنند",
+    "description": "page heading permissions"
+  },
+  "enable": {
+    "message": "فعال کردن",
+    "description": "Button enable"
+  },
+  "disable": {
+    "message": "غیرفعال کردن",
+    "description": "Button disable"
+  },
+  "uninstall": {
+    "message": "حذف کردن",
+    "description": "Button Uninstall"
+  }
+}
