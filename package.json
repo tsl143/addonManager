@@ -29,7 +29,6 @@
   },
   "options_ui": {
     "page": "src/index.html",
-    "browser_style": false,
     "chrome_style": false,
     "open_in_tab": true
   }
