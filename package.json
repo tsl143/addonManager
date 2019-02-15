@@ -1,6 +1,6 @@
 {
   "name": "permissioninspector",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Snapshot of all the permissions used by each installed extension",
   "main": "build.js",
   "scripts": {
@@ -26,5 +26,10 @@
     "jszip": "^3.1.5",
     "ncp": "^2.0.0",
     "rimraf": "^2.6.2"
+  },
+  "options_ui": {
+    "page": "index.html",
+    "chrome_style": false,
+    "open_in_tab": true
   }
 }
