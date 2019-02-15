@@ -1,4 +1,8 @@
 {
+  "extensionDescription": {
+    "message": "प्रत्येक इंस्टॉल किए गए एक्सटेंशन द्वारा उपयोग की जाने वाली सभी अनुमतियों का स्नैपशॉट",
+    "description": "Description of the extension"
+  },
   "browserActionText": {
     "message": "अपनी अनुमतियों को जानें",
     "description": "text for browser action"
