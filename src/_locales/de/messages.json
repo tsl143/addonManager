@@ -1,8 +1,4 @@
 {
-  "extensionDescription": {
-    "message": "Momentaufnahme aller von jeder installierten Erweiterung verwendeten Berechtigungen",
-    "description": "Description of the extension"
-  },
   "browserActionText": {
     "message": "Kennen Sie Ihre Berechtigungen",
     "description": "text for browser action"
