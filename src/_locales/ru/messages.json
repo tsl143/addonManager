@@ -1,8 +1,4 @@
 {
-  "extensionDescription": {
-    "message": "Снимок всех разрешений, используемых каждым установленным расширением",
-    "description": "Description of the extension"
-  },
   "browserActionText": {
     "message": "Знай свои разрешения",
     "description": "text for browser action"

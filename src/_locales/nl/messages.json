@@ -1,8 +1,4 @@
 {
-  "extensionDescription": {
-    "message": "Momentopname van alle machtigingen die door elke geïnstalleerde extensie worden gebruikt",
-    "description": "Description of the extension"
-  },
   "browserActionText": {
     "message": "Ken uw toestemmingen",
     "description": "text for browser action"
