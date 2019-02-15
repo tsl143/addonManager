@@ -1,0 +1,242 @@
+{
+  "extensionDescription": {
+    "message": "설치된 각 확장 프로그램에서 사용되는 모든 권한의 스냅 샷",
+    "description": "Description of the extension"
+  },
+  "browserActionText": {
+    "message": "내 권한 파악",
+    "description": "text for browser action"
+  },
+  "storageText": {
+    "message": "최대 5MB의 데이터 저장 가능",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "지리적 위치를 알 수 있습니다.",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "PKCS # 11 모듈에 액세스 할 수 있습니다.",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "브라우저에서 PKCS # 11 모듈을 키와 인증서의 소스로 액세스 할 수있게 할 수 있습니다.",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "Firefox 전용",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "브라우저 세션에 액세스 할 수 있습니다.",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "브라우저를 실행하는 동안 닫힌 탭 및 창을 나열하고 복원 할 수 있습니다.",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "브라우저 컨테이너에 액세스 할 수 있습니다.",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "컨텍스트 ID / 컨테이너를 나열, 생성, 제거 및 업데이트 할 수 있습니다.",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "DNS를 해결할 수 있습니다.",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "도메인 이름을 확인하기위한 확장 기능 사용",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "설치된 모든 애드온에 대한 정보에 액세스 할 수 있습니다.",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "다양한 개인 정보 관련 브라우저 설정에 액세스하고 수정할 수 있습니다.",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "개인 정보 관련 브라우저 설정 액세스",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "프록시 webRequests 수",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "네이티브 앱에서 메시지에 액세스 할 수 있습니다.",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nativeMessagingText": {
+    "message": "사용자의 컴퓨터에 설치된 기본 응용 프로그램과 메시지를 교환 할 수 있습니다.",
+    "description": "Description of nativeMessaging Text"
+  },
+  "telemetryText": {
+    "message": "Firefox 전용",
+    "description": "Description of telemetry Text"
+  },
+  "themeText": {
+    "message": "브라우저 테마를 업데이트 할 수 있습니다.",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "웹 페이지에서 데이터를 복사 할 수 있습니다.",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "사용자의 시스템이 유휴, 잠금 또는 활성 상태 인 것을 확인할 수 있습니다.",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "기본 운영 체제의 알림 메커니즘을 사용하여 알림을 표시 할 수 있습니다.",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "브라우저의 북 마킹 시스템과 상호 작용하고 조작 할 수 있습니다.",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "웹 페이지에서 텍스트를 검색하고 일치하는 항목을 강조 표시 할 수 있습니다.",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "브라우저 기록과 상호 작용하고 조작 할 수 있습니다.",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "Firefox 전용",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "특정 검색 엔진으로 모든 검색 엔진 및 검색을 나열 할 수 있습니다.",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "활성 탭에서 데이터에 액세스하고 코드 및 스타일을 활성 탭에 주입 할 수 있습니다.",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "열린 탭 목록을 가져올 수 있으며 탭 열기, 업데이트, 이동, 다시로드 및 제거 가능",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "탭을 숨길 수 있습니다.",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "팝업 허용과 같은 전체 브라우저 설정을 변경할 수 있습니다.",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "쿠키를 가져오고 설정하고 변경할 때 알림을받을 수 있습니다.",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "파일을 다운로드하고, 취소하고, 일시 중지하고, 다운로드를 재개 할 수 있습니다.",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "다운로드 한 항목을 열 수 있습니다.",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "사용자가 자주 자주 방문한 페이지를 가져올 수 있습니다.",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "한 URL에서 다른 URL로 브라우저가 전환되는 동안 이벤트를 추가 할 수 있습니다.",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "브라우저가 만든 모든 HTTP 요청을 가로 챌 수 있습니다.",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "브라우저에 의한 요청을 차단하고 수정할 수 있습니다.",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "Firefox 전용",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "모든 양의 데이터를 저장할 수 있습니다.",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "브라우징하는 동안 수집 된 모든 데이터를 지울 수 있음 쿠키 / 암호 / Cache / history / downloads / formData",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "개발자 도구 패널을 만들 수 있습니다.",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "OAuth2 인증 코드 또는 액세스 토큰을 생성하고 사용자 데이터에 액세스하는 데 사용할 수 있습니다.",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "오른쪽 클릭 메뉴 항목 생성 / 조작 가능",
+    "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "데이터를 클립 보드에 쓸 수 있습니다.",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "브라우저의 모든 웹 페이지",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "에 대한 액세스 / 수정 가능",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "내 권한 파악",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "확장 기능",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "권한",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "더...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "일정한 간격으로 알람을 생성 할 수 있습니다.",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "설치된 각 확장 프로그램에서 사용되는 모든 권한에 대한 세부 정보",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "설치된 모든 확장 프로그램에서 주어진 권한을 사용하는 세부 정보",
+    "description": "page heading permissions"
+  },
+  "enable": {
+    "message": "사용",
+    "description": "Button enable"
+  },
+  "disable": {
+    "message": "사용 안함",
+    "description": "Button disable"
+  },
+  "uninstall": {
+    "message": "제거",
+    "description": "Button Uninstall"
+  }
+}

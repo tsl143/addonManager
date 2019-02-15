@@ -1,0 +1,242 @@
+{
+  "extensionDescription": {
+    "message": "Katra instalētā paplašinājuma izmantoto atļauju momentuzņēmums",
+    "description": "Description of the extension"
+  },
+  "browserActionText": {
+    "message": "Ziniet savas atļaujas",
+    "description": "text for browser action"
+  },
+  "storageText": {
+    "message": "Var saglabāt datus līdz 5 MB",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "Var zināt jūsu ģeogrāfisko atrašanās vietu",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "Var piekļūt PKCS # 11 moduļiem",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "Var padarīt PKCS # 11 moduļus pārlūkprogrammā pieejamus kā atslēgu un sertifikātu avotus",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "Tikai Firefox",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "Var piekļūt pārlūka sesijai",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "Var sarakstīt un atjaunot cilnes un logus, kas ir aizvērti pārlūkprogrammas darbības laikā",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "Var piekļūt pārlūka konteineriem",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "Var uzskaitīt, izveidot, noņemt un atjaunināt konteksta identitātes / konteinerus",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "Var atrisināt DNS",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "Ļauj paplašinājumu domēnu nosaukumu atrisināšanai",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "Var piekļūt informācijai par visiem instalētajiem papildinājumiem",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "Var piekļūt un mainīt dažādus ar privātumu saistītus pārlūka iestatījumus",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "Piekļūstiet konfidencialitātes pārlūkprogrammas iestatījumiem",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "Var pārraidīt webRequests",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "Var piekļūt ziņojumam no vietējām lietotnēm",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nativeMessagingText": {
+    "message": "Var apmainīties ar ziņojumiem ar lietotāja datorā instalētu vietējo lietojumprogrammu",
+    "description": "Description of nativeMessaging Text"
+  },
+  "telemetryText": {
+    "message": "Tikai Firefox",
+    "description": "Description of telemetry Text"
+  },
+  "themeText": {
+    "message": "Var atjaunināt pārlūka motīvu",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "Var kopēt datus no tīmekļa lapas",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "Var uzzināt, kad lietotāja sistēma ir dīkstāvē, ir bloķēta vai aktīva",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "Var parādīt paziņojumus, izmantojot pamatā esošo operētājsistēmas paziņošanas mehānismu",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "Var mijiedarboties ar pārlūkprogrammas grāmatzīmju sistēmu un manipulēt ar to",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "Var atrast tekstu tīmekļa lapā un izceļ spēles",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "Var mijiedarboties un manipulēt ar pārlūkprogrammas vēsturi",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "Tikai Firefox",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "Var uzskaitīt visu meklētājprogrammu un meklēt ar konkrētu meklētājprogrammu",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "Var piekļūt datiem no jebkuras aktīvas cilnes un var ieslēgt kodu un stilu aktīvai cilnei",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "Var iegūt atvērtās cilnes sarakstu un var atvērt, atjaunināt, pārvietot, pārlādēt un noņemt cilni",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "Var padarīt cilni slēptu",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "Var mainīt globālos pārlūka iestatījumus, piemēram, iespējot logus",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "Var saņemt un iestatīt sīkfailus un saņemt informāciju, kad tie mainās",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "Var lejupielādēt failus, atcelt, apturēt, atsākt lejupielādi",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "Var atvērt jebkuru lejupielādētu objektu",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "Var iegūt lapas, kuras lietotājs ir bieži apmeklējis un bieži",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "Var pievienot notikumus, pārlūkprogrammas pārejai no viena URL uz citu",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "Var pārtvert katru pārlūkprogrammas HTTP pieprasījumu",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "Var bloķēt un mainīt pārlūkprogrammas iesniegto pieprasījumu",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "Tikai Firefox",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "Var uzglabāt jebkuru datu apjomu",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "Var dzēst visus datus, kas tiek apkopoti pārlūkošanas laikā Sīkfaili / paroles / Kešatmiņa / vēsture / lejupielādes / formData",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "Var izveidot izstrādātāja rīku paneli",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "Var ģenerēt OAuth2 autorizācijas kodu vai piekļuves pilnvaru un izmantot, lai piekļūtu lietotāja datiem",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "Var izveidot / manipulēt ar peles labo pogu noklikšķiniet uz izvēlnes vienumiem",
+    "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "Var rakstīt datus starpliktuvē",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "jebkura tīmekļa lapa pārlūkprogrammā",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "Var piekļūt / mainīt datus",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "Ziniet savas atļaujas",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "Paplašinājumi",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "Atļaujas",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "Vairāk ...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "Var dot trauksmi noteiktā intervālā",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "Sīkāka informācija par visām instalētajiem paplašinājumiem",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "Sīkāka informācija par to, ar kuriem instalētajiem paplašinājumiem tiek dota atļauja",
+    "description": "page heading permissions"
+  },
+  "enable": {
+    "message": "Iespējot",
+    "description": "Button enable"
+  },
+  "disable": {
+    "message": "Atspējot",
+    "description": "Button disable"
+  },
+  "uninstall": {
+    "message": "Atinstalēt",
+    "description": "Button Uninstall"
+  }
+}

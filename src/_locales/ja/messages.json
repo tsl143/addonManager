@@ -1,0 +1,242 @@
+{
+  "extensionDescription": {
+    "message": "インストールされている各拡張機能で使用されているすべての権限のスナップショット",
+    "description": "Description of the extension"
+  },
+  "browserActionText": {
+    "message": "あなたの許可を知っている",
+    "description": "text for browser action"
+  },
+  "storageText": {
+    "message": "最大5 MBのデータを保存できます",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "あなたの位置情報を知ることができます",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "PKCS＃11モジュールにアクセスできる",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "PKCS＃11モジュールをキーおよび証明書のソースとしてブラウザにアクセス可能にすることができます。",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "Firefoxのみ",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "ブラウザセッションにアクセスできる",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "ブラウザの実行中に閉じられたタブやウィンドウを一覧表示および復元できます",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "ブラウザコンテナにアクセスできる",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "コンテキストID /コンテナを一覧表示、作成、削除、および更新できます。",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "DNSを解決できる",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "拡張機能を有効にしてドメイン名を解決する",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "インストールされているすべてのアドオンに関する情報にアクセスできます",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "プライバシー関連のさまざまなブラウザ設定にアクセスして変更できます",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "プライバシー関連のブラウザ設定にアクセスする",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "webRequestを代理できる",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "ネイティブアプリからメッセージにアクセスできる",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nativeMessagingText": {
+    "message": "ユーザーのコンピュータにインストールされているネイティブアプリケーションとメッセージを交換できます。",
+    "description": "Description of nativeMessaging Text"
+  },
+  "telemetryText": {
+    "message": "Firefoxのみ",
+    "description": "Description of telemetry Text"
+  },
+  "themeText": {
+    "message": "ブラウザのテーマを更新できます",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "Webページからデータをコピーできます",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "ユーザーのシステムがアイドル状態、ロック状態、またはアクティブ状態になったときに確認できます。",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "基盤となるオペレーティングシステムの通知メカニズムを使用して通知を表示できます",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "ブラウザのブックマークシステムと対話して操作することができます",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "Webページ内のテキストを見つけて、一致部分を強調表示する",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "ブラウザの履歴を操作して操作することができます",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "Firefoxのみ",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "すべての検索エンジンを一覧表示し、特定の検索エンジンで検索することができます",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "アクティブなタブからデータにアクセスでき、アクティブなタブにコードとスタイルを挿入できます。",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "開いているタブのリストを取得したり、タブを開いたり、更新したり、移動したり、再読み込みしたり、削除したりすることができます。",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "タブを非表示にすることができます",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "ポップアップを許可するなど、グローバルなブラウザ設定を変更できます",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "Cookieを取得および設定し、変更時に通知を受けることができます",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "ファイルのダウンロード、キャンセル、一時停止、ダウンロードの再開が可能",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "ダウンロードしたアイテムを開くことができます",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "ユーザーが頻繁にかつ頻繁に訪問したページを取得できます",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "ブラウザがあるURLから別のURLに移行している間にイベントを追加できる",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "ブラウザからのすべてのHTTPリクエストを傍受できます",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "ブラウザによるリクエストをブロックして変更することができます",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "Firefoxのみ",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "任意の量のデータを保存できます",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "Cookie /パスワード/キャッシュ/履歴/ダウンロード/ formDataを閲覧中に収集されたすべてのデータを消去することができます",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "開発者用ツールパネルを作成できます",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "OAuth2認証コードまたはアクセストークンを生成してユーザーデータにアクセスするために使用できます",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "右クリックメニュー項目を作成/操作できます",
+    "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "クリップボードにデータを書き込むことができます",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "ブラウザ内の任意のWebページ",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "上のデータにアクセス／変更できる",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "あなたの許可を知っている",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "拡張機能",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "許可",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "もっと...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "与えられた間隔で警報を発することができます",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "インストールされている各拡張機能で使用されているすべての権限の詳細",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "指定された権限を使用しているすべてのインストール済み拡張機能の詳細",
+    "description": "page heading permissions"
+  },
+  "enable": {
+    "message": "有効にする",
+    "description": "Button enable"
+  },
+  "disable": {
+    "message": "無効にする",
+    "description": "Button disable"
+  },
+  "uninstall": {
+    "message": "アンインストール",
+    "description": "Button Uninstall"
+  }
+}

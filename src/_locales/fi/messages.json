@@ -1,0 +1,242 @@
+{
+  "extensionDescription": {
+    "message": "Kaikkien asennettujen laajennusten käyttämien oikeuksien tilannekuva",
+    "description": "Description of the extension"
+  },
+  "browserActionText": {
+    "message": "Tunne käyttöoikeudet",
+    "description": "text for browser action"
+  },
+  "storageText": {
+    "message": "Voi tallentaa tietoja enintään 5 Mt",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "Osaa tietää sijaintisi",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "Voidaan käyttää PKCS # 11 -moduuleja",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "Voi tehdä PKCS # 11 -moduulit selaimen käyttöön avainten ja varmenteiden lähteinä",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "Vain Firefox",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "Voi käyttää selainistuntoa",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "Voi listata ja palauttaa välilehdet ja ikkunat, jotka on suljettu selaimen ollessa käynnissä",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "Voi käyttää selainastioita",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "Voi luetella, luoda, poistaa ja päivittää kontekstuaalisia tunnisteita / kontteja",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "Voi ratkaista DNS",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "Mahdollistaa laajennuksen verkkotunnusten ratkaisemiseksi",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "Voi käyttää kaikkia asennettuja lisäosia koskevia tietoja",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "Voi käyttää ja muokata erilaisia tietosuojaan liittyviä asetuksia",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "Käytä tietosuojaan liittyviä asetuksia",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "Voiko välityspalvelun webRequests",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "Voi käyttää viestejä alkuperäisistä sovelluksista",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nativeMessagingText": {
+    "message": "Voi vaihtaa viestejä käyttäjän tietokoneeseen asennetun alkuperäisen sovelluksen kanssa",
+    "description": "Description of nativeMessaging Text"
+  },
+  "telemetryText": {
+    "message": "Vain Firefox",
+    "description": "Description of telemetry Text"
+  },
+  "themeText": {
+    "message": "Voi päivittää selainteeman",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "Voi kopioida tiedot verkkosivulta",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "Selvittää, milloin käyttäjän järjestelmä on valmiustilassa, lukittu tai aktiivinen",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "Voi näyttää ilmoituksia perustana olevan käyttöjärjestelmän ilmoitusmekanismin avulla",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "Voi olla vuorovaikutuksessa selaimen kirjanmerkkijärjestelmän kanssa ja käsitellä sitä",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "Voi löytää tekstiä verkkosivulta ja korostaa otteluita",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "Voi olla vuorovaikutuksessa ja manipuloida selaimen historiaa",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "Vain Firefox",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "Voi luetella kaikki hakukoneet ja etsiä tietyllä hakukoneella",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "Voi käyttää minkä tahansa aktiivisen välilehden tietoja ja syöttää koodin ja tyylin aktiiviseen välilehteen",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "Voit saada luettelon avatusta välilehdestä ja avata, päivittää, siirtää, ladata uudelleen ja poistaa välilehden",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "Voi piilottaa välilehden",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "Voi muuttaa maailmanlaajuisia selaimen asetuksia, kuten ponnahdusikkunoiden sallimisen",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "Voi saada ja asettaa evästeitä ja saada ilmoituksen muutoksen yhteydessä",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "Voi ladata tiedostoja, peruuttaa, keskeyttää, jatkaa latauksia",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "Voi avata minkä tahansa ladatun kohteen",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "Voi saada sivuja, joita käyttäjä on käynyt usein ja usein",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "Voi lisätä tapahtumia selaimen siirtymisestä URL-osoitteesta toiseen",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "Voi siepata kaikki selaimen tekemät HTTP-pyynnöt",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "Voi estää ja muokata selaimen tekemää pyyntöä",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "Vain Firefox",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "Voi tallentaa minkä tahansa määrän tietoja",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "Voi poistaa kaikki selaamisen aikana kerätyt tiedot Evästeet / salasanat / Välimuisti / historia / lataukset / formData",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "Voi luoda kehittäjätyökalupaneelin",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "Voi luoda OAuth2-valtuutuskoodin tai käyttöoikeustunnuksen ja käyttää käyttäjän tietoja",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "Voi luoda / manipuloida hiiren kakkospainikkeella olevia valikkokohteita",
+    "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "Voi kirjoittaa tiedot leikepöydälle",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "selaimen Web-sivuja",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "Voi käyttää / muokata tietoja",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "Tunne käyttöoikeudet",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "laajennukset",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "käyttöoikeudet",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "Lisää...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "Voi tuottaa hälytyksiä tietyin väliajoin",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "Tiedot jokaisen asennetun laajennuksen käyttämistä käyttöoikeuksista",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "Yksityiskohtaiset tiedot siitä, mitä kaikkia asennettuja laajennuksia käytetään",
+    "description": "page heading permissions"
+  },
+  "enable": {
+    "message": "ota käyttöön",
+    "description": "Button enable"
+  },
+  "disable": {
+    "message": "Poista käytöstä",
+    "description": "Button disable"
+  },
+  "uninstall": {
+    "message": "Uninstall",
+    "description": "Button Uninstall"
+  }
+}

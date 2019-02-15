@@ -1,0 +1,242 @@
+{
+  "extensionDescription": {
+    "message": "Az egyes telepített kiterjesztések által használt összes engedély pillanatképe",
+    "description": "Description of the extension"
+  },
+  "browserActionText": {
+    "message": "Ismerje meg engedélyeit",
+    "description": "text for browser action"
+  },
+  "storageText": {
+    "message": "Legfeljebb 5 MB adatot tárolhat",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "Ismerheti a földrajzi elhelyezkedését",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "Hozzáférhet a PKCS # 11 modulokhoz",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "A kulcsok és tanúsítványok forrásaként hozzáférhetővé teheti a PKCS # 11 modulokat a böngésző számára",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "Csak Firefox",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "Hozzáférhet a böngésző munkamenetéhez",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "Lehetővé teszi a böngésző futásakor lezárt lapok és ablakok listáját és visszaállítását",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "Hozzáférhet böngésző tárolóhoz",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "Lehetővé teszi a kontextus szerinti identitások / konténerek listáját, létrehozását, eltávolítását és frissítését",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "Meg tudja oldani a DNS-t",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "Lehetővé teszi a kiterjesztés tartománynevek megoldását",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "Hozzáférhet az összes telepített kiegészítőre vonatkozó információkhoz",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "Hozzáférhet és módosíthat különböző adatvédelmi böngésző beállításokat",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "Hozzáférés adatvédelmi böngészőbeállításokhoz",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "Lehet proxy webRequest",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "Hozzáférhet az üzenethez a natív alkalmazásokból",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nativeMessagingText": {
+    "message": "Cserélhet üzeneteket a felhasználó számítógépére telepített natív alkalmazással",
+    "description": "Description of nativeMessaging Text"
+  },
+  "telemetryText": {
+    "message": "Csak Firefox",
+    "description": "Description of telemetry Text"
+  },
+  "themeText": {
+    "message": "Frissítheti a böngésző témáját",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "Meg tudja másolni az adatokat a weboldalról",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "Megtudhatja, hogy a felhasználó rendszere tétlen, zárolt vagy aktív",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "Megjelenítheti az értesítéseket az operációs rendszer értesítési mechanizmusának használatával",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "Lehet kölcsönhatásba lépni és kezelni a böngésző könyvjelző rendszerét",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "Találhat szöveget egy weboldalon, és kiemeli a mérkőzéseket",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "Lehet kölcsönhatásba lépni és kezelni tudja a böngésző történetét",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "Csak Firefox",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "Lehetővé teszi az összes keresőmotor felsorolását és keresést egy adott keresőmotorral",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "Hozzáférhet bármely aktív lap adatához, és kódot és stílust aktiválhat aktív fülre",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "Kaphat egy listát a megnyitott lapról, és megnyithatja, frissítheti, áthelyezheti, újratöltheti és eltávolíthatja a lapot",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "Elrejtheti a lapot",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "Megváltoztathatja a globális böngészőbeállításokat, például a felugró ablakok engedélyezését",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "Lehet kapni és beállítani a cookie-kat, és értesíteni kell, amikor megváltozik",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "Letölthet fájlokat, törölheti, szüneteltetheti, folytathatja a letöltéseket",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "Nyithat bármely letöltött elemet",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "Lehet olyan oldalakat kapni, amelyeket a felhasználó gyakran és gyakran látogatott meg",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "Rendezvényeket adhat hozzá, miközben a böngésző átkapcsol egy URL-ről a másikra",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "Minden böngésző által végrehajtott HTTP-kérést elkaphat",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "Megakadályozhatja és módosíthatja a böngésző által benyújtott kérést",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "Csak Firefox",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "Bármilyen mennyiségű adatot tárolhat",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "Törli a böngészés közben összegyűjtött adatokat. Cookie-k / jelszavak / gyorsítótár / előzmények / letöltések / formData",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "Létrehozhat egy fejlesztői eszközpanelt",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "OAuth2 jogosultsági kódot vagy hozzáférési tokent generálhat, és felhasználhatja a felhasználói adatok elérését",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "Lehet létrehozni / manipulálni a jobb gombbal a menüelemeket",
+    "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "Tud írni az adatokat a vágólapra",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "bármely böngésző weboldala",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "Hozzáférhet / módosíthat adatokat",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "Ismerje meg engedélyeit",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "Extensions",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "Engedélyek",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "Több...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "Riasztást generálhat bizonyos időközönként",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "Az egyes telepített kiterjesztések által használt összes engedély adatai",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "Azok a részletek, amelyekre az összes telepített kiterjesztés adott engedélyt használ",
+    "description": "page heading permissions"
+  },
+  "enable": {
+    "message": "Engedélyezze",
+    "description": "Button enable"
+  },
+  "disable": {
+    "message": "Kikapcsolja",
+    "description": "Button disable"
+  },
+  "uninstall": {
+    "message": "Eltávolítás",
+    "description": "Button Uninstall"
+  }
+}

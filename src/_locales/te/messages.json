@@ -1,0 +1,242 @@
+{
+  "extensionDescription": {
+    "message": "ప్రతి వ్యవస్థాపించిన పొడిగింపు ద్వారా ఉపయోగించిన అన్ని అనుమతుల స్నాప్షాట్",
+    "description": "Description of the extension"
+  },
+  "browserActionText": {
+    "message": "మీ అనుమతులు తెలుసు",
+    "description": "text for browser action"
+  },
+  "storageText": {
+    "message": "5 MB వరకు డేటా నిల్వ చేయవచ్చు",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "మీ జియోస్థానం తెలుసుకోవచ్చు",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "PKCS # 11 గుణకాలు యాక్సెస్ చేయవచ్చు",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "కీలు మరియు ధృవీకరణ పత్రాల మూలంగా బ్రౌజర్కు ప్రాప్యత చేయగలిగే PKCS # 11 గుణకాలు చేయవచ్చు",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "ఫైర్ఫాక్స్ మాత్రమే",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "బ్రౌజర్ సెషన్ను ప్రాప్యత చేయవచ్చు",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "బ్రౌజర్ అమలులో ఉన్నప్పుడు మూసివేయబడిన టాబ్లను మరియు విండోలను జాబితా చేసి పునరుద్ధరించవచ్చు",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "బ్రౌజర్ కంటైనర్లను ప్రాప్యత చేయవచ్చు",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "సందర్భానుసార గుర్తింపులు / కంటైనర్లను జాబితా చేయవచ్చు, సృష్టించవచ్చు, తొలగించండి మరియు నవీకరించవచ్చు",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "DNS పరిష్కరించవచ్చు",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "డొమైన్ పేర్లను పరిష్కరించడానికి పొడిగింపుని ప్రారంభిస్తుంది",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "ఇన్స్టాల్ చేయబడిన అన్ని అనుబంధాల గురించి సమాచారాన్ని ప్రాప్యత చేయవచ్చు",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "వివిధ గోప్యతా-సంబంధిత బ్రౌజర్ సెట్టింగులను యాక్సెస్ చేయవచ్చు మరియు సవరించవచ్చు",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "గోప్యతా సంబంధిత బ్రౌజర్ సెట్టింగ్లను ప్రాప్యత చేయండి",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "వెబ్ రిక్వెస్ట్లను ప్రాక్సీ చెయ్యగలదు",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "స్థానిక అనువర్తనాల నుండి సందేశాన్ని ప్రాప్యత చేయవచ్చు",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nativeMessagingText": {
+    "message": "వినియోగదారు కంప్యూటర్లో ఇన్స్టాల్ చేయబడిన స్థానిక అనువర్తనాలతో సందేశాలను మార్పిడి చేసుకోవచ్చు",
+    "description": "Description of nativeMessaging Text"
+  },
+  "telemetryText": {
+    "message": "ఫైర్ఫాక్స్ మాత్రమే",
+    "description": "Description of telemetry Text"
+  },
+  "themeText": {
+    "message": "బ్రౌజర్ థీమ్ను నవీకరించవచ్చు",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "వెబ్ పేజీ నుండి సమాచారాన్ని కాపీ చేయవచ్చు",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "యూజర్ యొక్క సిస్టమ్ నిష్క్రియంగా ఉన్నప్పుడు, లాక్ చేయబడినప్పుడు లేదా చురుకుగా ఉన్నప్పుడు కనుగొనవచ్చు",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "నోటిఫికేషన్లు ప్రదర్శించగలవు, అంతర్లీన ఆపరేటింగ్ సిస్టమ్ నోటిఫికేషన్ మెకానిజంను ఉపయోగించి",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "సంకర్షణ మరియు బ్రౌజర్ యొక్క బుక్మార్కింగ్ వ్యవస్థను మార్చవచ్చు",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "వెబ్ పేజీలో వచనాన్ని కనుగొనవచ్చు మరియు హైలైట్ పోలికలను పొందవచ్చు",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "బ్రౌజర్ చరిత్రను సంకర్షణ మరియు నిర్వహించగలదు",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "ఫైర్ఫాక్స్ మాత్రమే",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "ఒక నిర్దిష్ట శోధన ఇంజిన్తో అన్ని శోధన ఇంజిన్ మరియు శోధనలను జాబితా చెయ్యవచ్చు",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "ఏదైనా సక్రియ ట్యాబ్ నుండి డేటాను ప్రాప్యత చేయగలదు మరియు కోడ్ మరియు శైలిని క్రియాశీల ట్యాబ్కు ఇంజెక్ట్ చేయవచ్చు",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "తెరిచిన ట్యాబ్ జాబితాను పొందవచ్చు మరియు తెరవవచ్చు, నవీకరించవచ్చు, తరలించండి, మళ్లీ లోడ్ చేయండి మరియు టాబ్ను తీసివేయవచ్చు",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "టాబ్ దాచవచ్చు",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "పాపప్లను అనుమతించడం వంటి, ప్రపంచ బ్రౌజర్ సెట్టింగులను మార్చవచ్చు",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "కుక్కీలను పొందవచ్చు మరియు సెట్ చేయవచ్చు, మరియు వారు మారినప్పుడు తెలియజేయబడుతుంది",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "ఫైళ్లను డౌన్ లోడ్ చేసుకోవచ్చు, రద్దు చేయండి, పాజ్ చేయవచ్చు, డౌన్లోడ్లను పునఃప్రారంభించండి",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "డౌన్లోడ్ చేసిన ఐటెమ్ను తెరవవచ్చు",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "వినియోగదారు తరచుగా మరియు తరచూ సందర్శించే పేజీలను పొందవచ్చు",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "ఒక URL నుండి మరొక బ్రౌజర్ మార్పును ఉన్నప్పుడు ఈవెంట్లను జోడించవచ్చు",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "బ్రౌజర్ ద్వారా చేసిన ప్రతి HTTP అభ్యర్ధనను అడ్డుకోవచ్చు",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "బ్రౌజర్ చేసిన అభ్యర్థనను నిరోధించవచ్చు మరియు సవరించవచ్చు",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "ఫైర్ఫాక్స్ మాత్రమే",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "డేటా మొత్తం నిల్వ చేయవచ్చు",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "కుకీలు / పాస్వర్డ్లు / కాష్ / చరిత్ర / డౌన్లోడ్లు / ఫార్మాట్టాటా బ్రౌజ్ చేస్తున్నప్పుడు సేకరించిన అన్ని డేటాను క్లియర్ చేయవచ్చు",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "డెవలపర్ సాధనం ప్యానెల్ను సృష్టించవచ్చు",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "OAuth2 అధికార కోడ్ను లేదా ఆక్సెస్ టోకెన్ను ఉత్పత్తి చెయ్యవచ్చు మరియు యూజర్ డేటాను ప్రాప్తి చేయడానికి ఉపయోగించవచ్చు",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "రైట్-క్లిక్ మెను ఐటెమ్లను సృష్టించగలదు / మార్చవచ్చు",
+    "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "క్లిప్బోర్డ్లో డేటాను వ్రాయవచ్చు",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "బ్రౌజర్లో ఏ వెబ్పేజీ అయినా",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "డేటా యాక్సెస్ / సవరించవచ్చు",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "మీ అనుమతులు తెలుసు",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "పొడిగింపులు",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "అనుమతులు",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "మరింత...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "ఇచ్చిన వ్యవధిలో అలారం సృష్టించవచ్చు",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "ప్రతి వ్యవస్థాపించిన ఎక్స్టెన్షన్ ఉపయోగించే అన్ని అనుమతుల వివరాలు",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "అన్ని సంస్థాపిత పొడిగింపులు ఇచ్చిన అనుమతిని ఉపయోగించే వివరాలు",
+    "description": "page heading permissions"
+  },
+  "enable": {
+    "message": "ప్రారంభించు",
+    "description": "Button enable"
+  },
+  "disable": {
+    "message": "డిసేబుల్",
+    "description": "Button disable"
+  },
+  "uninstall": {
+    "message": "అన్ఇన్స్టాల్",
+    "description": "Button Uninstall"
+  }
+}

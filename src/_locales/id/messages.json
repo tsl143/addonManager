@@ -1,0 +1,242 @@
+{
+  "extensionDescription": {
+    "message": "Potret semua izin yang digunakan oleh setiap ekstensi yang dipasang",
+    "description": "Description of the extension"
+  },
+  "browserActionText": {
+    "message": "Ketahui izin Anda",
+    "description": "text for browser action"
+  },
+  "storageText": {
+    "message": "Dapat menyimpan data hingga 5 MB",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "Dapat mengetahui geolokasi Anda",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "Dapat mengakses modul PKCS # 11",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "Dapat membuat modul PKCS # 11 dapat diakses oleh browser sebagai sumber kunci dan sertifikat",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "Hanya Firefox",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "Dapat mengakses sesi browser",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "Dapat membuat daftar dan memulihkan, tab dan jendela yang telah ditutup saat browser telah berjalan",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "Dapat mengakses wadah browser",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "Dapat membuat daftar, membuat, menghapus, dan memperbarui identitas / wadah kontekstual",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "Dapat menyelesaikan DNS",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "Mengaktifkan ekstensi untuk menyelesaikan nama domain",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "Dapat mengakses info tentang semua addon yang dipasang",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "Dapat mengakses dan mengubah berbagai pengaturan browser terkait privasi",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "Akses pengaturan browser terkait privasi",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "Dapat proksi webRequests",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "Dapat mengakses pesan dari aplikasi asli",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nativeMessagingText": {
+    "message": "Dapat bertukar pesan dengan aplikasi asli yang diinstal di komputer pengguna",
+    "description": "Description of nativeMessaging Text"
+  },
+  "telemetryText": {
+    "message": "Hanya Firefox",
+    "description": "Description of telemetry Text"
+  },
+  "themeText": {
+    "message": "Dapat memperbarui tema browser",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "Dapat menyalin data dari halaman web",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "Dapat mengetahui kapan sistem pengguna menganggur, terkunci, atau aktif",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "Dapat menampilkan notifikasi, menggunakan mekanisme notifikasi sistem operasi yang mendasarinya",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "Dapat berinteraksi dengan dan memanipulasi sistem bookmark browser",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "Dapat menemukan teks di halaman web, dan menyoroti yang cocok",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "Dapat berinteraksi dan memanipulasi riwayat browser",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "Hanya Firefox",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "Dapat mencantumkan semua mesin pencari dan mencari dengan mesin pencari tertentu",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "Dapat mengakses data dari tab aktif apa pun dan dapat menyuntikkan kode dan gaya ke tab aktif",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "Dapat memperoleh daftar tab yang dibuka dan dapat membuka, memperbarui, memindahkan, memuat ulang, dan menghapus tab",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "Dapat membuat tab disembunyikan",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "Dapat mengubah pengaturan browser global, seperti membolehkan popup",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "Dapat memperoleh dan mengatur cookie, dan diberi tahu saat mereka berubah",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "Dapat mengunduh file, membatalkan, menjeda, melanjutkan unduhan",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "Dapat membuka item apa pun yang diunduh",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "Dapat memperoleh halaman yang sering dikunjungi pengguna",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "Dapat menambahkan acara saat transisi browser dari satu URL ke yang lain",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "Dapat mencegat setiap permintaan HTTP yang dibuat oleh browser",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "Dapat memblokir dan mengubah permintaan yang dibuat oleh browser",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "Hanya Firefox",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "Dapat menyimpan sejumlah data apa pun",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "Dapat menghapus semua data yang dikumpulkan saat menjelajah Cookie / kata sandi / Cache / histori / unduhan / formData",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "Dapat membuat panel alat pengembang",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "Dapat menghasilkan kode otorisasi OAuth2 atau token akses dan digunakan untuk mengakses data pengguna",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "Dapat membuat / memanipulasi item menu klik kanan",
+    "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "Dapat menulis data di clipboard",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "halaman web apa pun di browser",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "Dapat mengakses / memodifikasi data",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "Ketahui izin Anda",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "Ekstensi",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "Izin",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "Lebih...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "Dapat menghasilkan alarm pada interval yang diberikan",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "Detail semua izin yang digunakan oleh setiap ekstensi yang dipasang",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "Detail yang menggunakan semua ekstensi yang diinstal menggunakan izin yang diberikan",
+    "description": "page heading permissions"
+  },
+  "enable": {
+    "message": "Memungkinkan",
+    "description": "Button enable"
+  },
+  "disable": {
+    "message": "Nonaktifkan",
+    "description": "Button disable"
+  },
+  "uninstall": {
+    "message": "Copot pemasangan",
+    "description": "Button Uninstall"
+  }
+}

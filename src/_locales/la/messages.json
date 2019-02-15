@@ -1,0 +1,242 @@
+{
+  "extensionDescription": {
+    "message": "Inter usus a snapshot omnes facultates concedere installed extensio",
+    "description": "Description of the extension"
+  },
+  "browserActionText": {
+    "message": "Cognosce te permissiones",
+    "description": "text for browser action"
+  },
+  "storageText": {
+    "message": "Potest congregem notitia usque ad V MB",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "Scire possit vestra geolocation",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "# XI possit accedere PKCS modules",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "# XI modules PKCS potest facere quod pasco ut obvius ei claves, et literas testimoniales de fontibus",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "tantum Firefox",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "Accedere possunt pasco session",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "Possum et restituere, dum pasco Nazgul fenestras quia clausi sunt iam currentem",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "Accedere possunt pasco vasa,",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "Possunt libeat, quod creare: remove, et update contextual identities / vasa,",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "Vesci possunt propono",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "Ope prorogata usque ad propono domain nomen",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "Omnia possum accedere info about adaugeo-installed",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "Et mutari non potest accedere variis occasus secretum pasco-related",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "Secretum pasco obvius occasus ex actis",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "Procuratorem praestari potest webRequests",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "Access potest nuntio de patria apps",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nativeMessagingText": {
+    "message": "Possunt commutent perferentes et patria est scriptor application installed in computatrum user",
+    "description": "Description of nativeMessaging Text"
+  },
+  "telemetryText": {
+    "message": "tantum Firefox",
+    "description": "Description of telemetry Text"
+  },
+  "themeText": {
+    "message": "Potest ad pasco update theme",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "Potest effingo ad notitia ex textus page",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "Invenire user est ratio de quando non cessat: clausum, seu active",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "Display potest notificationes, quae subditos eosque usura notitia operating ratio est scriptor mechanism",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "Et mutare ratio can penitus per pasco in bookmarking",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "Invenire illud in Paginam et compositus in lumine",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "Potest ad pasco penitus history et manipulate",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "tantum Firefox",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "Omnia possum in quaero engine quod Rerum specialium inquisitiones ex search engine",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "Notitia tab accedere potest ab aliquo active active et injicere in codice quodam ac tab",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "Posse adepto a album of tab aperuit, et aperire potest, update, movere, reload et removere tab",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "Et non est occultatum tab",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "Pasco global occasus potest mutare, sicut permittens popups",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "Exempla, Nullam et crustula potes, et mutant cum notificabitur",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "Files download possunt, destruunt, interposita mora, ad opuscula downloads",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "Item nec aperire possunt downloaded",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "Et saepe saepius potes adepto cognatae quae actuales sunt usor visited",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "Certe addere potest pasco dum domicilium ad aliam transitum ab una",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "Num intercludere omnis http requisitione pasco",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "Et mutari non potest angustos ad pasco per impetrationem",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "tantum Firefox",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "Moles notitia repono quis possit",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "Patet quod non omnes contestatus quia vivit dum pasco notitia Crustulae / Tesserae / Cache / historia / downloads / formData",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "Potest creare elit instrumentum panel",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "Codice potest generate OAuth2 ex auctoritate aut accedere ad user accessum ad indicium videlicet ac uti notitia",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "Potest creare / ius-click menu items manipulate",
+    "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "Potest scribere data est in clipboard",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "pasco webpage in omnibus",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "Potest accedere / data est modify",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "Cognosce te permissiones",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "extensiones",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "permissionibus",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "More ...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "Generaret intervallis exterriti",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "Details of usus in se omnes facultates concedere installed extensio",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "Details of installed omnia quae usus, permissum extensiones",
+    "description": "page heading permissions"
+  },
+  "enable": {
+    "message": "Admitte",
+    "description": "Button enable"
+  },
+  "disable": {
+    "message": "disable",
+    "description": "Button disable"
+  },
+  "uninstall": {
+    "message": "Uninstall",
+    "description": "Button Uninstall"
+  }
+}

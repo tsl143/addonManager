@@ -1,0 +1,242 @@
+{
+  "extensionDescription": {
+    "message": "ਹਰੇਕ ਇੰਸਟੌਲ ਕੀਤੇ ਐਕਸਟੈਂਸ਼ਨ ਵੱਲੋਂ ਵਰਤੀਆਂ ਗਈਆਂ ਸਾਰੀਆਂ ਅਨੁਮਤੀਆਂ ਦਾ ਸਨੈਪਸ਼ਾਟ",
+    "description": "Description of the extension"
+  },
+  "browserActionText": {
+    "message": "ਆਪਣੇ ਅਨੁਮਤੀਆਂ ਨੂੰ ਜਾਣੋ",
+    "description": "text for browser action"
+  },
+  "storageText": {
+    "message": "ਡਾਟਾ 5 MB ਤਕ ਸਟੋਰ ਕਰ ਸਕਦਾ ਹੈ",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "ਤੁਹਾਡੇ ਭੂਗੋਲਿਕੇਸ਼ਨ ਨੂੰ ਜਾਣ ਸਕਦਾ ਹੈ",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "PKCS # 11 ਮੈਡਿਊਲਾਂ ਤੱਕ ਪਹੁੰਚ ਪ੍ਰਾਪਤ ਕਰ ਸਕਦਾ ਹੈ",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "ਕੁੰਜੀਆਂ ਅਤੇ ਸਰਟੀਫਿਕੇਟ ਦੇ ਸਰੋਤ ਦੇ ਤੌਰ ਤੇ ਬ੍ਰਾਉਜ਼ਰ ਨੂੰ PKCS # 11 ਮੈਡਿਊਲ ਪਹੁੰਚਯੋਗ ਬਣਾ ਸਕਦੇ ਹਨ",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "ਫਾਇਰਫਾਕਸ ਕੇਵਲ",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "ਬ੍ਰਾਉਜ਼ਰ ਸੈਸ਼ਨ ਐਕਸੈਸ ਕਰ ਸਕਦਾ ਹੈ",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "ਲਿਸਟ ਅਤੇ ਰੀਸਟੋਰ ਕਰ ਸਕਦੇ ਹੋ, ਟੈਬਸ ਅਤੇ ਵਿੰਡੋਜ਼ ਜਿਨ੍ਹਾਂ ਨੂੰ ਬਰਾਊਜ਼ਰ ਚੱਲ ਰਿਹਾ ਹੈ ਬੰਦ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "ਬ੍ਰਾਉਜ਼ਰ ਕੰਟੇਨਰਾਂ ਤੱਕ ਪਹੁੰਚ ਪ੍ਰਾਪਤ ਕਰ ਸਕਦਾ ਹੈ",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "ਪ੍ਰਸੰਗਿਕ ਪਛਾਣਾਂ / ਡੱਬਿਆਂ ਨੂੰ ਸੂਚੀਬੱਧ, ਬਣਾ, ਹਟਾ ਅਤੇ ਅਪਡੇਟ ਕਰ ਸਕਦਾ ਹੈ",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "DNS ਨੂੰ ਹੱਲ ਕਰ ਸਕਦਾ ਹੈ",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "ਡੋਮੇਨ ਨਾਮ ਨੂੰ ਹੱਲ ਕਰਨ ਲਈ ਇੱਕ ਐਕਸਟੈਂਸ਼ਨ ਨੂੰ ਸਮਰੱਥ ਬਣਾਉਂਦਾ ਹੈ",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "ਸਾਰੇ ਇੰਸਟਾਲ ਹੋਏ ਐਡਵਾਂਸ ਬਾਰੇ ਜਾਣਕਾਰੀ ਤੱਕ ਪਹੁੰਚ ਸਕਦੇ ਹਨ",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "ਕਈ ਗੋਪਨੀਯਤਾ-ਸੰਬੰਧਿਤ ਬ੍ਰਾਉਜ਼ਰ ਸੈਟਿੰਗਜ਼ ਨੂੰ ਐਕਸੈਸ ਅਤੇ ਸੰਸ਼ੋਧਿਤ ਕਰ ਸਕਦਾ ਹੈ",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "ਗੋਪਨੀਯਤਾ-ਸਬੰਧਤ ਬ੍ਰਾਊਜ਼ਰ ਸੈਟਿੰਗਾਂ ਤੱਕ ਪਹੁੰਚ",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "ਪ੍ਰੌਕਸੀ ਵੈਬ ਬੇਨਤੀਆਂ ਹੋ ਸਕਦਾ ਹੈ",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "ਮੂਲ ਐਪਸ ਤੋਂ ਸੰਦੇਸ਼ ਐਕਸੈਸ ਕਰ ਸਕਦੇ ਹੋ",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nativeMessagingText": {
+    "message": "ਉਪਭੋਗਤਾ ਦੇ ਕੰਪਿਊਟਰ ਤੇ ਸਥਾਈ ਅਰਜ਼ੀ ਨਾਲ ਸੁਨੇਹਿਆਂ ਨੂੰ ਐਕਸਚੇਂਜ ਕਰ ਸਕਦਾ ਹੈ",
+    "description": "Description of nativeMessaging Text"
+  },
+  "telemetryText": {
+    "message": "ਫਾਇਰਫਾਕਸ ਕੇਵਲ",
+    "description": "Description of telemetry Text"
+  },
+  "themeText": {
+    "message": "ਬ੍ਰਾਉਜ਼ਰ ਥੀਮ ਨੂੰ ਅਪਡੇਟ ਕਰ ਸਕਦਾ ਹੈ",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "ਵੈਬ ਪੇਜ ਤੋਂ ਡੇਟਾ ਨੂੰ ਕਾਪੀ ਕਰ ਸਕਦਾ ਹੈ",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "ਇਹ ਪਤਾ ਲਗਾ ਸਕਦੇ ਹੋ ਕਿ ਜਦੋਂ ਉਪਭੋਗਤਾ ਦਾ ਸਿਸਟਮ ਨਿਸ਼ਕਿਰਿਆ, ਤਾਲਾਬੰਦ ਹੈ ਜਾਂ ਕਿਰਿਆਸ਼ੀਲ ਹੈ",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "ਅੰਡਰਲਾਈੰਗ ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਦੇ ਸੂਚਨਾ ਵਿਧੀ ਦਾ ਇਸਤੇਮਾਲ ਕਰਦੇ ਹੋਏ ਸੂਚਨਾਵਾਂ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰ ਸਕਦਾ ਹੈ",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "ਬ੍ਰਾਊਜ਼ਰ ਦੇ ਬੁੱਕਮਾਰਕਿੰਗ ਪ੍ਰਣਾਲੀ ਨਾਲ ਸੰਚਾਰ ਕਰ ਸਕਦਾ ਹੈ ਅਤੇ ਇਸ ਦਾ ਉਪਯੋਗ ਕਰ ਸਕਦਾ ਹੈ",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "ਵੈਬ ਪੇਜ ਵਿੱਚ ਟੈਕਸਟ ਲੱਭ ਸਕਦੇ ਹੋ, ਅਤੇ ਮੇਲ ਦਿਖਾਉਂਦਾ ਹੈ",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "ਬ੍ਰਾਉਜ਼ਰ ਦੇ ਇਤਿਹਾਸ ਨੂੰ ਪ੍ਰਭਾਵਤ ਕਰ ਸਕਦਾ ਹੈ ਅਤੇ ਇਸ ਦਾ ਉਪਯੋਗ ਕਰ ਸਕਦਾ ਹੈ",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "ਫਾਇਰਫਾਕਸ ਕੇਵਲ",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "ਸਾਰੇ ਖੋਜ ਇੰਜਣ ਨੂੰ ਸੂਚੀਬੱਧ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ ਅਤੇ ਕਿਸੇ ਖਾਸ ਖੋਜ ਇੰਜਣ ਨਾਲ ਖੋਜ ਕਰ ਸਕਦਾ ਹੈ",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "ਕਿਸੇ ਵੀ ਸਕ੍ਰਿਅ ਟੈਬ ਤੋਂ ਡੇਟਾ ਐਕਸੈਸ ਕਰ ਸਕਦਾ ਹੈ ਅਤੇ ਐਕਟਿਵ ਟੈਬ ਤੇ ਕੋਡ ਅਤੇ ਸਟਾਈਲ ਸ਼ਾਮਲ ਕਰ ਸਕਦਾ ਹੈ",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "ਖੁਲ੍ਹੇ ਹੋਏ ਟੈਬ ਦੀ ਇੱਕ ਸੂਚੀ ਪ੍ਰਾਪਤ ਕਰ ਸਕਦਾ ਹੈ ਅਤੇ ਟੈਬ ਖੋਲ੍ਹ ਸਕਦਾ ਹੈ, ਅਪਡੇਟ ਕਰ ਸਕਦਾ ਹੈ, ਲਿਜਾ ਸਕਦਾ ਹੈ, ਮੁੜ ਲੋਡ ਕਰ ਸਕਦਾ ਹੈ ਅਤੇ ਹਟਾ ਸਕਦਾ ਹੈ",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "ਟੈਬ ਨੂੰ ਲੁਕਾਇਆ ਜਾ ਸਕਦਾ ਹੈ",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "ਪੋਪਅੱਪ ਦੀ ਆਗਿਆ ਦੇਣ ਵਰਗੇ, ਗਲੋਬਲ ਬ੍ਰਾਊਜ਼ਰ ਸੈਟਿੰਗਜ਼ ਬਦਲ ਸਕਦੇ ਹਨ",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "ਕੂਕੀਜ਼ ਪ੍ਰਾਪਤ ਅਤੇ ਸੈਟ ਕਰ ਸਕਦੇ ਹਨ, ਅਤੇ ਜਦੋਂ ਉਹ ਬਦਲ ਜਾਂਦੇ ਹਨ ਤਾਂ ਉਹਨਾਂ ਨੂੰ ਸੂਚਿਤ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "ਫਾਈਲਾਂ ਡਾਊਨਲੋਡ ਕਰ ਸਕਦੀਆਂ ਹਨ, ਡਾਊਨਲੋਡ ਰੱਦ ਕਰ ਸਕਦੀਆਂ ਹਨ ਰੋਕੋ",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "ਕਿਸੇ ਵੀ ਡਾਊਨਲੋਡ ਕੀਤੀ ਆਈਟਮ ਨੂੰ ਖੋਲ੍ਹ ਸਕਦਾ ਹੈ",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "ਉਹ ਸਫ਼ੇ ਪ੍ਰਾਪਤ ਕਰ ਸਕਦੇ ਹਨ ਜੋ ਉਪਯੋਗਕਰਤਾ ਨੇ ਅਕਸਰ ਅਤੇ ਅਕਸਰ ਆਉਂਦੇ ਹਨ",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "ਇੱਕ URL ਤੋਂ ਦੂਜੀ ਤੱਕ ਬ੍ਰਾਊਜ਼ਰ ਪਰਿਵਰਤਨ ਦੇ ਦੌਰਾਨ ਇਵੈਂਟਾਂ ਜੋੜ ਸਕਦੇ ਹਾਂ",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "ਬ੍ਰਾਊਜ਼ਰ ਦੁਆਰਾ ਕੀਤੀ ਹਰ HTTP ਬੇਨਤੀਆਂ ਨੂੰ ਰੋਕਿਆ ਜਾ ਸਕਦਾ ਹੈ",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "ਬ੍ਰਾਊਜ਼ਰ ਦੁਆਰਾ ਕੀਤੀ ਬੇਨਤੀ ਨੂੰ ਬਲੌਕ ਅਤੇ ਸੰਸ਼ੋਧਿਤ ਕਰ ਸਕਦਾ ਹੈ",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "ਫਾਇਰਫਾਕਸ ਕੇਵਲ",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "ਕਿਸੇ ਵੀ ਰਕਮ ਦਾ ਡਾਟਾ ਸਟੋਰ ਕਰ ਸਕਦਾ ਹੈ",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "ਕੂਕੀਜ਼ / ਪਾਸਵਰਡ / ਕੈਚ / ਇਤਿਹਾਸ / ਡਾਉਨਲੋਡਸ / ਫਾਰਮ ਡਾਟਾਬੇਸ ਨੂੰ ਬ੍ਰਾਉਜ਼ ਕਰਨ ਵੇਲੇ ਸਭ ਡਾਟਾ ਇਕੱਤਰ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "ਇੱਕ ਵਿਕਾਸਕਾਰ ਟੂਲ ਪੈਨਲ ਬਣਾ ਸਕਦਾ ਹੈ",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "OAuth2 ਪ੍ਰਮਾਣਿਕਤਾ ਕੋਡ ਜਾਂ ਪਹੁੰਚ ਟੋਕਨ ਬਣਾ ਅਤੇ ਉਪਭੋਗਤਾ ਡਾਟਾ ਤੱਕ ਪਹੁੰਚਣ ਲਈ ਵਰਤ ਸਕਦਾ ਹੈ",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "ਸੱਜਾ ਬਟਨ ਦਬਾਉਣ ਵਾਲੇ ਮੇਨੂ ਆਈਟਮਾਂ ਨੂੰ ਤਿਆਰ / ਬਣਾ ਸਕਦੇ ਹੋ",
+    "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "ਕਲਿਪਬੋਰਡ ਤੇ ਡਾਟਾ ਲਿਖ ਸਕਦਾ ਹੈ",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "ਬਰਾਊਜ਼ਰ ਵਿੱਚ ਕਿਸੇ ਵੀ ਵੈੱਬਪੇਜ",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "ਤੇ ਡਾਟਾ ਐਕਸੈਸ / ਸੋਧ ਸਕਦੇ ਹੋ",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "ਆਪਣੇ ਅਨੁਮਤੀਆਂ ਨੂੰ ਜਾਣੋ",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "ਐਕਸਟੈਂਸ਼ਨਾਂ",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "ਅਧਿਕਾਰ",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "ਹੋਰ...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "ਦਿੱਤੇ ਅੰਤਰਾਲ 'ਤੇ ਅਲਾਰਮ ਉਤਪੰਨ ਕਰ ਸਕਦਾ ਹੈ",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "ਹਰੇਕ ਇੰਸਟੌਲ ਕੀਤੇ ਐਕਸਟੈਂਸ਼ਨ ਵੱਲੋਂ ਵਰਤੀਆਂ ਗਈਆਂ ਸਾਰੀਆਂ ਅਨੁਮਤੀਆਂ ਦਾ ਵੇਰਵਾ",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "ਜਿਨ੍ਹਾਂ ਵੇਰਵੇ ਦੁਆਰਾ ਸਾਰੇ ਸਥਾਪਿਤ ਐਕਸਟੈਂਸ਼ਨਾਂ ਦੀ ਆਗਿਆ ਦਿੱਤੀ ਗਈ ਹੈ",
+    "description": "page heading permissions"
+  },
+  "enable": {
+    "message": "ਸਮਰੱਥ ਬਣਾਓ",
+    "description": "Button enable"
+  },
+  "disable": {
+    "message": "ਅਸਮਰੱਥ ਕਰੋ",
+    "description": "Button disable"
+  },
+  "uninstall": {
+    "message": "ਅਣਇੰਸਟੌਲ ਕਰੋ",
+    "description": "Button Uninstall"
+  }
+}

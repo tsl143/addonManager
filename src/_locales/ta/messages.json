@@ -1,0 +1,242 @@
+{
+  "extensionDescription": {
+    "message": "ஒவ்வொரு நிறுவப்பட்ட நீட்டிப்புக்கும் பயன்படுத்தப்படும் அனைத்து அனுமதிகளின் நொடிப்பு",
+    "description": "Description of the extension"
+  },
+  "browserActionText": {
+    "message": "உங்கள் அனுமதிகளை அறியவும்",
+    "description": "text for browser action"
+  },
+  "storageText": {
+    "message": "தரவு 5 மெ.பை வரை சேமிக்க முடியும்",
+    "description": "Description of the storage text"
+  },
+  "geoLocationText": {
+    "message": "உங்கள் புவிஇடத்தை அறிய முடியும்",
+    "description": "Description of the geoLocation text"
+  },
+  "pkcs11Short": {
+    "message": "PKCS # 11 தொகுதிகளை அணுகலாம்",
+    "description": "Description of the PKCS #11 module short message"
+  },
+  "pkcs11Text": {
+    "message": "விசைகளை மற்றும் சான்றிதழ்கள் ஆதாரமாக உலாவிக்கு அணுகக்கூடிய PKCS # 11 தொகுதிகளை உருவாக்கலாம்",
+    "description": "Description of the pkcs11 text"
+  },
+  "geckoProfilerText": {
+    "message": "பயர்பாக்ஸ் மட்டும்",
+    "description": "Description of the geckoProfile text"
+  },
+  "sessionsShort": {
+    "message": "உலாவி அமர்வு அணுக முடியும்",
+    "description": "Description of Sessions Short"
+  },
+  "sessionsText": {
+    "message": "பட்டியலிடப்பட்டு மீட்டமைக்க முடியும், உலாவி இயங்கும் போது மூடியிருக்கும் தாவல்கள் மற்றும் ஜன்னல்கள்",
+    "description": "Description of Session Text"
+  },
+  "contextualIdentitiesShort": {
+    "message": "உலாவி கொள்கலன்களை அணுகலாம்",
+    "description": "Description of contextualIdentitiesShort"
+  },
+  "contextualIdentitiesText": {
+    "message": "சூழ்நிலை அடையாளங்கள் / கொள்கலன்களை பட்டியலிடலாம், உருவாக்கலாம், நீக்கலாம் மற்றும் புதுப்பிக்கலாம்",
+    "description": "Description of contextualIdentities Text"
+  },
+  "dnsShort": {
+    "message": "DNS ஐ தீர்க்க முடியும்",
+    "description": "Description of dnsShort"
+  },
+  "dnsText": {
+    "message": "டொமைன் பெயர்களைத் தீர்க்க ஒரு நீட்டிப்பை இயக்குகிறது",
+    "description": "Description of dnsText"
+  },
+  "managementText": {
+    "message": "அனைத்து நிறுவப்பட்ட addons பற்றிய தகவலை அணுக முடியும்",
+    "description": "Description of managementText"
+  },
+  "privacyText": {
+    "message": "பல்வேறு தனியுரிமை தொடர்பான உலாவி அமைப்புகளை அணுகவும் மாற்றவும் முடியும்",
+    "description": "Description of privacy Text"
+  },
+  "privacyShort": {
+    "message": "தனியுரிமை தொடர்பான உலாவி அமைப்புகளை அணுகவும்",
+    "description": "Description of privacyShort "
+  },
+  "proxyText": {
+    "message": "இணைய பிரகடனங்களை ப்ராக்ஸி செய்யலாம்",
+    "description": "Description of proxy Text"
+  },
+  "nmS": {
+    "message": "சொந்த பயன்பாடுகளில் இருந்து செய்தி அணுக முடியும்",
+    "description": "Description of nativeMessaging Short"
+  },
+  "nativeMessagingText": {
+    "message": "பயனர் கணினியில் நிறுவப்பட்ட ஒரு சொந்த பயன்பாடு மூலம் செய்திகளை பரிமாற முடியும்",
+    "description": "Description of nativeMessaging Text"
+  },
+  "telemetryText": {
+    "message": "பயர்பாக்ஸ் மட்டும்",
+    "description": "Description of telemetry Text"
+  },
+  "themeText": {
+    "message": "உலாவி தீம் புதுப்பிக்க முடியும்",
+    "description": "Description of theme Text"
+  },
+  "cprT": {
+    "message": "வலைப்பக்கத்திலிருந்து தரவை நகலெடுக்க முடியும்",
+    "description": "Description of clipboardRead Text "
+  },
+  "idleText": {
+    "message": "பயனரின் அமைப்பு செயலற்றதாக இருக்கும்போது, பூட்டப்பட்டிருக்கும் அல்லது செயலில் இருக்கும்போது கண்டுபிடிக்கலாம்",
+    "description": "Description of idle Text"
+  },
+  "notificationText": {
+    "message": "அறிவிப்புகளைக் காட்ட முடியும், அடிப்படை இயக்க முறைமை அறிவிப்பு முறைமையைப் பயன்படுத்துகிறது",
+    "description": "Description of notification Text"
+  },
+  "bookmarksText": {
+    "message": "உலாவியின் புக்மார்க்கிங் முறையுடன் கையாளவும் கையாளவும் முடியும்",
+    "description": "Description of bookmarks Text"
+  },
+  "findText": {
+    "message": "ஒரு வலைப்பக்கத்தில் உரை கண்டுபிடிக்க மற்றும் சிறப்பம்சங்கள் பொருந்தும்",
+    "description": "Description of find Text"
+  },
+  "historyText": {
+    "message": "உலாவி வரலாற்றைத் தொடர்புகொள்ளவும், கையாளவும் முடியும்",
+    "description": "Description of history Text"
+  },
+  "mocT": {
+    "message": "பயர்பாக்ஸ் மட்டும்",
+    "description": "Description of menus overrideContext Text "
+  },
+  "searchText": {
+    "message": "அனைத்து தேடுபொறிகளையும் ஒரு குறிப்பிட்ட தேடுபொறியுடன் தேடலாம்",
+    "description": "Description of search Text"
+  },
+  "atT": {
+    "message": "செயலில் உள்ள தாவலில் இருந்து தரவை அணுகலாம் மற்றும் குறியீடும் செயலையும் செயலில் உள்ள தாவலுக்கு மாற்றலாம்",
+    "description": "Description of activeTabs Text"
+  },
+  "atA": {
+    "message": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#activeTab_permission",
+    "description": "Description of activeTabs Absolute"
+  },
+  "tabsText": {
+    "message": "திறந்த தாவலின் பட்டியலைப் பெறலாம், திறக்கலாம், புதுப்பிக்கலாம், நகர்த்தலாம், மீண்டும் ஏற்றலாம் மற்றும் தாவலை நீக்கலாம்",
+    "description": "Description of tabs Text"
+  },
+  "tabHideText": {
+    "message": "தாவலை மறைக்க முடியும்",
+    "description": "Description of tabHide Text"
+  },
+  "browserSettingsText": {
+    "message": "பாப்அப்களை அனுமதிக்கும் போன்ற உலகளாவிய உலாவி அமைப்புகளை மாற்றலாம்",
+    "description": "Description of browserSettings Text"
+  },
+  "cookiesText": {
+    "message": "குக்கீகளை பெறலாம் மற்றும் அமைக்கலாம், மேலும் அவை மாற்றப்படும்போது அறிவிக்கப்படும்",
+    "description": "Description of cookies Text"
+  },
+  "downloadsText": {
+    "message": "கோப்புகளை பதிவிறக்க முடியும், ரத்து, இடைநிறுத்தம், பதிவிறக்கங்களை மீண்டும்",
+    "description": "Description of downloads Text"
+  },
+  "doT": {
+    "message": "பதிவிறக்கம் செய்யப்பட்ட உருப்படியைத் திறக்கலாம்",
+    "description": "Description of downloads.open Text"
+  },
+  "topSitesText": {
+    "message": "அடிக்கடி அடிக்கடி சென்று பார்வையிட்ட பக்கங்களைப் பெறலாம்",
+    "description": "Description of topSites Text"
+  },
+  "webNavText": {
+    "message": "ஒரு URL இலிருந்து மற்றொரு உலாவி மாற்றம் போது நிகழ்வுகளை சேர்க்க முடியும்",
+    "description": "Description of webNavigation Text"
+  },
+  "webReqText": {
+    "message": "உலாவியால் செய்யப்பட்ட ஒவ்வொரு HTTP கோரிக்கையும் குறுக்கிட முடியும்",
+    "description": "Description of webReqest Text"
+  },
+  "wrbT": {
+    "message": "உலாவியால் செய்யப்பட்ட கோரிக்கையைத் தடுக்கவும் மாற்றவும் முடியும்",
+    "description": "Description of webRequestBlocking Text"
+  },
+  "mozAddonsText": {
+    "message": "பயர்பாக்ஸ் மட்டும்",
+    "description": "Description of mozAddons Text"
+  },
+  "unlimitedStorageText": {
+    "message": "தரவு எந்த அளவு சேமிக்க முடியும்",
+    "description": "Description of unlimitedStorage Text"
+  },
+  "bdT": {
+    "message": "குக்கீகள் / கடவுச்சொற்கள் / Cache / history / downloads / formData உலாவும்போது சேகரிக்கப்பட்ட எல்லா தரவையும் அழிக்கலாம்",
+    "description": "Description of browsingData Text"
+  },
+  "devtoolsText": {
+    "message": "டெவெலப்பர் கருவி பேனலை உருவாக்கலாம்",
+    "description": "Description of devtools Text"
+  },
+  "identityText": {
+    "message": "OAuth2 அங்கீகார குறியீடு அல்லது அணுகல் டோக்கனை உருவாக்கலாம் மற்றும் பயனர் தரவை அணுக பயன்படுத்தலாம்",
+    "description": "Description of identity Text"
+  },
+  "menusText": {
+    "message": "வலது கிளிக் பட்டி உருப்படிகளை உருவாக்க / கையாள முடியும்",
+    "description": "Description of Menus Text"
+  },
+  "cpWT": {
+    "message": "கிளிப்போர்டில் தரவை எழுத முடியும்",
+    "description": "Description of clipboardWrite Text "
+  },
+  "allDomain": {
+    "message": "உலாவியின் எந்த வலைப்பக்கமும்",
+    "description": "Description of modify/access domain"
+  },
+  "modifyDomain": {
+    "message": "தரவை அணுக / மாற்றலாம்",
+    "description": "Description of modify/access domain"
+  },
+  "pageTitle": {
+    "message": "உங்கள் அனுமதிகளை அறியவும்",
+    "description": "Page title"
+  },
+  "extensions": {
+    "message": "நீட்சிகள்",
+    "description": "Extensions"
+  },
+  "permissions": {
+    "message": "அனுமதிகள்",
+    "description": "Permissions"
+  },
+  "moreInfo": {
+    "message": "மேலும் ...",
+    "description": "more info"
+  },
+  "alarmsText": {
+    "message": "கொடுக்கப்பட்ட இடைவெளியில் எச்சரிக்கை உருவாக்க முடியும்",
+    "description": "Description of Alarms Text"
+  },
+  "extensionsHeadingText": {
+    "message": "ஒவ்வொரு நிறுவப்பட்ட நீட்டிப்புக்கும் பயன்படுத்தப்படும் அனைத்து அனுமதிகளின் விவரங்கள்",
+    "description": "page heading extensions"
+  },
+  "permissionsHeadingText": {
+    "message": "அனைத்து நிறுவப்பட்ட நீட்டிப்புகளும் கொடுக்கப்பட்ட அனுமதியைப் பயன்படுத்துகின்றன",
+    "description": "page heading permissions"
+  },
+  "enable": {
+    "message": "இயக்கு",
+    "description": "Button enable"
+  },
+  "disable": {
+    "message": "முடக்கு",
+    "description": "Button disable"
+  },
+  "uninstall": {
+    "message": "நீக்குதல்",
+    "description": "Button Uninstall"
+  }
+}
