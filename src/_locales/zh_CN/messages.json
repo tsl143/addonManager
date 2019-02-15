@@ -1,4 +1,8 @@
 {
+  "extensionDescription": {
+    "message": "每个已安装扩展使用的所有权限的快照",
+    "description": "Description of the extension"
+  },
   "browserActionText": {
     "message": "了解你的权限",
     "description": "text for browser action"

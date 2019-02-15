@@ -1,4 +1,8 @@
 {
+  "extensionDescription": {
+    "message": "Istantanea di tutte le autorizzazioni utilizzate da ciascuna estensione installata",
+    "description": "Description of the extension"
+  },
   "browserActionText": {
     "message": "Conosci le tue autorizzazioni",
     "description": "text for browser action"
