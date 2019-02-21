@@ -10,7 +10,7 @@ You are welcome to contribute to this project. Here are the guidelines we try to
 
 
 ## Build Addon
-1. `npm-install` (node > 8.5)
+1. `npm install` (node > 8.5)
 
 2. Code in `src` can already be installed in browsers
 
