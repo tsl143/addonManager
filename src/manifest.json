@@ -3,7 +3,7 @@
 	"name": "Permission Inspector",
 	"description": "__MSG_extensionDescription__",
 	"default_locale": "en",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"icons": {
 		"64": "icons/icon_64.png"
 	},
