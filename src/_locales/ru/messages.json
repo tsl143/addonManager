@@ -1,26 +1,26 @@
 {
   "extensionDescription": {
-    "message": "Снимок всех разрешений, используемых каждым установленным расширением",
+    "message": "Показывает разрешения для каждого установленного расширения",
     "description": "Description of the extension"
   },
   "browserActionText": {
-    "message": "Знай свои разрешения",
+    "message": "Инспектор разрешений",
     "description": "text for browser action"
   },
   "storageText": {
-    "message": "Может хранить данные до 5 МБ",
+    "message": "Может хранить данные, до 5 МБ",
     "description": "Description of the storage text"
   },
   "geoLocationText": {
-    "message": "Может знать вашу геолокацию",
+    "message": "Может узнавать вашу геолокацию",
     "description": "Description of the geoLocation text"
   },
   "pkcs11Short": {
-    "message": "Может получить доступ к модулям PKCS # 11",
+    "message": "Может получать доступ к модулям PKCS #11",
     "description": "Description of the PKCS #11 module short message"
   },
   "pkcs11Text": {
-    "message": "Может сделать модули PKCS # 11 доступными для браузера в качестве источников ключей и сертификатов",
+    "message": "Может делать модули PKCS #11 доступными в качестве источников ключей и сертификатов",
     "description": "Description of the pkcs11 text"
   },
   "geckoProfilerText": {
@@ -28,51 +28,51 @@
     "description": "Description of the geckoProfile text"
   },
   "sessionsShort": {
-    "message": "Может получить доступ к сеансу браузера",
+    "message": "Может получать доступ к сеансам браузера",
     "description": "Description of Sessions Short"
   },
   "sessionsText": {
-    "message": "Может перечислять и восстанавливать вкладки и окна, которые были закрыты во время работы браузера",
+    "message": "Может перечислять и восстанавливать закрытые вкладки и окна",
     "description": "Description of Session Text"
   },
   "contextualIdentitiesShort": {
-    "message": "Может получить доступ к контейнерам браузера",
+    "message": "Может получать доступ к контейнерам браузера",
     "description": "Description of contextualIdentitiesShort"
   },
   "contextualIdentitiesText": {
-    "message": "Может перечислять, создавать, удалять и обновлять контекстные идентификаторы / контейнеры",
+    "message": "Может перечислять, создавать, удалять и обновлять контейнеры",
     "description": "Description of contextualIdentities Text"
   },
   "dnsShort": {
-    "message": "Можно разрешить DNS",
+    "message": "Может разрешать хост в DNS",
     "description": "Description of dnsShort"
   },
   "dnsText": {
-    "message": "Включает расширение для разрешения доменных имен",
+    "message": "Может разрешать имя хоста в DNS",
     "description": "Description of dnsText"
   },
   "managementText": {
-    "message": "Может получить доступ к информации обо всех установленных аддонах",
+    "message": "Может управлять расширениями, удалять их и получать их разрешения",
     "description": "Description of managementText"
   },
   "privacyText": {
-    "message": "Может получать доступ и изменять различные настройки браузера, связанные с конфиденциальностью",
+    "message": "Может получать доступ и изменять настройки конфиденциальности браузера",
     "description": "Description of privacy Text"
   },
   "privacyShort": {
-    "message": "Доступ к настройкам браузера, связанным с конфиденциальностью",
+    "message": "Доступ к настройкам конфиденциальности браузера",
     "description": "Description of privacyShort "
   },
   "proxyText": {
-    "message": "Можно прокси веб-запросов",
+    "message": "Может проксировать веб-запросы",
     "description": "Description of proxy Text"
   },
   "nmS": {
-    "message": "Может получить доступ к сообщению из нативных приложений",
+    "message": "Может взаимодействовать с внешними приложениями",
     "description": "Description of nativeMessaging Short"
   },
   "nativeMessagingText": {
-    "message": "Может обмениваться сообщениями с собственным приложением, установленным на компьютере пользователя.",
+    "message": "Может обмениваться сообщениями с внешними приложениями на ПК",
     "description": "Description of nativeMessaging Text"
   },
   "telemetryText": {
@@ -80,43 +80,43 @@
     "description": "Description of telemetry Text"
   },
   "themeText": {
-    "message": "Можно обновить тему браузера",
+    "message": "Может изменять внешний вид браузера",
     "description": "Description of theme Text"
   },
   "cprT": {
-    "message": "Можно скопировать данные с веб-страницы",
+    "message": "Может копировать данные с веб-страницы",
     "description": "Description of clipboardRead Text "
   },
   "idleText": {
-    "message": "Может узнать, когда система пользователя находится в режиме ожидания, заблокирована или активна",
+    "message": "Может определить статус ОС: режим ожидания, блокировка, неактивность",
     "description": "Description of idle Text"
   },
   "notificationText": {
-    "message": "Может отображать уведомления, используя механизм уведомлений операционной системы",
+    "message": "Может отображать уведомления, используя механизм уведомлений ОС",
     "description": "Description of notification Text"
   },
   "bookmarksText": {
-    "message": "Может взаимодействовать и управлять системой закладок браузера",
+    "message": "Может взаимодействовать и управлять закладками браузера",
     "description": "Description of bookmarks Text"
   },
   "findText": {
-    "message": "Можно найти текст на веб-странице и выделить совпадения",
+    "message": "Может найти текст на веб-странице и выделить совпадения",
     "description": "Description of find Text"
   },
   "historyText": {
-    "message": "Может взаимодействовать и манипулировать историей браузера",
+    "message": "Может взаимодействовать и управлять историей браузера",
     "description": "Description of history Text"
   },
   "mocT": {
-    "message": "Только Firefox",
+    "message": "Может переопределять или создавать своё контекстное меню",
     "description": "Description of menus overrideContext Text "
   },
   "searchText": {
-    "message": "Может перечислить всю поисковую систему и поиск с определенной поисковой системой",
+    "message": "Может перечислять поисковые системы и искать с их помощью",
     "description": "Description of search Text"
   },
   "atT": {
-    "message": "Может получать доступ к данным из любой активной вкладки и может вводить код и стиль в активную вкладку",
+    "message": "Может получать доступ к данным в активной вкладке, внедрять в нее код и стиль",
     "description": "Description of activeTabs Text"
   },
   "atA": {
@@ -124,11 +124,11 @@
     "description": "Description of activeTabs Absolute"
   },
   "tabsText": {
-    "message": "Может получить список открытых вкладок и может открывать, обновлять, перемещать, перезагружать и удалять вкладки",
+    "message": "Может получать, открывать, обновлять, перемещать, перезагружать и удалять вкладки",
     "description": "Description of tabs Text"
   },
   "tabHideText": {
-    "message": "Можно сделать вкладку скрытой",
+    "message": "Может скрывать вкладки",
     "description": "Description of tabHide Text"
   },
   "browserSettingsText": {
@@ -136,31 +136,31 @@
     "description": "Description of browserSettings Text"
   },
   "cookiesText": {
-    "message": "Может получать и устанавливать файлы cookie, а также получать уведомления об их изменении",
+    "message": "Может получать и устанавливать файлы cookie, а также знать об их изменении",
     "description": "Description of cookies Text"
   },
   "downloadsText": {
-    "message": "Может загружать файлы, отменить, приостановить, возобновить загрузку",
+    "message": "Может загружать файлы, отменять, приостанавливать, возобновлять загрузку",
     "description": "Description of downloads Text"
   },
   "doT": {
-    "message": "Можно открыть любой загруженный элемент",
+    "message": "Может открывать любой загруженный элемент",
     "description": "Description of downloads.open Text"
   },
   "topSitesText": {
-    "message": "Может получать страницы, которые пользователь посещал часто и часто",
+    "message": "Может получать последние часто посещаемые страницы",
     "description": "Description of topSites Text"
   },
   "webNavText": {
-    "message": "Может добавлять события при переходе браузера с одного URL на другой",
+    "message": "Может добавлять события при переходе с одного URL на другой",
     "description": "Description of webNavigation Text"
   },
   "webReqText": {
-    "message": "Может перехватывать каждый HTTP-запрос, сделанный браузером",
+    "message": "Может перехватывать HTTP-запросы браузера",
     "description": "Description of webReqest Text"
   },
   "wrbT": {
-    "message": "Может заблокировать и изменить запрос, сделанный браузером",
+    "message": "Может блокировать и изменять запросы браузера",
     "description": "Description of webRequestBlocking Text"
   },
   "mozAddonsText": {
@@ -168,47 +168,47 @@
     "description": "Description of mozAddons Text"
   },
   "unlimitedStorageText": {
-    "message": "Может хранить любое количество данных",
+    "message": "Может сохранять любое количество данных",
     "description": "Description of unlimitedStorage Text"
   },
   "bdT": {
-    "message": "Может очистить все данные, которые собираются при просмотре Cookies / пароли / кэш / история / загрузки / formData",
+    "message": "Может очищать данные, cookies, пароли, кэш, история, загрузки, данные форм",
     "description": "Description of browsingData Text"
   },
   "devtoolsText": {
-    "message": "Можно создать панель инструментов разработчика",
+    "message": "Может создавать панель инструментов разработчика",
     "description": "Description of devtools Text"
   },
   "identityText": {
-    "message": "Может генерировать код авторизации OAuth2 или токен доступа и использовать для доступа к данным пользователя",
+    "message": "Может создавать код OAuth2 или токен доступа и получать доступ к данным пользователя",
     "description": "Description of identity Text"
   },
   "menusText": {
-    "message": "Может создавать / манипулировать правой кнопкой мыши пунктов меню",
+    "message": "Может создавать пункты и подменю в контекстном меню",
     "description": "Description of Menus Text"
   },
   "cpWT": {
-    "message": "Можно записать данные в буфер обмена",
+    "message": "Может записывать данные в буфер обмена",
     "description": "Description of clipboardWrite Text "
   },
   "allDomain": {
-    "message": "любая веб-страница в браузере",
+    "message": "любой веб-странице",
     "description": "Description of modify/access domain"
   },
   "modifyDomain": {
-    "message": "Может получить доступ / изменить данные на",
+    "message": "Может получать доступ / изменять данные на",
     "description": "Description of modify/access domain"
   },
   "pageTitle": {
-    "message": "Знай свои разрешения",
+    "message": "Инспектор разрешений",
     "description": "Page title"
   },
   "extensions": {
-    "message": "расширения",
+    "message": "Расширения",
     "description": "Extensions"
   },
   "permissions": {
-    "message": "права доступа",
+    "message": "Разрешения",
     "description": "Permissions"
   },
   "moreInfo": {
@@ -220,19 +220,19 @@
     "description": "Description of Alarms Text"
   },
   "extensionsHeadingText": {
-    "message": "Подробная информация обо всех разрешениях, используемых каждым установленным расширением",
+    "message": "Информация о разрешениях, используемых отдельным расширением",
     "description": "page heading extensions"
   },
   "permissionsHeadingText": {
-    "message": "Подробная информация о том, какие все установленные расширения использует данное разрешение",
+    "message": "Информация о расширениях, использующих отдельное разрешение",
     "description": "page heading permissions"
   },
   "enable": {
-    "message": "включить",
+    "message": "Включить",
     "description": "Button enable"
   },
   "disable": {
-    "message": "запрещать",
+    "message": "Отключить",
     "description": "Button disable"
   },
   "uninstall": {
