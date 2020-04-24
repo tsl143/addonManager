@@ -1,6 +1,6 @@
 {
   "name": "permissioninspector",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Snapshot of all the permissions used by each installed extension",
   "main": "build.js",
   "scripts": {
