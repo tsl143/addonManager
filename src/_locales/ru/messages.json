@@ -80,7 +80,7 @@
     "description": "Description of telemetry Text"
   },
   "themeText": {
-    "message": "Может получать, обновлять и удалять обновленя тем браузера",
+    "message": "Может изменять внешний вид браузера",
     "description": "Description of theme Text"
   },
   "cprT": {
@@ -88,7 +88,7 @@
     "description": "Description of clipboardRead Text "
   },
   "idleText": {
-    "message": "Может узнавать статус ОС: режим ожидания, блокировка, неактивность",
+    "message": "Может определить статус ОС: режим ожидания, блокировка, неактивность",
     "description": "Description of idle Text"
   },
   "notificationText": {
@@ -108,7 +108,7 @@
     "description": "Description of history Text"
   },
   "mocT": {
-    "message": "Может переопределать или создавать свое контекстное меню",
+    "message": "Может переопределять или создавать своё контекстное меню",
     "description": "Description of menus overrideContext Text "
   },
   "searchText": {
@@ -140,7 +140,7 @@
     "description": "Description of cookies Text"
   },
   "downloadsText": {
-    "message": "Может загружать файлы, отменять, приостановливать, возобновлять загрузку",
+    "message": "Может загружать файлы, отменять, приостанавливать, возобновлять загрузку",
     "description": "Description of downloads Text"
   },
   "doT": {
