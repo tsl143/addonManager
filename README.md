@@ -21,6 +21,19 @@ Chrome extension allows you to disable/enable/uninstall the extension right from
 
 Your contributions are appreciated which could be; contributing code, translation, feature requests, taking care of bugs or other kinds of issues. For more details, please check out [CONTRIBUTING.md]( https://github.com/tsl143/addonManager/blob/master/.github/CONTRIBUTING.md).
 
+## Get started
+
+- type `yarn` to install all dependencies
+
+## Development commands
+
+Here are some commands you can run:
+
+| Command | Description |
+| --- | --- |
+| yarn build firefox | Build the addon for firefox in new generated `firefox/` folder. |
+| yarn build | Build the addon for chrome in new generated `chrome/` folder. |
+
 ## License
 
 See [LICENSE](LICENSE) file.
