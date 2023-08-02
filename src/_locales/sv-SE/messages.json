@@ -12,15 +12,15 @@
     "description": "Description of the storage text"
   },
   "geoLocationText": {
-    "message": "Kan känna din geolocation",
+    "message": "Kan känna till din geolokalisering",
     "description": "Description of the geoLocation text"
   },
   "pkcs11Short": {
-    "message": "Kan komma åt PKCS # 11-moduler",
+    "message": "Kan komma åt PKCS #11-moduler",
     "description": "Description of the PKCS #11 module short message"
   },
   "pkcs11Text": {
-    "message": "Kan göra PKCS # 11-moduler tillgängliga för webbläsaren som källor till nycklar och certifikat",
+    "message": "Kan göra PKCS #11-moduler tillgängliga för webbläsaren som källor till nycklar och certifikat",
     "description": "Description of the pkcs11 text"
   },
   "geckoProfilerText": {
@@ -32,7 +32,7 @@
     "description": "Description of Sessions Short"
   },
   "sessionsText": {
-    "message": "Kan lista och återställa, flikar och fönster som har stängts när webbläsaren har körts",
+    "message": "Kan lista och återställa flikar och fönster som har stängts när webbläsaren har körts",
     "description": "Description of Session Text"
   },
   "contextualIdentitiesShort": {
@@ -48,7 +48,7 @@
     "description": "Description of dnsShort"
   },
   "dnsText": {
-    "message": "Aktiverar en förlängning för att lösa domännamn",
+    "message": "Aktiverar ett tillägg för att lösa domännamn",
     "description": "Description of dnsText"
   },
   "managementText": {
@@ -64,11 +64,11 @@
     "description": "Description of privacyShort "
   },
   "proxyText": {
-    "message": "Kan proxy webrequests",
+    "message": "Kan proxy webbförfrågningar",
     "description": "Description of proxy Text"
   },
   "nmS": {
-    "message": "Kan komma åt meddelandet från inhemska appar",
+    "message": "Kan komma åt meddelandet från inbyggda appar",
     "description": "Description of nativeMessaging Short"
   },
   "nativeMessagingText": {
@@ -88,11 +88,11 @@
     "description": "Description of clipboardRead Text "
   },
   "idleText": {
-    "message": "Kan ta reda på när användarens system är viloläge, låst eller aktivt",
+    "message": "Kan ta reda på när användarens system är i viloläge, låst eller aktiv",
     "description": "Description of idle Text"
   },
   "notificationText": {
-    "message": "Kan visa meddelanden, med hjälp av det underliggande operativsystemets anmälningsmekanism",
+    "message": "Kan visa meddelanden med hjälp av det underliggande operativsystemets aviseringsmekanism",
     "description": "Description of notification Text"
   },
   "bookmarksText": {
@@ -104,7 +104,7 @@
     "description": "Description of find Text"
   },
   "historyText": {
-    "message": "Kan interagera och manipulera webbläsarens historia",
+    "message": "Kan interagera och manipulera webbläsarens historik",
     "description": "Description of history Text"
   },
   "mocT": {
@@ -128,7 +128,7 @@
     "description": "Description of tabs Text"
   },
   "tabHideText": {
-    "message": "Kan göra fliken gömd",
+    "message": "Kan göra gömma fliken",
     "description": "Description of tabHide Text"
   },
   "browserSettingsText": {
@@ -140,15 +140,15 @@
     "description": "Description of cookies Text"
   },
   "downloadsText": {
-    "message": "Kan ladda ner filer, avbryta, pausa, återuppta nedladdningar",
+    "message": "Kan ladda ner filer, avbryta, pausa, återuppta nerladdningar",
     "description": "Description of downloads Text"
   },
   "doT": {
-    "message": "Kan öppna alla nedladdade objekt",
+    "message": "Kan öppna alla nerladdade objekt",
     "description": "Description of downloads.open Text"
   },
   "topSitesText": {
-    "message": "Kan få sidor som användaren har besökt ofta och ofta",
+    "message": "Kan få sidor som användaren har besökt ofta och regelbundet",
     "description": "Description of topSites Text"
   },
   "webNavText": {
@@ -172,7 +172,7 @@
     "description": "Description of unlimitedStorage Text"
   },
   "bdT": {
-    "message": "Kan rensa all data som samlas in medan du surfar Cookies / lösenord / Cache / History / downloads / formData",
+    "message": "Kan rensa all data som samlas in medan du bläddrar cookies/lösenord/cache/historik/nerladdningar/formData",
     "description": "Description of browsingData Text"
   },
   "devtoolsText": {
@@ -184,11 +184,11 @@
     "description": "Description of identity Text"
   },
   "menusText": {
-    "message": "Kan skapa / manipulera högerklicka menyalternativ",
+    "message": "Kan skapa/manipulera högerklicksmenyalternativ",
     "description": "Description of Menus Text"
   },
   "cpWT": {
-    "message": "Kan skriva data på Urklipp",
+    "message": "Kan skriva data till Urklipp",
     "description": "Description of clipboardWrite Text "
   },
   "allDomain": {
@@ -196,7 +196,7 @@
     "description": "Description of modify/access domain"
   },
   "modifyDomain": {
-    "message": "Kan komma åt / ändra data på",
+    "message": "Kan komma åt/ändra data på",
     "description": "Description of modify/access domain"
   },
   "pageTitle": {
@@ -204,7 +204,7 @@
     "description": "Page title"
   },
   "extensions": {
-    "message": "Extensions",
+    "message": "Tillägg",
     "description": "Extensions"
   },
   "permissions": {
@@ -220,7 +220,7 @@
     "description": "Description of Alarms Text"
   },
   "extensionsHeadingText": {
-    "message": "Detaljer om alla behörigheter som används av varje installerad tillägg",
+    "message": "Detaljer om alla behörigheter som används av varje installerat tillägg",
     "description": "page heading extensions"
   },
   "permissionsHeadingText": {
@@ -228,15 +228,15 @@
     "description": "page heading permissions"
   },
   "enable": {
-    "message": "Gör det möjligt",
+    "message": "Aktivera",
     "description": "Button enable"
   },
   "disable": {
-    "message": "inaktivera",
+    "message": "Inaktivera",
     "description": "Button disable"
   },
   "uninstall": {
-    "message": "Uninstall",
+    "message": "Avinstallera",
     "description": "Button Uninstall"
   }
 }
